@@ -1,5 +1,5 @@
 {
-  "last_updated": "Oct 26, 2026 | 7:21 PM ET",
+  "last_updated": "Oct 26, 2026 | 7:51 PM ET",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "spreads": [
     {
@@ -24,17 +24,17 @@
       "away_team": "Memphis Grizzlies",
       "home_team": "Utah Jazz",
       "pick_team": "Utah Jazz",
-      "line": "+1.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.89",
-      "model_cover_probability": "64.4%",
-      "sportsbook_fair_probability": "50.5%",
-      "model_edge": "13.9%",
-      "modeled_ev": "+21.8%",
-      "ev_numeric": 0.2178259921500216,
-      "minutes_before_tip": 108.3,
+      "line": "+1",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_cover_probability": "63.0%",
+      "sportsbook_fair_probability": "50.4%",
+      "model_edge": "12.6%",
+      "modeled_ev": "+21.5%",
+      "ev_numeric": 0.2149825556040121,
+      "minutes_before_tip": 78.3,
       "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-10-26T23:21:42.113189+00:00"
+      "snapshot_time": "2026-10-26T23:51:42.388921+00:00"
     },
     {
       "event_id": "90620ab57facf54f629af8beec468e54",
