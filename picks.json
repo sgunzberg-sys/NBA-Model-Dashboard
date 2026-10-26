@@ -1,11 +1,12 @@
 {
-  "last_updated": "Waiting for first official snapshot",
+  "last_updated": "Oct 26, 2026 | 1:57 PM ET",
+  "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "spreads": [],
   "totals": [],
   "performance": {
-    "spread_record": "—",
-    "spread_roi": "—",
-    "totals_record": "—",
-    "totals_roi": "—"
+    "spread_record": "11-8-0",
+    "spread_roi": "13.1%",
+    "totals_record": "8-9-0",
+    "totals_roi": "-9.0%"
   }
 }
