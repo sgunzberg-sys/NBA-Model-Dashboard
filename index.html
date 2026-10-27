@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -274,7 +274,145 @@
         grid-template-columns: 1fr;
       }
     }
-  </style>
+
+  .snapshot-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 9px;
+    border-radius: 999px;
+    border: 1px solid rgba(126, 231, 135, 0.35);
+    background: rgba(126, 231, 135, 0.08);
+    color: #9df0a5;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .history-filters {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+    margin: 0 0 18px;
+  }
+
+  .filter-group {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 7px;
+  }
+
+  .filter-label {
+    margin-right: 3px;
+    color: var(--muted);
+    font-size: 0.78rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+  }
+
+  .filter-btn {
+    appearance: none;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    border-radius: 999px;
+    padding: 6px 11px;
+    cursor: pointer;
+    font: inherit;
+    font-size: 0.78rem;
+  }
+
+  .filter-btn:hover {
+    color: var(--text);
+    border-color: rgba(255,255,255,0.28);
+  }
+
+  .filter-btn.active {
+    color: var(--text);
+    background: rgba(255,255,255,0.08);
+    border-color: rgba(255,255,255,0.30);
+  }
+
+  .methodology-details {
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    background: var(--panel);
+    overflow: hidden;
+  }
+
+  .methodology-details summary {
+    cursor: pointer;
+    padding: 18px 20px;
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
+  .methodology-details summary:hover {
+    background: rgba(255,255,255,0.025);
+  }
+
+  .methodology-body {
+    padding: 0 20px 18px;
+    color: var(--muted);
+    line-height: 1.6;
+    font-size: 0.9rem;
+  }
+
+  .methodology-body p {
+    margin: 10px 0;
+  }
+
+  .methodology-body strong {
+    color: var(--text);
+  }
+
+
+  .slate-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 12px;
+  }
+
+  .slate-stat {
+    border: 1px solid var(--border);
+    background: var(--panel);
+    border-radius: 12px;
+    padding: 16px;
+  }
+
+  .slate-label {
+    color: var(--muted);
+    font-size: 0.76rem;
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+  }
+
+  .slate-value {
+    margin-top: 7px;
+    color: var(--text);
+    font-size: 1.35rem;
+    font-weight: 700;
+  }
+
+  .freshness-good {
+    color: #9df0a5 !important;
+  }
+
+  .freshness-warn {
+    color: #ffd166 !important;
+  }
+
+  @media (max-width: 760px) {
+    .slate-grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+</style>
 </head>
 
 <body>
@@ -291,7 +429,7 @@
     <div class="statusbar">
       <div class="status">
         Snapshot rule:
-        <strong>45–120 minutes before tip</strong>
+        <strong>45-120 minutes before tip</strong>
       </div>
 
       <div class="status">
@@ -303,8 +441,49 @@
         Last updated:
         <strong id="lastUpdated">Waiting for data</strong>
       </div>
+
+      <div class="status">
+        Data status:
+        <strong id="freshnessStatus">Checking</strong>
+      </div>
     </div>
   </header>
+
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>Tonight's Slate</h2>
+      </div>
+      <div class="section-note">
+        Official-window research status
+      </div>
+    </div>
+
+    <div class="slate-grid">
+
+      <div class="slate-stat">
+        <div class="slate-label">Games</div>
+        <div class="slate-value" id="slateGames">?</div>
+      </div>
+
+      <div class="slate-stat">
+        <div class="slate-label">Spread Signals</div>
+        <div class="slate-value" id="slateSpreadSignals">?</div>
+      </div>
+
+      <div class="slate-stat">
+        <div class="slate-label">Total Signals</div>
+        <div class="slate-value" id="slateTotalSignals">?</div>
+      </div>
+
+      <div class="slate-stat">
+        <div class="slate-label">Next Target Snapshot</div>
+        <div class="slate-value" id="nextSnapshot">?</div>
+      </div>
+
+    </div>
+  </section>
 
 
   <section class="section">
@@ -359,22 +538,22 @@
 
       <div class="stat">
         <div class="stat-label">Spread Record</div>
-        <div class="stat-value" id="spreadRecord">—</div>
+        <div class="stat-value" id="spreadRecord">-</div>
       </div>
 
       <div class="stat">
         <div class="stat-label">Spread ROI</div>
-        <div class="stat-value" id="spreadROI">—</div>
+        <div class="stat-value" id="spreadROI">-</div>
       </div>
 
       <div class="stat">
         <div class="stat-label">Totals Record</div>
-        <div class="stat-value" id="totalsRecord">—</div>
+        <div class="stat-value" id="totalsRecord">-</div>
       </div>
 
       <div class="stat">
         <div class="stat-label">Totals ROI</div>
-        <div class="stat-value" id="totalsROI">—</div>
+        <div class="stat-value" id="totalsROI">-</div>
       </div>
 
     </div>
@@ -392,6 +571,31 @@
       <div class="section-note">
         Settled published research signals
       </div>
+    </div>
+
+
+    <div class="history-filters">
+
+      <div class="filter-group">
+        <span class="filter-label">Market</span>
+        <button type="button" class="filter-btn active"
+                data-history-market="All">All</button>
+        <button type="button" class="filter-btn"
+                data-history-market="Spread">Spreads</button>
+        <button type="button" class="filter-btn"
+                data-history-market="Total">Totals</button>
+      </div>
+
+      <div class="filter-group">
+        <span class="filter-label">Period</span>
+        <button type="button" class="filter-btn"
+                data-history-days="7">7 Days</button>
+        <button type="button" class="filter-btn"
+                data-history-days="30">30 Days</button>
+        <button type="button" class="filter-btn active"
+                data-history-days="All">All</button>
+      </div>
+
     </div>
 
     <div class="history-wrap">
@@ -420,7 +624,50 @@
   </section>
 
 
-  <footer>
+
+  <section class="section">
+    <div class="section-header">
+      <div>
+        <h2>Methodology</h2>
+      </div>
+      <div class="section-note">Research framework</div>
+    </div>
+
+    <details class="methodology-details">
+      <summary>How This Works</summary>
+
+      <div class="methodology-body">
+        <p>
+          <strong>Snapshot timing.</strong>
+          Official signals are frozen 45 to 120 minutes before scheduled tipoff,
+          with a target capture approximately 75 minutes before the game.
+        </p>
+
+        <p>
+          <strong>Spread and totals signals.</strong>
+          The models evaluate available sportsbook lines and publish only
+          qualifying research signals. The displayed line, odds and model
+          statistics reflect the frozen pregame snapshot.
+        </p>
+
+        <p>
+          <strong>Forward testing.</strong>
+          Results shown on this dashboard come from forward-tracked signals.
+          Settled signals move from the current slate into Pick History and are
+          incorporated into the displayed performance record.
+        </p>
+
+        <p>
+          <strong>Research use.</strong>
+          This dashboard is an experimental sports-modeling research project.
+          Signals and performance statistics are presented for research and
+          evaluation purposes.
+        </p>
+      </div>
+    </details>
+  </section>
+
+<footer>
     This dashboard presents model research signals generated from a forward-testing
     process. Signals are not guarantees of future performance and should not be
     interpreted as financial or wagering advice.
@@ -455,7 +702,7 @@ function pickCard(item, type) {
       </div>
 
       <div class="book">
-        ${item.book} · ${item.decimal_odds}
+        ${item.book} | ${item.decimal_odds}
       </div>
 
       <div class="metrics">
@@ -493,11 +740,108 @@ function pickCard(item, type) {
       </div>
 
       <div class="research-label">
-        Research Signal
+        <span class="snapshot-badge">Official Snapshot</span>
       </div>
 
     </div>
   `;
+}
+
+
+
+let historyData = [];
+let historyMarketFilter = "All";
+let historyDaysFilter = "All";
+
+
+function renderHistory() {
+
+  const body = document.getElementById("historyBody");
+
+  if (!body) {
+    return;
+  }
+
+  let filtered = [...historyData];
+
+  if (historyMarketFilter !== "All") {
+    filtered = filtered.filter(
+      item => item.market === historyMarketFilter
+    );
+  }
+
+  if (historyDaysFilter !== "All") {
+
+    const days = Number(historyDaysFilter);
+
+    const cutoff = new Date();
+    cutoff.setHours(0, 0, 0, 0);
+    cutoff.setDate(cutoff.getDate() - (days - 1));
+
+    filtered = filtered.filter(item => {
+
+      if (!item.game_date) {
+        return false;
+      }
+
+      const gameDate = new Date(item.game_date + "T12:00:00");
+
+      return gameDate >= cutoff;
+    });
+  }
+
+  if (filtered.length === 0) {
+
+    body.innerHTML = `
+      <tr>
+        <td colspan="9">No settled picks match this filter.</td>
+      </tr>
+    `;
+
+    return;
+  }
+
+  body.innerHTML =
+    filtered
+      .map(item => historyRow(item))
+      .join("");
+}
+
+
+function setupHistoryFilters() {
+
+  document.querySelectorAll("[data-history-market]").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      historyMarketFilter = button.dataset.historyMarket;
+
+      document
+        .querySelectorAll("[data-history-market]")
+        .forEach(b => b.classList.remove("active"));
+
+      button.classList.add("active");
+
+      renderHistory();
+    });
+  });
+
+
+  document.querySelectorAll("[data-history-days]").forEach(button => {
+
+    button.addEventListener("click", () => {
+
+      historyDaysFilter = button.dataset.historyDays;
+
+      document
+        .querySelectorAll("[data-history-days]")
+        .forEach(b => b.classList.remove("active"));
+
+      button.classList.add("active");
+
+      renderHistory();
+    });
+  });
 }
 
 
@@ -537,6 +881,80 @@ function historyRow(item) {
 }
 
 
+
+function updateFreshness(data) {
+
+  const el = document.getElementById("freshnessStatus");
+
+  if (!el) {
+    return;
+  }
+
+  el.classList.remove("freshness-good", "freshness-warn");
+
+  const slate = data.slate || {};
+  const updated = data.last_updated_iso
+    ? new Date(data.last_updated_iso)
+    : null;
+
+  const nextSnapshot = slate.next_snapshot_iso
+    ? new Date(slate.next_snapshot_iso)
+    : null;
+
+  const now = new Date();
+
+  let label = "Current";
+  let className = "freshness-good";
+
+  if (Number(slate.game_count || 0) === 0) {
+
+    label = "No slate update due";
+
+  } else if (
+    nextSnapshot &&
+    !Number.isNaN(nextSnapshot.getTime()) &&
+    now < nextSnapshot
+  ) {
+
+    label = "Current";
+
+  } else if (
+    updated &&
+    !Number.isNaN(updated.getTime())
+  ) {
+
+    const ageHours =
+      (now.getTime() - updated.getTime()) / 3600000;
+
+    if (ageHours > 6) {
+      label = "Update may be delayed";
+      className = "freshness-warn";
+    }
+  }
+
+  el.textContent = label;
+  el.classList.add(className);
+}
+
+
+function updateSlate(data) {
+
+  const slate = data.slate || {};
+
+  document.getElementById("slateGames").textContent =
+    slate.game_count ?? "?";
+
+  document.getElementById("slateSpreadSignals").textContent =
+    slate.spread_signal_count ?? 0;
+
+  document.getElementById("slateTotalSignals").textContent =
+    slate.total_signal_count ?? 0;
+
+  document.getElementById("nextSnapshot").textContent =
+    slate.next_snapshot || "Not available";
+}
+
+
 async function loadDashboard() {
 
   try {
@@ -550,6 +968,9 @@ async function loadDashboard() {
     }
 
     const data = await response.json();
+
+    updateFreshness(data);
+    updateSlate(data);
 
 
     if (data.last_updated) {
@@ -584,31 +1005,25 @@ async function loadDashboard() {
           .join("");
 
     }
+    historyData = Array.isArray(data.history) ? data.history : [];
+    renderHistory();
+    setupHistoryFilters();
 
-
-    if (Array.isArray(data.history) && data.history.length > 0) {
-
-      document.getElementById("historyBody").innerHTML =
-        data.history
-          .map(item => historyRow(item))
-          .join("");
-
-    }
 
 
     if (data.performance) {
 
       document.getElementById("spreadRecord").textContent =
-        data.performance.spread_record || "—";
+        data.performance.spread_record || "-";
 
       document.getElementById("spreadROI").textContent =
-        data.performance.spread_roi || "—";
+        data.performance.spread_roi || "-";
 
       document.getElementById("totalsRecord").textContent =
-        data.performance.totals_record || "—";
+        data.performance.totals_record || "-";
 
       document.getElementById("totalsROI").textContent =
-        data.performance.totals_roi || "—";
+        data.performance.totals_roi || "-";
 
     }
 
