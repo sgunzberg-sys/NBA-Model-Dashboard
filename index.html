@@ -189,6 +189,58 @@
       font-weight: 700;
     }
 
+    .history-wrap {
+      overflow-x: auto;
+      background: var(--panel);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+    }
+
+    .history-table {
+      width: 100%;
+      min-width: 900px;
+      border-collapse: collapse;
+    }
+
+    .history-table th,
+    .history-table td {
+      padding: 12px 14px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .history-table th {
+      color: var(--muted);
+      font-weight: 600;
+      background: var(--panel2);
+    }
+
+    .history-table tr:last-child td {
+      border-bottom: none;
+    }
+
+    .history-pick {
+      font-weight: 700;
+      color: var(--text);
+    }
+
+    .result-win {
+      color: var(--good);
+      font-weight: 700;
+    }
+
+    .result-loss {
+      color: #ff7b7b;
+      font-weight: 700;
+    }
+
+    .result-push {
+      color: var(--warn);
+      font-weight: 700;
+    }
+
     footer {
       margin-top: 44px;
       padding-top: 20px;
@@ -292,6 +344,44 @@
       <div class="empty">
         No official-window totals signals have been published yet.
       </div>
+    </div>
+
+  </section>
+
+
+  <section class="section">
+
+    <div class="section-header">
+      <div>
+        <h2>Pick History</h2>
+      </div>
+
+      <div class="section-note">
+        Settled published research signals
+      </div>
+    </div>
+
+    <div class="history-wrap">
+      <table class="history-table">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Market</th>
+            <th>Matchup</th>
+            <th>Pick</th>
+            <th>Book</th>
+            <th>Result</th>
+            <th>Score</th>
+            <th>P&amp;L</th>
+            <th>Snapshot</th>
+          </tr>
+        </thead>
+        <tbody id="historyBody">
+          <tr>
+            <td colspan="9">No settled picks published yet.</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
   </section>
@@ -411,6 +501,42 @@ function pickCard(item, type) {
 }
 
 
+function historyRow(item) {
+
+  const result = String(item.result || "").toUpperCase();
+
+  let resultClass = "result-push";
+
+  if (result === "WIN") {
+    resultClass = "result-win";
+  } else if (result === "LOSS") {
+    resultClass = "result-loss";
+  }
+
+  const pick =
+    item.market === "Spread"
+      ? `${item.selection} ${item.line}`
+      : `${item.selection} ${item.line}`;
+
+  const score =
+    `${item.away_team} ${item.away_pts} - ${item.home_team} ${item.home_pts}`;
+
+  return `
+    <tr>
+      <td>${item.game_date}</td>
+      <td>${item.market}</td>
+      <td>${item.away_team} @ ${item.home_team}</td>
+      <td class="history-pick">${pick}</td>
+      <td>${item.book} ? ${item.decimal_odds}</td>
+      <td class="${resultClass}">${result}</td>
+      <td>${score}</td>
+      <td>${item.pnl}</td>
+      <td>${item.minutes_before_tip} min</td>
+    </tr>
+  `;
+}
+
+
 async function loadDashboard() {
 
   try {
@@ -455,6 +581,16 @@ async function loadDashboard() {
       document.getElementById("totalsGrid").innerHTML =
         totals
           .map(item => pickCard(item, "total"))
+          .join("");
+
+    }
+
+
+    if (Array.isArray(data.history) && data.history.length > 0) {
+
+      document.getElementById("historyBody").innerHTML =
+        data.history
+          .map(item => historyRow(item))
           .join("");
 
     }
