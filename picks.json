@@ -1,5 +1,5 @@
 {
-  "last_updated": "Oct 26, 2026 | 7:51 PM ET",
+  "last_updated": "Oct 26, 2026 | 9:17 PM ET",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "spreads": [
     {
@@ -35,6 +35,23 @@
       "minutes_before_tip": 78.3,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-10-26T23:51:42.388921+00:00"
+    },
+    {
+      "event_id": "d7f8398941d7c90befa60f35876a3ae7",
+      "away_team": "Golden State Warriors",
+      "home_team": "Denver Nuggets",
+      "pick_team": "Denver Nuggets",
+      "line": "-7",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.92",
+      "model_cover_probability": "58.0%",
+      "sportsbook_fair_probability": "50.6%",
+      "model_edge": "7.3%",
+      "modeled_ev": "+11.3%",
+      "ev_numeric": 0.1132315743567379,
+      "minutes_before_tip": 52.5,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-10-27T01:17:29.540072+00:00"
     },
     {
       "event_id": "90620ab57facf54f629af8beec468e54",
@@ -88,12 +105,29 @@
       "minutes_before_tip": 57.0,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-10-26T23:12:57.295246+00:00"
+    },
+    {
+      "event_id": "d7f8398941d7c90befa60f35876a3ae7",
+      "away_team": "Golden State Warriors",
+      "home_team": "Denver Nuggets",
+      "side": "UNDER",
+      "line": "+236.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.93",
+      "model_probability": "62.0%",
+      "sportsbook_fair_probability": "49.3%",
+      "model_edge": "12.7%",
+      "modeled_ev": "+19.7%",
+      "ev_numeric": 0.1965055079559362,
+      "minutes_before_tip": 52.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-10-27T01:17:33.705795+00:00"
     }
   ],
   "performance": {
-    "spread_record": "11-8-0",
-    "spread_roi": "13.1%",
-    "totals_record": "8-9-0",
-    "totals_roi": "-9.0%"
+    "spread_record": "12-9-0",
+    "spread_roi": "11.4%",
+    "totals_record": "9-10-0",
+    "totals_roi": "-8.3%"
   }
 }
