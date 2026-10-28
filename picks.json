@@ -1,14 +1,14 @@
 {
-  "last_updated": "Oct 27, 2026 | 9:30 PM ET",
-  "last_updated_iso": "2026-10-27T21:30:05.709609-04:00",
+  "last_updated": "Oct 28, 2026 | 12:34 AM ET",
+  "last_updated_iso": "2026-10-28T00:34:49.439994-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-27",
     "game_count": 4,
     "spread_signal_count": 0,
     "total_signal_count": 0,
-    "next_snapshot": "9:55 PM ET",
-    "next_snapshot_iso": "2026-10-27T21:55:00-04:00"
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [],
   "totals": [],
@@ -25,10 +25,10 @@
       "line": "+3.5",
       "book": "DraftKings",
       "decimal_odds": "1.98",
-      "result": "WIN",
-      "pnl": "+0.98",
-      "home_pts": 34,
-      "away_pts": 42,
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 111,
+      "away_pts": 97,
       "minutes_before_tip": 78.3
     },
     {
@@ -45,8 +45,8 @@
       "decimal_odds": "1.94",
       "result": "LOSS",
       "pnl": "-1.00",
-      "home_pts": 72,
-      "away_pts": 48,
+      "home_pts": 130,
+      "away_pts": 103,
       "minutes_before_tip": 78.3
     },
     {
@@ -63,8 +63,8 @@
       "decimal_odds": "1.91",
       "result": "LOSS",
       "pnl": "-1.00",
-      "home_pts": 34,
-      "away_pts": 42,
+      "home_pts": 111,
+      "away_pts": 97,
       "minutes_before_tip": 78.2
     },
     {
@@ -79,10 +79,10 @@
       "line": "232.5",
       "book": "LowVig.ag",
       "decimal_odds": "1.93",
-      "result": "WIN",
-      "pnl": "+0.93",
-      "home_pts": 72,
-      "away_pts": 48,
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 130,
+      "away_pts": 103,
       "minutes_before_tip": 78.2
     },
     {
@@ -99,8 +99,8 @@
       "decimal_odds": "1.94",
       "result": "LOSS",
       "pnl": "-1.00",
-      "home_pts": 67,
-      "away_pts": 70,
+      "home_pts": 125,
+      "away_pts": 124,
       "minutes_before_tip": 78.2
     },
     {
@@ -115,10 +115,10 @@
       "line": "222.5",
       "book": "DraftKings",
       "decimal_odds": "1.91",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 67,
-      "away_pts": 70,
+      "result": "WIN",
+      "pnl": "+0.91",
+      "home_pts": 125,
+      "away_pts": 124,
       "minutes_before_tip": 78.0
     },
     {
@@ -897,9 +897,9 @@
     }
   ],
   "performance": {
-    "spread_record": "14-12-0",
-    "spread_roi": "5.0%",
+    "spread_record": "13-13-0",
+    "spread_roi": "-2.6%",
     "totals_record": "11-12-0",
-    "totals_roi": "-7.3%"
+    "totals_roi": "-7.4%"
   }
 }
