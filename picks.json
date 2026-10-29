@@ -1,14 +1,14 @@
 {
-  "last_updated": "Oct 29, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-10-29T18:51:44.596451-04:00",
+  "last_updated": "Oct 29, 2026 | 7:05 PM ET",
+  "last_updated_iso": "2026-10-29T19:05:22.033503-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
     "game_count": 3,
     "spread_signal_count": 2,
     "total_signal_count": 2,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-10-29T18:55:00-04:00"
+    "next_snapshot": "8:55 PM ET",
+    "next_snapshot_iso": "2026-10-29T20:55:00-04:00"
   },
   "spreads": [
     {
@@ -24,6 +24,7 @@
       "model_edge": "8.1%",
       "modeled_ev": "+12.8%",
       "ev_numeric": 0.1282882686436982,
+      "model_projection": "New Orleans Pelicans by 4.0",
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-10-29T22:51:35.189502+00:00"
@@ -41,6 +42,7 @@
       "model_edge": "5.1%",
       "modeled_ev": "+4.9%",
       "ev_numeric": 0.0490449193196685,
+      "model_projection": "Atlanta Hawks by 2.5",
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-10-29T22:51:35.189502+00:00"
@@ -60,6 +62,7 @@
       "model_edge": "13.0%",
       "modeled_ev": "+22.1%",
       "ev_numeric": 0.2208384332925337,
+      "model_projection": "231.7 points",
       "minutes_before_tip": 78.3,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
@@ -77,6 +80,7 @@
       "model_edge": "7.4%",
       "modeled_ev": "+9.2%",
       "ev_numeric": 0.0915116279069767,
+      "model_projection": "232.5 points",
       "minutes_before_tip": 78.3,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
