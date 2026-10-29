@@ -534,6 +534,18 @@
       <h2>Forward Performance</h2>
     </div>
 
+    <div class="history-filters">
+      <div class="filter-group">
+        <span class="filter-label">Period</span>
+        <button type="button" class="filter-btn"
+                data-performance-days="7">7 Days</button>
+        <button type="button" class="filter-btn"
+                data-performance-days="30">30 Days</button>
+        <button type="button" class="filter-btn active"
+                data-performance-days="All">All</button>
+      </div>
+    </div>
+
     <div class="performance-grid">
 
       <div class="stat">
@@ -753,6 +765,9 @@ let historyData = [];
 let historyMarketFilter = "All";
 let historyDaysFilter = "All";
 
+let performanceData = {};
+let performanceDaysFilter = "All";
+
 
 function renderHistory() {
 
@@ -842,6 +857,52 @@ function setupHistoryFilters() {
       renderHistory();
     });
   });
+}
+
+
+function renderPerformance() {
+
+  const current =
+    performanceData[performanceDaysFilter]
+    || performanceData.All
+    || {};
+
+  document.getElementById("spreadRecord").textContent =
+    current.spread_record || "-";
+
+  document.getElementById("spreadROI").textContent =
+    current.spread_roi || "-";
+
+  document.getElementById("totalsRecord").textContent =
+    current.totals_record || "-";
+
+  document.getElementById("totalsROI").textContent =
+    current.totals_roi || "-";
+}
+
+
+function setupPerformanceFilters() {
+
+  document
+    .querySelectorAll("[data-performance-days]")
+    .forEach(button => {
+
+      button.addEventListener("click", () => {
+
+        performanceDaysFilter =
+          button.dataset.performanceDays;
+
+        document
+          .querySelectorAll("[data-performance-days]")
+          .forEach(
+            b => b.classList.remove("active")
+          );
+
+        button.classList.add("active");
+
+        renderPerformance();
+      });
+    });
 }
 
 
@@ -1013,18 +1074,12 @@ async function loadDashboard() {
 
     if (data.performance) {
 
-      document.getElementById("spreadRecord").textContent =
-        data.performance.spread_record || "-";
+      performanceData =
+        data.performance.periods
+        || {"All": data.performance};
 
-      document.getElementById("spreadROI").textContent =
-        data.performance.spread_roi || "-";
-
-      document.getElementById("totalsRecord").textContent =
-        data.performance.totals_record || "-";
-
-      document.getElementById("totalsROI").textContent =
-        data.performance.totals_roi || "-";
-
+      renderPerformance();
+      setupPerformanceFilters();
     }
 
   } catch (error) {
