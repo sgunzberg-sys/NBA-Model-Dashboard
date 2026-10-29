@@ -1,6 +1,6 @@
 {
-  "last_updated": "Oct 29, 2026 | 7:05 PM ET",
-  "last_updated_iso": "2026-10-29T19:05:22.033503-04:00",
+  "last_updated": "Oct 29, 2026 | 7:15 PM ET",
+  "last_updated_iso": "2026-10-29T19:15:37.449725-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
@@ -1190,6 +1190,26 @@
     "spread_record": "17-15-0",
     "spread_roi": "3.5%",
     "totals_record": "14-15-0",
-    "totals_roi": "-6.4%"
+    "totals_roi": "-6.4%",
+    "periods": {
+      "7": {
+        "spread_record": "12-12-0",
+        "spread_roi": "-2.3%",
+        "totals_record": "8-12-0",
+        "totals_roi": "-22.4%"
+      },
+      "30": {
+        "spread_record": "17-15-0",
+        "spread_roi": "3.5%",
+        "totals_record": "14-15-0",
+        "totals_roi": "-6.4%"
+      },
+      "All": {
+        "spread_record": "17-15-0",
+        "spread_roi": "3.5%",
+        "totals_record": "14-15-0",
+        "totals_roi": "-6.4%"
+      }
+    }
   }
 }
