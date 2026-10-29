@@ -1,6 +1,6 @@
 {
-  "last_updated": "Oct 28, 2026 | 9:20 PM ET",
-  "last_updated_iso": "2026-10-28T21:20:01.778489-04:00",
+  "last_updated": "Oct 28, 2026 | 9:21 PM ET",
+  "last_updated_iso": "2026-10-28T21:21:49.113565-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-28",
@@ -24,9 +24,9 @@
       "model_edge": "5.2%",
       "modeled_ev": "+7.2%",
       "ev_numeric": 0.0715263846489314,
-      "minutes_before_tip": 80.2,
+      "minutes_before_tip": 78.3,
       "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-10-29T01:19:50.511452+00:00"
+      "snapshot_time": "2026-10-29T01:21:39.217315+00:00"
     }
   ],
   "totals": [
@@ -43,9 +43,9 @@
       "model_edge": "5.7%",
       "modeled_ev": "+6.2%",
       "ev_numeric": 0.0618543451652386,
-      "minutes_before_tip": 80.1,
+      "minutes_before_tip": 78.3,
       "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-10-29T01:19:56.130241+00:00"
+      "snapshot_time": "2026-10-29T01:21:44.333633+00:00"
     }
   ],
   "history": [
