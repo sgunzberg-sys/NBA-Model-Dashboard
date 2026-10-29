@@ -1,12 +1,12 @@
 {
-  "last_updated": "Oct 28, 2026 | 10:30 PM ET",
-  "last_updated_iso": "2026-10-28T22:30:08.290979-04:00",
+  "last_updated": "Oct 29, 2026 | 1:22 AM ET",
+  "last_updated_iso": "2026-10-29T01:22:35.989982-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-28",
     "game_count": 12,
     "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "total_signal_count": 0,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -29,26 +29,26 @@
       "snapshot_time": "2026-10-29T01:21:39.217315+00:00"
     }
   ],
-  "totals": [
+  "totals": [],
+  "history": [
     {
+      "market": "Total",
       "event_id": "6e8a41f3aeff105b0e10766515517d5e",
+      "game_date": "2026-10-28",
+      "commence_time": "2026-10-29 02:40:00+00:00",
+      "game_time": "10:40 PM ET",
       "away_team": "Los Angeles Lakers",
       "home_team": "LA Clippers",
-      "side": "OVER",
+      "selection": "OVER",
       "line": "223.5",
       "book": "BetRivers",
       "decimal_odds": "1.93",
-      "model_probability": "55.0%",
-      "sportsbook_fair_probability": "49.3%",
-      "model_edge": "5.7%",
-      "modeled_ev": "+6.2%",
-      "ev_numeric": 0.0618543451652386,
-      "minutes_before_tip": 78.3,
-      "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-10-29T01:21:44.333633+00:00"
-    }
-  ],
-  "history": [
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 87,
+      "away_pts": 103,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "67550840fbe9bb9c550d3d4958e259ea",
@@ -1115,7 +1115,7 @@
   "performance": {
     "spread_record": "16-15-0",
     "spread_roi": "0.6%",
-    "totals_record": "14-14-0",
-    "totals_roi": "-3.1%"
+    "totals_record": "14-15-0",
+    "totals_roi": "-6.4%"
   }
 }
