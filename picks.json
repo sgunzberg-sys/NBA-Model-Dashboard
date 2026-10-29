@@ -1,17 +1,87 @@
 {
-  "last_updated": "Oct 29, 2026 | 2:46 PM ET",
-  "last_updated_iso": "2026-10-29T14:46:59.681490-04:00",
+  "last_updated": "Oct 29, 2026 | 6:51 PM ET",
+  "last_updated_iso": "2026-10-29T18:51:44.596451-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
     "game_count": 3,
-    "spread_signal_count": 0,
-    "total_signal_count": 0,
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
     "next_snapshot": "6:55 PM ET",
     "next_snapshot_iso": "2026-10-29T18:55:00-04:00"
   },
-  "spreads": [],
-  "totals": [],
+  "spreads": [
+    {
+      "event_id": "f91d27cc050b1b85073d745372c73833",
+      "away_team": "Sacramento Kings",
+      "home_team": "New Orleans Pelicans",
+      "pick_team": "Sacramento Kings",
+      "line": "+6.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_cover_probability": "58.5%",
+      "sportsbook_fair_probability": "50.4%",
+      "model_edge": "8.1%",
+      "modeled_ev": "+12.8%",
+      "ev_numeric": 0.1282882686436982,
+      "minutes_before_tip": 78.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-10-29T22:51:35.189502+00:00"
+    },
+    {
+      "event_id": "b123d92eb8046e43fabf95a33a676634",
+      "away_team": "Cleveland Cavaliers",
+      "home_team": "Atlanta Hawks",
+      "pick_team": "Atlanta Hawks",
+      "line": "-0.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "model_cover_probability": "55.8%",
+      "sportsbook_fair_probability": "50.7%",
+      "model_edge": "5.1%",
+      "modeled_ev": "+4.9%",
+      "ev_numeric": 0.0490449193196685,
+      "minutes_before_tip": 78.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-10-29T22:51:35.189502+00:00"
+    }
+  ],
+  "totals": [
+    {
+      "event_id": "b123d92eb8046e43fabf95a33a676634",
+      "away_team": "Cleveland Cavaliers",
+      "home_team": "Atlanta Hawks",
+      "side": "UNDER",
+      "line": "237.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.95",
+      "model_probability": "62.6%",
+      "sportsbook_fair_probability": "49.6%",
+      "model_edge": "13.0%",
+      "modeled_ev": "+22.1%",
+      "ev_numeric": 0.2208384332925337,
+      "minutes_before_tip": 78.3,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
+    },
+    {
+      "event_id": "f91d27cc050b1b85073d745372c73833",
+      "away_team": "Sacramento Kings",
+      "home_team": "New Orleans Pelicans",
+      "side": "UNDER",
+      "line": "235.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.89",
+      "model_probability": "57.8%",
+      "sportsbook_fair_probability": "50.4%",
+      "model_edge": "7.4%",
+      "modeled_ev": "+9.2%",
+      "ev_numeric": 0.0915116279069767,
+      "minutes_before_tip": 78.3,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
+    }
+  ],
   "history": [
     {
       "market": "Spread",
