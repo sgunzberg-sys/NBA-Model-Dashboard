@@ -1,16 +1,34 @@
 {
-  "last_updated": "Oct 29, 2026 | 7:15 PM ET",
-  "last_updated_iso": "2026-10-29T19:15:37.449725-04:00",
+  "last_updated": "Oct 29, 2026 | 8:51 PM ET",
+  "last_updated_iso": "2026-10-29T20:51:37.200214-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
     "game_count": 3,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
+    "spread_signal_count": 3,
+    "total_signal_count": 3,
     "next_snapshot": "8:55 PM ET",
     "next_snapshot_iso": "2026-10-29T20:55:00-04:00"
   },
   "spreads": [
+    {
+      "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
+      "away_team": "Memphis Grizzlies",
+      "home_team": "Portland Trail Blazers",
+      "pick_team": "Portland Trail Blazers",
+      "line": "-7.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "75.9%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "27.1%",
+      "modeled_ev": "+51.1%",
+      "ev_numeric": 0.5105080680331443,
+      "model_projection": "Portland Trail Blazers by 17.5",
+      "minutes_before_tip": 78.5,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-10-30T00:51:31.445868+00:00"
+    },
     {
       "event_id": "f91d27cc050b1b85073d745372c73833",
       "away_team": "Sacramento Kings",
@@ -84,6 +102,24 @@
       "minutes_before_tip": 78.3,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
+    },
+    {
+      "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
+      "away_team": "Memphis Grizzlies",
+      "home_team": "Portland Trail Blazers",
+      "side": "UNDER",
+      "line": "233.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.92",
+      "model_probability": "56.3%",
+      "sportsbook_fair_probability": "49.6%",
+      "model_edge": "6.7%",
+      "modeled_ev": "+8.1%",
+      "ev_numeric": 0.0814198286413707,
+      "model_projection": "231.2 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-10-30T00:51:35.145725+00:00"
     }
   ],
   "history": [
