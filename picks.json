@@ -1,14 +1,14 @@
 {
-  "last_updated": "Oct 29, 2026 | 8:51 PM ET",
-  "last_updated_iso": "2026-10-29T20:51:37.200214-04:00",
+  "last_updated": "Oct 29, 2026 | 9:30 PM ET",
+  "last_updated_iso": "2026-10-29T21:30:05.522416-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
     "game_count": 3,
     "spread_signal_count": 3,
     "total_signal_count": 3,
-    "next_snapshot": "8:55 PM ET",
-    "next_snapshot_iso": "2026-10-29T20:55:00-04:00"
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [
     {
