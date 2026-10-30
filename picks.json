@@ -1,12 +1,12 @@
 {
-  "last_updated": "Oct 29, 2026 | 9:30 PM ET",
-  "last_updated_iso": "2026-10-29T21:30:05.522416-04:00",
+  "last_updated": "Oct 29, 2026 | 10:30 PM ET",
+  "last_updated_iso": "2026-10-29T22:30:04.608435-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
     "game_count": 3,
-    "spread_signal_count": 3,
-    "total_signal_count": 3,
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -28,24 +28,6 @@
       "minutes_before_tip": 78.5,
       "game_time": "10:10 PM ET",
       "snapshot_time": "2026-10-30T00:51:31.445868+00:00"
-    },
-    {
-      "event_id": "f91d27cc050b1b85073d745372c73833",
-      "away_team": "Sacramento Kings",
-      "home_team": "New Orleans Pelicans",
-      "pick_team": "Sacramento Kings",
-      "line": "+6.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_cover_probability": "58.5%",
-      "sportsbook_fair_probability": "50.4%",
-      "model_edge": "8.1%",
-      "modeled_ev": "+12.8%",
-      "ev_numeric": 0.1282882686436982,
-      "model_projection": "New Orleans Pelicans by 4.0",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-10-29T22:51:35.189502+00:00"
     },
     {
       "event_id": "b123d92eb8046e43fabf95a33a676634",
@@ -86,24 +68,6 @@
       "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
     },
     {
-      "event_id": "f91d27cc050b1b85073d745372c73833",
-      "away_team": "Sacramento Kings",
-      "home_team": "New Orleans Pelicans",
-      "side": "UNDER",
-      "line": "235.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.89",
-      "model_probability": "57.8%",
-      "sportsbook_fair_probability": "50.4%",
-      "model_edge": "7.4%",
-      "modeled_ev": "+9.2%",
-      "ev_numeric": 0.0915116279069767,
-      "model_projection": "232.5 points",
-      "minutes_before_tip": 78.3,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-10-29T22:51:40.508444+00:00"
-    },
-    {
       "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
       "away_team": "Memphis Grizzlies",
       "home_team": "Portland Trail Blazers",
@@ -123,6 +87,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "f91d27cc050b1b85073d745372c73833",
+      "game_date": "2026-10-29",
+      "commence_time": "2026-10-30 00:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "Sacramento Kings",
+      "home_team": "New Orleans Pelicans",
+      "selection": "Sacramento Kings",
+      "line": "+6.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 132,
+      "away_pts": 120,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "f91d27cc050b1b85073d745372c73833",
+      "game_date": "2026-10-29",
+      "commence_time": "2026-10-30 00:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "Sacramento Kings",
+      "home_team": "New Orleans Pelicans",
+      "selection": "UNDER",
+      "line": "235.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.89",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 132,
+      "away_pts": 120,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "6e8a41f3aeff105b0e10766515517d5e",
@@ -1223,28 +1223,28 @@
     }
   ],
   "performance": {
-    "spread_record": "17-15-0",
-    "spread_roi": "3.5%",
-    "totals_record": "14-15-0",
-    "totals_roi": "-6.4%",
+    "spread_record": "17-16-0",
+    "spread_roi": "0.4%",
+    "totals_record": "14-16-0",
+    "totals_roi": "-9.5%",
     "periods": {
       "7": {
-        "spread_record": "12-12-0",
-        "spread_roi": "-2.3%",
-        "totals_record": "8-12-0",
-        "totals_roi": "-22.4%"
+        "spread_record": "12-13-0",
+        "spread_roi": "-6.2%",
+        "totals_record": "8-13-0",
+        "totals_roi": "-26.1%"
       },
       "30": {
-        "spread_record": "17-15-0",
-        "spread_roi": "3.5%",
-        "totals_record": "14-15-0",
-        "totals_roi": "-6.4%"
+        "spread_record": "17-16-0",
+        "spread_roi": "0.4%",
+        "totals_record": "14-16-0",
+        "totals_roi": "-9.5%"
       },
       "All": {
-        "spread_record": "17-15-0",
-        "spread_roi": "3.5%",
-        "totals_record": "14-15-0",
-        "totals_roi": "-6.4%"
+        "spread_record": "17-16-0",
+        "spread_roi": "0.4%",
+        "totals_record": "14-16-0",
+        "totals_roi": "-9.5%"
       }
     }
   }
