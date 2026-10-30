@@ -1,56 +1,54 @@
 {
-  "last_updated": "Oct 29, 2026 | 11:00 PM ET",
-  "last_updated_iso": "2026-10-29T23:00:04.851548-04:00",
+  "last_updated": "Oct 30, 2026 | 12:30 AM ET",
+  "last_updated_iso": "2026-10-30T00:30:05.531548-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-29",
     "game_count": 3,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "spread_signal_count": 0,
+    "total_signal_count": 0,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
-  "spreads": [
+  "spreads": [],
+  "totals": [],
+  "history": [
     {
+      "market": "Spread",
       "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
+      "game_date": "2026-10-29",
+      "commence_time": "2026-10-30 02:10:00+00:00",
+      "game_time": "10:10 PM ET",
       "away_team": "Memphis Grizzlies",
       "home_team": "Portland Trail Blazers",
-      "pick_team": "Portland Trail Blazers",
+      "selection": "Portland Trail Blazers",
       "line": "-7.5",
       "book": "LowVig.ag",
       "decimal_odds": "1.99",
-      "model_cover_probability": "75.9%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "27.1%",
-      "modeled_ev": "+51.1%",
-      "ev_numeric": 0.5105080680331443,
-      "model_projection": "Portland Trail Blazers by 17.5",
-      "minutes_before_tip": 78.5,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-10-30T00:51:31.445868+00:00"
-    }
-  ],
-  "totals": [
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 103,
+      "away_pts": 124,
+      "minutes_before_tip": 78.5
+    },
     {
+      "market": "Total",
       "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
+      "game_date": "2026-10-29",
+      "commence_time": "2026-10-30 02:10:00+00:00",
+      "game_time": "10:10 PM ET",
       "away_team": "Memphis Grizzlies",
       "home_team": "Portland Trail Blazers",
-      "side": "UNDER",
+      "selection": "UNDER",
       "line": "233.5",
       "book": "BetRivers",
       "decimal_odds": "1.92",
-      "model_probability": "56.3%",
-      "sportsbook_fair_probability": "49.6%",
-      "model_edge": "6.7%",
-      "modeled_ev": "+8.1%",
-      "ev_numeric": 0.0814198286413707,
-      "model_projection": "231.2 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-10-30T00:51:35.145725+00:00"
-    }
-  ],
-  "history": [
+      "result": "WIN",
+      "pnl": "+0.92",
+      "home_pts": 103,
+      "away_pts": 124,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "b123d92eb8046e43fabf95a33a676634",
@@ -1223,28 +1221,28 @@
     }
   ],
   "performance": {
-    "spread_record": "18-16-0",
-    "spread_roi": "2.9%",
-    "totals_record": "15-16-0",
-    "totals_roi": "-6.2%",
+    "spread_record": "18-17-0",
+    "spread_roi": "-0.0%",
+    "totals_record": "16-16-0",
+    "totals_roi": "-3.1%",
     "periods": {
       "7": {
-        "spread_record": "13-13-0",
-        "spread_roi": "-2.6%",
-        "totals_record": "9-13-0",
-        "totals_roi": "-20.6%"
+        "spread_record": "11-13-0",
+        "spread_roi": "-11.0%",
+        "totals_record": "9-11-0",
+        "totals_roi": "-12.8%"
       },
       "30": {
-        "spread_record": "18-16-0",
-        "spread_roi": "2.9%",
-        "totals_record": "15-16-0",
-        "totals_roi": "-6.2%"
+        "spread_record": "18-17-0",
+        "spread_roi": "-0.0%",
+        "totals_record": "16-16-0",
+        "totals_roi": "-3.1%"
       },
       "All": {
-        "spread_record": "18-16-0",
-        "spread_roi": "2.9%",
-        "totals_record": "15-16-0",
-        "totals_roi": "-6.2%"
+        "spread_record": "18-17-0",
+        "spread_roi": "-0.0%",
+        "totals_record": "16-16-0",
+        "totals_roi": "-3.1%"
       }
     }
   }
