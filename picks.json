@@ -1,14 +1,14 @@
 {
-  "last_updated": "Oct 31, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-10-31T18:51:40.835276-04:00",
+  "last_updated": "Oct 31, 2026 | 7:21 PM ET",
+  "last_updated_iso": "2026-10-31T19:21:42.153881-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-31",
     "game_count": 6,
     "spread_signal_count": 6,
     "total_signal_count": 6,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-10-31T18:55:00-04:00"
+    "next_snapshot": "7:25 PM ET",
+    "next_snapshot_iso": "2026-10-31T19:25:00-04:00"
   },
   "spreads": [
     {
@@ -52,18 +52,18 @@
       "away_team": "Oklahoma City Thunder",
       "home_team": "Houston Rockets",
       "pick_team": "Oklahoma City Thunder",
-      "line": "+2.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "63.1%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "13.1%",
-      "modeled_ev": "+22.4%",
-      "ev_numeric": 0.2238159616223288,
+      "line": "+3.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "model_cover_probability": "65.5%",
+      "sportsbook_fair_probability": "50.7%",
+      "model_edge": "14.9%",
+      "modeled_ev": "+23.2%",
+      "ev_numeric": 0.2318796336676841,
       "model_projection": "Oklahoma City Thunder by 1.4",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-10-31T22:51:33.305412+00:00"
+      "snapshot_time": "2026-10-31T23:21:33.370603+00:00"
     },
     {
       "event_id": "06a03fb0ce0f81a970c6000fb71fdc6d",
@@ -153,9 +153,9 @@
       "modeled_ev": "+36.3%",
       "ev_numeric": 0.3633394532843735,
       "model_projection": "229.9 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-10-31T22:51:38.087889+00:00"
+      "snapshot_time": "2026-10-31T23:21:38.488856+00:00"
     },
     {
       "event_id": "77270837bc694d198c10f42937690d75",
