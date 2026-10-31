@@ -1,14 +1,14 @@
 {
-  "last_updated": "Oct 30, 2026 | 12:30 AM ET",
-  "last_updated_iso": "2026-10-30T00:30:05.531548-04:00",
+  "last_updated": "Oct 31, 2026 | 12:01 PM ET",
+  "last_updated_iso": "2026-10-31T12:01:35.368635-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
-    "slate_date": "2026-10-29",
-    "game_count": 3,
+    "slate_date": "2026-10-31",
+    "game_count": 7,
     "spread_signal_count": 0,
     "total_signal_count": 0,
-    "next_snapshot": "Target times passed",
-    "next_snapshot_iso": null
+    "next_snapshot": "1:55 PM ET",
+    "next_snapshot_iso": "2026-10-31T13:55:00-04:00"
   },
   "spreads": [],
   "totals": [],
@@ -1227,10 +1227,10 @@
     "totals_roi": "-3.1%",
     "periods": {
       "7": {
-        "spread_record": "11-13-0",
-        "spread_roi": "-11.0%",
-        "totals_record": "9-11-0",
-        "totals_roi": "-12.8%"
+        "spread_record": "10-10-0",
+        "spread_roi": "-3.2%",
+        "totals_record": "8-9-0",
+        "totals_roi": "-8.6%"
       },
       "30": {
         "spread_record": "18-17-0",
