@@ -1,6 +1,6 @@
 {
   "last_updated": "Oct 31, 2026 | 4:53 PM ET",
-  "last_updated_iso": "2026-10-31T16:53:16.248681-04:00",
+  "last_updated_iso": "2026-10-31T16:53:31.503992-04:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-10-31",
@@ -25,9 +25,9 @@
       "modeled_ev": "+27.2%",
       "ev_numeric": 0.2722176188399476,
       "model_projection": "Charlotte Hornets by 4.5",
-      "minutes_before_tip": 76.8,
+      "minutes_before_tip": 76.7,
       "game_time": "6:10 PM ET",
-      "snapshot_time": "2026-10-31T20:53:09.054930+00:00"
+      "snapshot_time": "2026-10-31T20:53:20.454902+00:00"
     }
   ],
   "totals": [
@@ -45,9 +45,9 @@
       "modeled_ev": "+47.7%",
       "ev_numeric": 0.476831905344757,
       "model_projection": "226.0 points",
-      "minutes_before_tip": 76.8,
+      "minutes_before_tip": 76.5,
       "game_time": "6:10 PM ET",
-      "snapshot_time": "2026-10-31T20:53:13.160975+00:00"
+      "snapshot_time": "2026-10-31T20:53:28.740065+00:00"
     }
   ],
   "history": [
