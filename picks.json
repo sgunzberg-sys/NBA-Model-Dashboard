@@ -1,16 +1,34 @@
 {
-  "last_updated": "Nov 1, 2026 | 2:21 PM ET",
-  "last_updated_iso": "2026-11-01T14:21:46.309077-05:00",
+  "last_updated": "Nov 1, 2026 | 3:52 PM ET",
+  "last_updated_iso": "2026-11-01T15:52:02.684202-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-01",
     "game_count": 4,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
-    "next_snapshot": "2:25 PM ET",
-    "next_snapshot_iso": "2026-11-01T14:25:00-05:00"
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
+    "next_snapshot": "3:55 PM ET",
+    "next_snapshot_iso": "2026-11-01T15:55:00-05:00"
   },
   "spreads": [
+    {
+      "event_id": "fc3e945a5be88d3f933456bc512c956d",
+      "away_team": "Brooklyn Nets",
+      "home_team": "Indiana Pacers",
+      "pick_team": "Indiana Pacers",
+      "line": "-3.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.92",
+      "model_cover_probability": "62.1%",
+      "sportsbook_fair_probability": "50.6%",
+      "model_edge": "11.5%",
+      "modeled_ev": "+19.3%",
+      "ev_numeric": 0.1927780200610553,
+      "model_projection": "Indiana Pacers by 7.8",
+      "minutes_before_tip": 78.3,
+      "game_time": "5:10 PM ET",
+      "snapshot_time": "2026-11-01T20:51:44.031664+00:00"
+    },
     {
       "event_id": "e8559eaac12af915cfe6597644620c13",
       "away_team": "Boston Celtics",
@@ -48,6 +66,24 @@
       "minutes_before_tip": 78.3,
       "game_time": "3:40 PM ET",
       "snapshot_time": "2026-11-01T19:21:41.970177+00:00"
+    },
+    {
+      "event_id": "fc3e945a5be88d3f933456bc512c956d",
+      "away_team": "Brooklyn Nets",
+      "home_team": "Indiana Pacers",
+      "side": "UNDER",
+      "line": "230.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.93",
+      "model_probability": "55.0%",
+      "sportsbook_fair_probability": "49.5%",
+      "model_edge": "5.5%",
+      "modeled_ev": "+6.1%",
+      "ev_numeric": 0.0610669114647081,
+      "model_projection": "228.7 points",
+      "minutes_before_tip": 78.0,
+      "game_time": "5:10 PM ET",
+      "snapshot_time": "2026-11-01T20:51:57.750178+00:00"
     }
   ],
   "history": [
