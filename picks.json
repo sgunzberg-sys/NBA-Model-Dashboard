@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 1, 2026 | 7:21 PM ET",
-  "last_updated_iso": "2026-11-01T19:21:41.469616-05:00",
+  "last_updated": "Nov 1, 2026 | 7:51 PM ET",
+  "last_updated_iso": "2026-11-01T19:51:35.912108-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-01",
     "game_count": 3,
     "spread_signal_count": 4,
     "total_signal_count": 4,
-    "next_snapshot": "7:25 PM ET",
-    "next_snapshot_iso": "2026-11-01T19:25:00-05:00"
+    "next_snapshot": "7:55 PM ET",
+    "next_snapshot_iso": "2026-11-01T19:55:00-05:00"
   },
   "spreads": [
     {
@@ -54,16 +54,16 @@
       "pick_team": "Toronto Raptors",
       "line": "+3",
       "book": "LowVig.ag",
-      "decimal_odds": "1.94",
+      "decimal_odds": "1.99",
       "model_cover_probability": "57.4%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "7.4%",
-      "modeled_ev": "+11.3%",
-      "ev_numeric": 0.1129829917139119,
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "8.5%",
+      "modeled_ev": "+14.2%",
+      "ev_numeric": 0.1416681203663323,
       "model_projection": "Los Angeles Lakers by 0.8",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-02T00:21:34.980335+00:00"
+      "snapshot_time": "2026-11-02T00:51:30.790387+00:00"
     },
     {
       "event_id": "e8559eaac12af915cfe6597644620c13",
@@ -122,6 +122,24 @@
       "snapshot_time": "2026-11-02T00:21:38.311605+00:00"
     },
     {
+      "event_id": "31fc89cbf3846e545e8e41a543a71d24",
+      "away_team": "Toronto Raptors",
+      "home_team": "Los Angeles Lakers",
+      "side": "OVER",
+      "line": "223",
+      "book": "Bovada",
+      "decimal_odds": "1.91",
+      "model_probability": "56.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "6.8%",
+      "modeled_ev": "+8.5%",
+      "ev_numeric": 0.0851387188902488,
+      "model_projection": "226.6 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-02T00:51:33.979770+00:00"
+    },
+    {
       "event_id": "fc3e945a5be88d3f933456bc512c956d",
       "away_team": "Brooklyn Nets",
       "home_team": "Indiana Pacers",
@@ -138,24 +156,6 @@
       "minutes_before_tip": 78.0,
       "game_time": "5:10 PM ET",
       "snapshot_time": "2026-11-01T20:51:57.750178+00:00"
-    },
-    {
-      "event_id": "31fc89cbf3846e545e8e41a543a71d24",
-      "away_team": "Toronto Raptors",
-      "home_team": "Los Angeles Lakers",
-      "side": "OVER",
-      "line": "223.5",
-      "book": "BetUS",
-      "decimal_odds": "1.91",
-      "model_probability": "55.5%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "5.5%",
-      "modeled_ev": "+5.9%",
-      "ev_numeric": 0.0594226846185229,
-      "model_projection": "226.6 points",
-      "minutes_before_tip": 108.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-02T00:21:38.311605+00:00"
     }
   ],
   "history": [
