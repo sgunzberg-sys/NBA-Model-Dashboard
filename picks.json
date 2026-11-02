@@ -1,16 +1,34 @@
 {
-  "last_updated": "Nov 1, 2026 | 3:52 PM ET",
-  "last_updated_iso": "2026-11-01T15:52:02.684202-05:00",
+  "last_updated": "Nov 1, 2026 | 7:21 PM ET",
+  "last_updated_iso": "2026-11-01T19:21:41.469616-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-01",
-    "game_count": 4,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
-    "next_snapshot": "3:55 PM ET",
-    "next_snapshot_iso": "2026-11-01T15:55:00-05:00"
+    "game_count": 3,
+    "spread_signal_count": 4,
+    "total_signal_count": 4,
+    "next_snapshot": "7:25 PM ET",
+    "next_snapshot_iso": "2026-11-01T19:25:00-05:00"
   },
   "spreads": [
+    {
+      "event_id": "094b083ace229ca31ff360a80e35a1a8",
+      "away_team": "Los Angeles Clippers",
+      "home_team": "Golden State Warriors",
+      "pick_team": "Los Angeles Clippers",
+      "line": "+1.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_cover_probability": "63.8%",
+      "sportsbook_fair_probability": "49.1%",
+      "model_edge": "14.7%",
+      "modeled_ev": "+26.3%",
+      "ev_numeric": 0.2628652420409942,
+      "model_projection": "Los Angeles Clippers by 2.8",
+      "minutes_before_tip": 78.4,
+      "game_time": "8:40 PM ET",
+      "snapshot_time": "2026-11-02T00:21:34.980335+00:00"
+    },
     {
       "event_id": "fc3e945a5be88d3f933456bc512c956d",
       "away_team": "Brooklyn Nets",
@@ -28,6 +46,24 @@
       "minutes_before_tip": 78.3,
       "game_time": "5:10 PM ET",
       "snapshot_time": "2026-11-01T20:51:44.031664+00:00"
+    },
+    {
+      "event_id": "31fc89cbf3846e545e8e41a543a71d24",
+      "away_team": "Toronto Raptors",
+      "home_team": "Los Angeles Lakers",
+      "pick_team": "Toronto Raptors",
+      "line": "+3",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "model_cover_probability": "57.4%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "7.4%",
+      "modeled_ev": "+11.3%",
+      "ev_numeric": 0.1129829917139119,
+      "model_projection": "Los Angeles Lakers by 0.8",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-02T00:21:34.980335+00:00"
     },
     {
       "event_id": "e8559eaac12af915cfe6597644620c13",
@@ -68,6 +104,24 @@
       "snapshot_time": "2026-11-01T19:21:41.970177+00:00"
     },
     {
+      "event_id": "094b083ace229ca31ff360a80e35a1a8",
+      "away_team": "LA Clippers",
+      "home_team": "Golden State Warriors",
+      "side": "OVER",
+      "line": "219.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.92",
+      "model_probability": "64.9%",
+      "sportsbook_fair_probability": "49.6%",
+      "model_edge": "15.3%",
+      "modeled_ev": "+24.7%",
+      "ev_numeric": 0.2467074663402692,
+      "model_projection": "227.2 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "8:40 PM ET",
+      "snapshot_time": "2026-11-02T00:21:38.311605+00:00"
+    },
+    {
       "event_id": "fc3e945a5be88d3f933456bc512c956d",
       "away_team": "Brooklyn Nets",
       "home_team": "Indiana Pacers",
@@ -84,6 +138,24 @@
       "minutes_before_tip": 78.0,
       "game_time": "5:10 PM ET",
       "snapshot_time": "2026-11-01T20:51:57.750178+00:00"
+    },
+    {
+      "event_id": "31fc89cbf3846e545e8e41a543a71d24",
+      "away_team": "Toronto Raptors",
+      "home_team": "Los Angeles Lakers",
+      "side": "OVER",
+      "line": "223.5",
+      "book": "BetUS",
+      "decimal_odds": "1.91",
+      "model_probability": "55.5%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "5.5%",
+      "modeled_ev": "+5.9%",
+      "ev_numeric": 0.0594226846185229,
+      "model_projection": "226.6 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-02T00:21:38.311605+00:00"
     }
   ],
   "history": [
