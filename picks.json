@@ -1,56 +1,54 @@
 {
-  "last_updated": "Nov 1, 2026 | 11:30 PM ET",
-  "last_updated_iso": "2026-11-01T23:30:08.330199-05:00",
+  "last_updated": "Nov 2, 2026 | 12:00 AM ET",
+  "last_updated_iso": "2026-11-02T00:00:08.076917-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-01",
     "game_count": 3,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "spread_signal_count": 0,
+    "total_signal_count": 0,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
-  "spreads": [
+  "spreads": [],
+  "totals": [],
+  "history": [
     {
+      "market": "Spread",
       "event_id": "31fc89cbf3846e545e8e41a543a71d24",
+      "game_date": "2026-11-01",
+      "commence_time": "2026-11-02 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
       "away_team": "Toronto Raptors",
       "home_team": "Los Angeles Lakers",
-      "pick_team": "Toronto Raptors",
+      "selection": "Toronto Raptors",
       "line": "+3",
       "book": "LowVig.ag",
       "decimal_odds": "1.99",
-      "model_cover_probability": "57.4%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "8.5%",
-      "modeled_ev": "+14.2%",
-      "ev_numeric": 0.1416681203663323,
-      "model_projection": "Los Angeles Lakers by 0.8",
-      "minutes_before_tip": 78.5,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-02T00:51:30.790387+00:00"
-    }
-  ],
-  "totals": [
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 131,
+      "away_pts": 125,
+      "minutes_before_tip": 78.5
+    },
     {
+      "market": "Total",
       "event_id": "31fc89cbf3846e545e8e41a543a71d24",
+      "game_date": "2026-11-01",
+      "commence_time": "2026-11-02 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
       "away_team": "Toronto Raptors",
       "home_team": "Los Angeles Lakers",
-      "side": "OVER",
+      "selection": "OVER",
       "line": "223",
       "book": "Bovada",
       "decimal_odds": "1.91",
-      "model_probability": "56.8%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "6.8%",
-      "modeled_ev": "+8.5%",
-      "ev_numeric": 0.0851387188902488,
-      "model_projection": "226.6 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-02T00:51:33.979770+00:00"
-    }
-  ],
-  "history": [
+      "result": "WIN",
+      "pnl": "+0.91",
+      "home_pts": 131,
+      "away_pts": 125,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "094b083ace229ca31ff360a80e35a1a8",
@@ -1583,28 +1581,28 @@
     }
   ],
   "performance": {
-    "spread_record": "19-25-0",
-    "spread_roi": "-15.9%",
-    "totals_record": "22-19-0",
-    "totals_roi": "3.9%",
+    "spread_record": "19-26-0",
+    "spread_roi": "-17.8%",
+    "totals_record": "23-19-0",
+    "totals_roi": "5.9%",
     "periods": {
       "7": {
-        "spread_record": "8-17-0",
-        "spread_roi": "-38.0%",
-        "totals_record": "14-10-0",
-        "totals_roi": "13.0%"
+        "spread_record": "6-16-0",
+        "spread_roi": "-47.0%",
+        "totals_record": "13-9-0",
+        "totals_roi": "14.1%"
       },
       "30": {
-        "spread_record": "19-25-0",
-        "spread_roi": "-15.9%",
-        "totals_record": "22-19-0",
-        "totals_roi": "3.9%"
+        "spread_record": "19-26-0",
+        "spread_roi": "-17.8%",
+        "totals_record": "23-19-0",
+        "totals_roi": "5.9%"
       },
       "All": {
-        "spread_record": "19-25-0",
-        "spread_roi": "-15.9%",
-        "totals_record": "22-19-0",
-        "totals_roi": "3.9%"
+        "spread_record": "19-26-0",
+        "spread_roi": "-17.8%",
+        "totals_record": "23-19-0",
+        "totals_roi": "5.9%"
       }
     }
   }
