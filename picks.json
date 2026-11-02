@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 2, 2026 | 6:36 PM ET",
-  "last_updated_iso": "2026-11-02T18:36:37.913138-05:00",
+  "last_updated": "Nov 2, 2026 | 6:51 PM ET",
+  "last_updated_iso": "2026-11-02T18:51:39.436186-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-02",
     "game_count": 15,
-    "spread_signal_count": 8,
-    "total_signal_count": 6,
+    "spread_signal_count": 10,
+    "total_signal_count": 9,
     "next_snapshot": "6:55 PM ET",
     "next_snapshot_iso": "2026-11-02T18:55:00-05:00"
   },
@@ -25,9 +25,9 @@
       "modeled_ev": "+48.3%",
       "ev_numeric": 0.4826973397296119,
       "model_projection": "New Orleans Pelicans by 4.0",
-      "minutes_before_tip": 93.5,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-02T23:36:31.167711+00:00"
+      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
     },
     {
       "event_id": "0a12a55607db0bd7eeafee050c45988e",
@@ -70,18 +70,36 @@
       "away_team": "Sacramento Kings",
       "home_team": "Dallas Mavericks",
       "pick_team": "Sacramento Kings",
-      "line": "+8.5",
+      "line": "+8",
       "book": "LowVig.ag",
-      "decimal_odds": "1.92",
-      "model_cover_probability": "65.9%",
-      "sportsbook_fair_probability": "50.6%",
-      "model_edge": "15.3%",
-      "modeled_ev": "+26.6%",
-      "ev_numeric": 0.265625817706062,
+      "decimal_odds": "1.97",
+      "model_cover_probability": "64.4%",
+      "sportsbook_fair_probability": "49.4%",
+      "model_edge": "15.1%",
+      "modeled_ev": "+26.9%",
+      "ev_numeric": 0.2693741822939379,
       "model_projection": "Dallas Mavericks by 3.5",
-      "minutes_before_tip": 93.5,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-02T23:36:31.167711+00:00"
+      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
+    },
+    {
+      "event_id": "d6cb49b0ae478270e74d0e7ce7082e57",
+      "away_team": "Boston Celtics",
+      "home_team": "Houston Rockets",
+      "pick_team": "Boston Celtics",
+      "line": "+4.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.94",
+      "model_cover_probability": "63.1%",
+      "sportsbook_fair_probability": "49.2%",
+      "model_edge": "13.9%",
+      "modeled_ev": "+22.4%",
+      "ev_numeric": 0.2238159616223288,
+      "model_projection": "Houston Rockets by 0.6",
+      "minutes_before_tip": 108.5,
+      "game_time": "8:40 PM ET",
+      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
     },
     {
       "event_id": "fdf913d713fd5851d418c59872bdf265",
@@ -120,6 +138,24 @@
       "snapshot_time": "2026-11-02T23:26:31.219535+00:00"
     },
     {
+      "event_id": "fe9664deb3e21a28b10a3de39adfb82a",
+      "away_team": "Utah Jazz",
+      "home_team": "San Antonio Spurs",
+      "pick_team": "San Antonio Spurs",
+      "line": "-16",
+      "book": "Bovada",
+      "decimal_odds": "1.91",
+      "model_cover_probability": "61.5%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "11.5%",
+      "modeled_ev": "+17.5%",
+      "ev_numeric": 0.174904055822067,
+      "model_projection": "San Antonio Spurs by 20.1",
+      "minutes_before_tip": 108.5,
+      "game_time": "8:40 PM ET",
+      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
+    },
+    {
       "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
       "away_team": "Milwaukee Bucks",
       "home_team": "Minnesota Timberwolves",
@@ -133,9 +169,9 @@
       "modeled_ev": "+9.8%",
       "ev_numeric": 0.0983100741386828,
       "model_projection": "Minnesota Timberwolves by 8.6",
-      "minutes_before_tip": 93.5,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-02T23:36:31.167711+00:00"
+      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
     },
     {
       "event_id": "0a808d8f7afab3c0e249ca284c470806",
@@ -176,6 +212,24 @@
       "snapshot_time": "2026-11-02T23:36:35.462385+00:00"
     },
     {
+      "event_id": "d6cb49b0ae478270e74d0e7ce7082e57",
+      "away_team": "Boston Celtics",
+      "home_team": "Houston Rockets",
+      "side": "OVER",
+      "line": "216",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_probability": "75.0%",
+      "sportsbook_fair_probability": "48.7%",
+      "model_edge": "26.3%",
+      "modeled_ev": "+48.4%",
+      "ev_numeric": 0.4843941248470013,
+      "model_projection": "228.9 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "8:40 PM ET",
+      "snapshot_time": "2026-11-02T23:51:36.886350+00:00"
+    },
+    {
       "event_id": "6acd74a2d987fa101c79eaf378fd5891",
       "away_team": "Washington Wizards",
       "home_team": "Orlando Magic",
@@ -210,6 +264,24 @@
       "minutes_before_tip": 63.4,
       "game_time": "7:40 PM ET",
       "snapshot_time": "2026-11-02T23:36:35.462385+00:00"
+    },
+    {
+      "event_id": "fe9664deb3e21a28b10a3de39adfb82a",
+      "away_team": "Utah Jazz",
+      "home_team": "San Antonio Spurs",
+      "side": "OVER",
+      "line": "228.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.94",
+      "model_probability": "62.7%",
+      "sportsbook_fair_probability": "49.2%",
+      "model_edge": "13.5%",
+      "modeled_ev": "+21.7%",
+      "ev_numeric": 0.2169522643818848,
+      "model_projection": "234.9 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "8:40 PM ET",
+      "snapshot_time": "2026-11-02T23:51:36.886350+00:00"
     },
     {
       "event_id": "4f6688e4d1818bd8bb3e65352c7a0406",
@@ -261,9 +333,27 @@
       "modeled_ev": "+12.8%",
       "ev_numeric": 0.1279987760097918,
       "model_projection": "235.3 points",
-      "minutes_before_tip": 93.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-02T23:36:35.462385+00:00"
+      "snapshot_time": "2026-11-02T23:51:36.886350+00:00"
+    },
+    {
+      "event_id": "df7f8fce0b1c11db5140d60e1e126eb3",
+      "away_team": "Sacramento Kings",
+      "home_team": "Dallas Mavericks",
+      "side": "OVER",
+      "line": "229.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "model_probability": "54.9%",
+      "sportsbook_fair_probability": "50.7%",
+      "model_edge": "4.2%",
+      "modeled_ev": "+3.2%",
+      "ev_numeric": 0.0320440636474907,
+      "model_projection": "232.3 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-02T23:51:36.886350+00:00"
     }
   ],
   "history": [
