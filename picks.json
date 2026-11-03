@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 2, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-02T18:51:39.436186-05:00",
+  "last_updated": "Nov 2, 2026 | 7:21 PM ET",
+  "last_updated_iso": "2026-11-02T19:21:34.894582-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-02",
     "game_count": 15,
-    "spread_signal_count": 10,
+    "spread_signal_count": 11,
     "total_signal_count": 9,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-02T18:55:00-05:00"
+    "next_snapshot": "7:25 PM ET",
+    "next_snapshot_iso": "2026-11-02T19:25:00-05:00"
   },
   "spreads": [
     {
@@ -88,18 +88,18 @@
       "away_team": "Boston Celtics",
       "home_team": "Houston Rockets",
       "pick_team": "Boston Celtics",
-      "line": "+4.5",
-      "book": "DraftKings",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "63.1%",
-      "sportsbook_fair_probability": "49.2%",
-      "model_edge": "13.9%",
-      "modeled_ev": "+22.4%",
-      "ev_numeric": 0.2238159616223288,
+      "line": "+5.5",
+      "book": "MyBookie.ag",
+      "decimal_odds": "1.91",
+      "model_cover_probability": "65.5%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "15.5%",
+      "modeled_ev": "+25.2%",
+      "ev_numeric": 0.2515372873964238,
       "model_projection": "Houston Rockets by 0.6",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.5,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
+      "snapshot_time": "2026-11-03T00:21:29.749338+00:00"
     },
     {
       "event_id": "fdf913d713fd5851d418c59872bdf265",
@@ -151,9 +151,27 @@
       "modeled_ev": "+17.5%",
       "ev_numeric": 0.174904055822067,
       "model_projection": "San Antonio Spurs by 20.1",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.5,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-02T23:51:31.456003+00:00"
+      "snapshot_time": "2026-11-03T00:21:29.749338+00:00"
+    },
+    {
+      "event_id": "1dd700c1205f0c7287e5df99c7a17822",
+      "away_team": "Portland Trail Blazers",
+      "home_team": "Denver Nuggets",
+      "pick_team": "Portland Trail Blazers",
+      "line": "+4",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.97",
+      "model_cover_probability": "57.7%",
+      "sportsbook_fair_probability": "49.4%",
+      "model_edge": "8.4%",
+      "modeled_ev": "+13.7%",
+      "ev_numeric": 0.137067160924553,
+      "model_projection": "Denver Nuggets by 1.7",
+      "minutes_before_tip": 108.5,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-03T00:21:29.749338+00:00"
     },
     {
       "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
@@ -225,9 +243,9 @@
       "modeled_ev": "+48.4%",
       "ev_numeric": 0.4843941248470013,
       "model_projection": "228.9 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-02T23:51:36.886350+00:00"
+      "snapshot_time": "2026-11-03T00:21:32.934987+00:00"
     },
     {
       "event_id": "6acd74a2d987fa101c79eaf378fd5891",
@@ -271,17 +289,17 @@
       "home_team": "San Antonio Spurs",
       "side": "OVER",
       "line": "228.5",
-      "book": "DraftKings",
-      "decimal_odds": "1.94",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
       "model_probability": "62.7%",
-      "sportsbook_fair_probability": "49.2%",
-      "model_edge": "13.5%",
-      "modeled_ev": "+21.7%",
-      "ev_numeric": 0.2169522643818848,
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "12.7%",
+      "modeled_ev": "+21.1%",
+      "ev_numeric": 0.2106793145654834,
       "model_projection": "234.9 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-02T23:51:36.886350+00:00"
+      "snapshot_time": "2026-11-03T00:21:32.934987+00:00"
     },
     {
       "event_id": "4f6688e4d1818bd8bb3e65352c7a0406",
