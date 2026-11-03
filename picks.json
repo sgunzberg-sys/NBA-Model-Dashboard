@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 2, 2026 | 7:21 PM ET",
-  "last_updated_iso": "2026-11-02T19:21:34.894582-05:00",
+  "last_updated": "Nov 2, 2026 | 7:51 PM ET",
+  "last_updated_iso": "2026-11-02T19:51:48.450320-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-02",
     "game_count": 15,
     "spread_signal_count": 11,
     "total_signal_count": 9,
-    "next_snapshot": "7:25 PM ET",
-    "next_snapshot_iso": "2026-11-02T19:25:00-05:00"
+    "next_snapshot": "7:55 PM ET",
+    "next_snapshot_iso": "2026-11-02T19:55:00-05:00"
   },
   "spreads": [
     {
@@ -169,9 +169,9 @@
       "modeled_ev": "+13.7%",
       "ev_numeric": 0.137067160924553,
       "model_projection": "Denver Nuggets by 1.7",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.4,
       "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-03T00:21:29.749338+00:00"
+      "snapshot_time": "2026-11-03T00:51:37.955552+00:00"
     },
     {
       "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
