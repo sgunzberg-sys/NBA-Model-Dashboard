@@ -1,11 +1,11 @@
 {
-  "last_updated": "Nov 2, 2026 | 11:30 PM ET",
-  "last_updated_iso": "2026-11-02T23:30:07.828657-05:00",
+  "last_updated": "Nov 3, 2026 | 12:00 AM ET",
+  "last_updated_iso": "2026-11-03T00:00:07.965209-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-02",
     "game_count": 15,
-    "spread_signal_count": 4,
+    "spread_signal_count": 3,
     "total_signal_count": 2,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
@@ -64,24 +64,6 @@
       "minutes_before_tip": 78.4,
       "game_time": "10:10 PM ET",
       "snapshot_time": "2026-11-03T01:51:34.567437+00:00"
-    },
-    {
-      "event_id": "1dd700c1205f0c7287e5df99c7a17822",
-      "away_team": "Portland Trail Blazers",
-      "home_team": "Denver Nuggets",
-      "pick_team": "Portland Trail Blazers",
-      "line": "+4",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.97",
-      "model_cover_probability": "57.7%",
-      "sportsbook_fair_probability": "49.4%",
-      "model_edge": "8.4%",
-      "modeled_ev": "+13.7%",
-      "ev_numeric": 0.137067160924553,
-      "model_projection": "Denver Nuggets by 1.7",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-03T00:51:37.955552+00:00"
     }
   ],
   "totals": [
@@ -123,6 +105,24 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "1dd700c1205f0c7287e5df99c7a17822",
+      "game_date": "2026-11-02",
+      "commence_time": "2026-11-03 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Portland Trail Blazers",
+      "home_team": "Denver Nuggets",
+      "selection": "Portland Trail Blazers",
+      "line": "+4",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.97",
+      "result": "WIN",
+      "pnl": "+0.97",
+      "home_pts": 110,
+      "away_pts": 118,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "d6cb49b0ae478270e74d0e7ce7082e57",
@@ -1904,47 +1904,29 @@
       "home_pts": 103,
       "away_pts": 110,
       "minutes_before_tip": 90.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "85e6e4e2404ef7268659739997758da1",
-      "game_date": "2026-10-21",
-      "commence_time": "2026-10-21 23:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Atlanta Hawks",
-      "home_team": "Orlando Magic",
-      "selection": "Atlanta Hawks",
-      "line": "+2.5",
-      "book": "BetUS",
-      "decimal_odds": "1.91",
-      "result": "WIN",
-      "pnl": "+0.91",
-      "home_pts": 125,
-      "away_pts": 132,
-      "minutes_before_tip": 70.5
     }
   ],
   "performance": {
-    "spread_record": "24-31-0",
-    "spread_roi": "-14.9%",
+    "spread_record": "25-31-0",
+    "spread_roi": "-12.9%",
     "totals_record": "26-25-0",
     "totals_roi": "-1.4%",
     "periods": {
       "7": {
-        "spread_record": "11-21-0",
-        "spread_roi": "-32.9%",
-        "totals_record": "16-15-0",
-        "totals_roi": "-0.3%"
+        "spread_record": "12-18-0",
+        "spread_roi": "-21.9%",
+        "totals_record": "15-13-0",
+        "totals_roi": "3.6%"
       },
       "30": {
-        "spread_record": "24-31-0",
-        "spread_roi": "-14.9%",
+        "spread_record": "25-31-0",
+        "spread_roi": "-12.9%",
         "totals_record": "26-25-0",
         "totals_roi": "-1.4%"
       },
       "All": {
-        "spread_record": "24-31-0",
-        "spread_roi": "-14.9%",
+        "spread_record": "25-31-0",
+        "spread_roi": "-12.9%",
         "totals_record": "26-25-0",
         "totals_roi": "-1.4%"
       }
