@@ -1,16 +1,34 @@
 {
-  "last_updated": "Nov 4, 2026 | 5:51 PM ET",
-  "last_updated_iso": "2026-11-04T17:51:39.615198-05:00",
+  "last_updated": "Nov 4, 2026 | 6:11 PM ET",
+  "last_updated_iso": "2026-11-04T18:11:39.356191-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 14,
-    "spread_signal_count": 4,
-    "total_signal_count": 4,
-    "next_snapshot": "5:55 PM ET",
-    "next_snapshot_iso": "2026-11-04T17:55:00-05:00"
+    "spread_signal_count": 7,
+    "total_signal_count": 7,
+    "next_snapshot": "6:15 PM ET",
+    "next_snapshot_iso": "2026-11-04T18:15:00-05:00"
   },
   "spreads": [
+    {
+      "event_id": "3469f522ffcacb13f88e6cd297adc110",
+      "away_team": "Indiana Pacers",
+      "home_team": "Memphis Grizzlies",
+      "pick_team": "Indiana Pacers",
+      "line": "+6",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "79.4%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "30.5%",
+      "modeled_ev": "+57.9%",
+      "ev_numeric": 0.5790689053641518,
+      "model_projection": "Indiana Pacers by 4.9",
+      "minutes_before_tip": 118.5,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-04T23:11:32.569730+00:00"
+    },
     {
       "event_id": "05200821a78e4f6db8131cff1652550f",
       "away_team": "Atlanta Hawks",
@@ -43,9 +61,9 @@
       "modeled_ev": "+41.1%",
       "ev_numeric": 0.4106345399040558,
       "model_projection": "Charlotte Hornets by 11.9",
-      "minutes_before_tip": 98.5,
+      "minutes_before_tip": 78.5,
       "game_time": "7:30 PM ET",
-      "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
+      "snapshot_time": "2026-11-04T23:11:32.569730+00:00"
     },
     {
       "event_id": "91df86557819598ca270ba35410cfcfa",
@@ -66,22 +84,58 @@
       "snapshot_time": "2026-11-04T22:41:33.045744+00:00"
     },
     {
+      "event_id": "38fdb396939e8aabebd93cb509618927",
+      "away_team": "Cleveland Cavaliers",
+      "home_team": "Oklahoma City Thunder",
+      "pick_team": "Oklahoma City Thunder",
+      "line": "-3.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "model_cover_probability": "63.7%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "13.7%",
+      "modeled_ev": "+23.7%",
+      "ev_numeric": 0.2365067597034452,
+      "model_projection": "Oklahoma City Thunder by 8.2",
+      "minutes_before_tip": 108.5,
+      "game_time": "8:00 PM ET",
+      "snapshot_time": "2026-11-04T23:11:32.569730+00:00"
+    },
+    {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
       "away_team": "Milwaukee Bucks",
       "home_team": "Boston Celtics",
       "pick_team": "Boston Celtics",
       "line": "-11.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.95",
+      "book": "BetRivers",
+      "decimal_odds": "1.94",
       "model_cover_probability": "57.5%",
-      "sportsbook_fair_probability": "49.0%",
-      "model_edge": "8.5%",
-      "modeled_ev": "+12.1%",
-      "ev_numeric": 0.12127126035761,
+      "sportsbook_fair_probability": "49.1%",
+      "model_edge": "8.4%",
+      "modeled_ev": "+11.6%",
+      "ev_numeric": 0.115521151330135,
       "model_projection": "Boston Celtics by 14.1",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 88.5,
       "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
+      "snapshot_time": "2026-11-04T23:11:32.569730+00:00"
+    },
+    {
+      "event_id": "0b5966b7b96eb844618eea8f215a0c71",
+      "away_team": "Utah Jazz",
+      "home_team": "New Orleans Pelicans",
+      "pick_team": "New Orleans Pelicans",
+      "line": "-5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "52.2%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "3.3%",
+      "modeled_ev": "+3.8%",
+      "ev_numeric": 0.0383929350196249,
+      "model_projection": "New Orleans Pelicans by 6.0",
+      "minutes_before_tip": 118.5,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-04T23:11:32.569730+00:00"
     }
   ],
   "totals": [
@@ -99,9 +153,9 @@
       "modeled_ev": "+40.5%",
       "ev_numeric": 0.4054202366381068,
       "model_projection": "225.2 points",
-      "minutes_before_tip": 98.4,
+      "minutes_before_tip": 78.4,
       "game_time": "7:30 PM ET",
-      "snapshot_time": "2026-11-04T22:51:36.550511+00:00"
+      "snapshot_time": "2026-11-04T23:11:36.444825+00:00"
     },
     {
       "event_id": "91df86557819598ca270ba35410cfcfa",
@@ -135,9 +189,27 @@
       "modeled_ev": "+19.2%",
       "ev_numeric": 0.1915871073031415,
       "model_projection": "227.8 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 88.4,
       "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-04T22:51:36.550511+00:00"
+      "snapshot_time": "2026-11-04T23:11:36.444825+00:00"
+    },
+    {
+      "event_id": "0b5966b7b96eb844618eea8f215a0c71",
+      "away_team": "Utah Jazz",
+      "home_team": "New Orleans Pelicans",
+      "side": "OVER",
+      "line": "232",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_probability": "60.1%",
+      "sportsbook_fair_probability": "48.7%",
+      "model_edge": "11.4%",
+      "modeled_ev": "+19.0%",
+      "ev_numeric": 0.190342717258262,
+      "model_projection": "237.1 points",
+      "minutes_before_tip": 118.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-04T23:11:36.444825+00:00"
     },
     {
       "event_id": "87d2b814c3f0d3691e9cebbf2de76295",
@@ -153,9 +225,45 @@
       "modeled_ev": "+17.4%",
       "ev_numeric": 0.1738984088127295,
       "model_projection": "229.2 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 88.4,
       "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-04T22:51:36.550511+00:00"
+      "snapshot_time": "2026-11-04T23:11:36.444825+00:00"
+    },
+    {
+      "event_id": "3469f522ffcacb13f88e6cd297adc110",
+      "away_team": "Indiana Pacers",
+      "home_team": "Memphis Grizzlies",
+      "side": "OVER",
+      "line": "228",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.92",
+      "model_probability": "59.6%",
+      "sportsbook_fair_probability": "50.4%",
+      "model_edge": "9.2%",
+      "modeled_ev": "+14.4%",
+      "ev_numeric": 0.1440881272949816,
+      "model_projection": "232.9 points",
+      "minutes_before_tip": 118.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-04T23:11:36.444825+00:00"
+    },
+    {
+      "event_id": "38fdb396939e8aabebd93cb509618927",
+      "away_team": "Cleveland Cavaliers",
+      "home_team": "Oklahoma City Thunder",
+      "side": "OVER",
+      "line": "225.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "model_probability": "60.6%",
+      "sportsbook_fair_probability": "50.7%",
+      "model_edge": "9.9%",
+      "modeled_ev": "+13.9%",
+      "ev_numeric": 0.1386617707058343,
+      "model_projection": "230.8 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "8:00 PM ET",
+      "snapshot_time": "2026-11-04T23:11:36.444825+00:00"
     }
   ],
   "history": [
