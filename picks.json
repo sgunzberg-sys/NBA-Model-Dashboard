@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 4, 2026 | 5:41 PM ET",
-  "last_updated_iso": "2026-11-04T17:41:41.267298-05:00",
+  "last_updated": "Nov 4, 2026 | 5:51 PM ET",
+  "last_updated_iso": "2026-11-04T17:51:39.615198-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 14,
     "spread_signal_count": 4,
     "total_signal_count": 4,
-    "next_snapshot": "5:45 PM ET",
-    "next_snapshot_iso": "2026-11-04T17:45:00-05:00"
+    "next_snapshot": "5:55 PM ET",
+    "next_snapshot_iso": "2026-11-04T17:55:00-05:00"
   },
   "spreads": [
     {
@@ -25,9 +25,9 @@
       "modeled_ev": "+50.6%",
       "ev_numeric": 0.5063977322285215,
       "model_projection": "Atlanta Hawks by 13.3",
-      "minutes_before_tip": 88.4,
+      "minutes_before_tip": 78.5,
       "game_time": "7:10 PM ET",
-      "snapshot_time": "2026-11-04T22:41:33.045744+00:00"
+      "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
     },
     {
       "event_id": "6b33f8632d4dd100cba8453db82213fa",
@@ -43,9 +43,9 @@
       "modeled_ev": "+41.1%",
       "ev_numeric": 0.4106345399040558,
       "model_projection": "Charlotte Hornets by 11.9",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 98.5,
       "game_time": "7:30 PM ET",
-      "snapshot_time": "2026-11-04T22:41:33.045744+00:00"
+      "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
     },
     {
       "event_id": "91df86557819598ca270ba35410cfcfa",
@@ -79,9 +79,9 @@
       "modeled_ev": "+12.1%",
       "ev_numeric": 0.12127126035761,
       "model_projection": "Boston Celtics by 14.1",
-      "minutes_before_tip": 118.4,
+      "minutes_before_tip": 108.5,
       "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-04T22:41:33.045744+00:00"
+      "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
     }
   ],
   "totals": [
@@ -99,9 +99,9 @@
       "modeled_ev": "+40.5%",
       "ev_numeric": 0.4054202366381068,
       "model_projection": "225.2 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 98.4,
       "game_time": "7:30 PM ET",
-      "snapshot_time": "2026-11-04T22:41:36.989142+00:00"
+      "snapshot_time": "2026-11-04T22:51:36.550511+00:00"
     },
     {
       "event_id": "91df86557819598ca270ba35410cfcfa",
@@ -135,9 +135,9 @@
       "modeled_ev": "+19.2%",
       "ev_numeric": 0.1915871073031415,
       "model_projection": "227.8 points",
-      "minutes_before_tip": 118.4,
+      "minutes_before_tip": 108.4,
       "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-04T22:41:36.989142+00:00"
+      "snapshot_time": "2026-11-04T22:51:36.550511+00:00"
     },
     {
       "event_id": "87d2b814c3f0d3691e9cebbf2de76295",
@@ -153,9 +153,9 @@
       "modeled_ev": "+17.4%",
       "ev_numeric": 0.1738984088127295,
       "model_projection": "229.2 points",
-      "minutes_before_tip": 118.4,
+      "minutes_before_tip": 108.4,
       "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-04T22:41:36.989142+00:00"
+      "snapshot_time": "2026-11-04T22:51:36.550511+00:00"
     }
   ],
   "history": [
