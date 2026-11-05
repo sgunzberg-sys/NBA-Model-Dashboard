@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 4, 2026 | 7:41 PM ET",
-  "last_updated_iso": "2026-11-04T19:41:39.816754-05:00",
+  "last_updated": "Nov 4, 2026 | 8:11 PM ET",
+  "last_updated_iso": "2026-11-04T20:11:39.813218-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 14,
-    "spread_signal_count": 11,
-    "total_signal_count": 10,
-    "next_snapshot": "7:45 PM ET",
-    "next_snapshot_iso": "2026-11-04T19:45:00-05:00"
+    "spread_signal_count": 12,
+    "total_signal_count": 11,
+    "next_snapshot": "8:15 PM ET",
+    "next_snapshot_iso": "2026-11-04T20:15:00-05:00"
   },
   "spreads": [
     {
@@ -115,9 +115,9 @@
       "modeled_ev": "+20.1%",
       "ev_numeric": 0.2007261229829916,
       "model_projection": "San Antonio Spurs by 16.5",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.5,
       "game_time": "9:30 PM ET",
-      "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
+      "snapshot_time": "2026-11-05T01:11:32.851957+00:00"
     },
     {
       "event_id": "50bdc20ea9ea3c88d4bfa261b9b2307e",
@@ -136,6 +136,24 @@
       "minutes_before_tip": 78.5,
       "game_time": "9:00 PM ET",
       "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
+    },
+    {
+      "event_id": "29988f1011d7738962e13e0a0beb693f",
+      "away_team": "Los Angeles Lakers",
+      "home_team": "Sacramento Kings",
+      "pick_team": "Sacramento Kings",
+      "line": "+12",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "58.4%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "9.6%",
+      "modeled_ev": "+16.2%",
+      "ev_numeric": 0.1624967291757522,
+      "model_projection": "Los Angeles Lakers by 9.1",
+      "minutes_before_tip": 118.5,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-05T01:11:32.851957+00:00"
     },
     {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
@@ -266,6 +284,24 @@
       "snapshot_time": "2026-11-04T22:41:36.989142+00:00"
     },
     {
+      "event_id": "29988f1011d7738962e13e0a0beb693f",
+      "away_team": "Los Angeles Lakers",
+      "home_team": "Sacramento Kings",
+      "side": "UNDER",
+      "line": "234",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_probability": "63.7%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "13.7%",
+      "modeled_ev": "+23.0%",
+      "ev_numeric": 0.2303651570787432,
+      "model_projection": "227.5 points",
+      "minutes_before_tip": 118.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-05T01:11:36.804585+00:00"
+    },
+    {
       "event_id": "6b25f3932db93d4c5ad7658def2645bf",
       "away_team": "Dallas Mavericks",
       "home_team": "San Antonio Spurs",
@@ -279,9 +315,9 @@
       "modeled_ev": "+23.0%",
       "ev_numeric": 0.2299388004895959,
       "model_projection": "233.5 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "9:30 PM ET",
-      "snapshot_time": "2026-11-05T00:41:36.705764+00:00"
+      "snapshot_time": "2026-11-05T01:11:36.804585+00:00"
     },
     {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
