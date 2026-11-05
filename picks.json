@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 4, 2026 | 11:00 PM ET",
-  "last_updated_iso": "2026-11-04T23:00:08.656820-05:00",
+  "last_updated": "Nov 4, 2026 | 11:30 PM ET",
+  "last_updated_iso": "2026-11-04T23:30:09.034625-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 13,
-    "spread_signal_count": 6,
-    "total_signal_count": 5,
+    "spread_signal_count": 5,
+    "total_signal_count": 4,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -84,24 +84,6 @@
       "snapshot_time": "2026-11-05T01:51:32.829611+00:00"
     },
     {
-      "event_id": "b2557f74f4d7675ed3b76a4a064e0bc9",
-      "away_team": "Minnesota Timberwolves",
-      "home_team": "Houston Rockets",
-      "pick_team": "Minnesota Timberwolves",
-      "line": "+7.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "55.1%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "5.1%",
-      "modeled_ev": "+6.8%",
-      "ev_numeric": 0.0681421718273003,
-      "model_projection": "Houston Rockets by 6.1",
-      "minutes_before_tip": 78.5,
-      "game_time": "8:30 PM ET",
-      "snapshot_time": "2026-11-05T00:11:32.675914+00:00"
-    },
-    {
       "event_id": "d3d91c40111aca301d41c9cdb9d64608",
       "away_team": "Portland Trail Blazers",
       "home_team": "Phoenix Suns",
@@ -121,24 +103,6 @@
     }
   ],
   "totals": [
-    {
-      "event_id": "b2557f74f4d7675ed3b76a4a064e0bc9",
-      "away_team": "Minnesota Timberwolves",
-      "home_team": "Houston Rockets",
-      "side": "OVER",
-      "line": "218.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.94",
-      "model_probability": "75.0%",
-      "sportsbook_fair_probability": "49.2%",
-      "model_edge": "25.8%",
-      "modeled_ev": "+45.5%",
-      "ev_numeric": 0.4551978784169727,
-      "model_projection": "231.5 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:30 PM ET",
-      "snapshot_time": "2026-11-05T00:11:36.957267+00:00"
-    },
     {
       "event_id": "6b25f3932db93d4c5ad7658def2645bf",
       "away_team": "Dallas Mavericks",
@@ -215,6 +179,42 @@
   "history": [
     {
       "market": "Spread",
+      "event_id": "b2557f74f4d7675ed3b76a4a064e0bc9",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 01:30:00+00:00",
+      "game_time": "8:30 PM ET",
+      "away_team": "Minnesota Timberwolves",
+      "home_team": "Houston Rockets",
+      "selection": "Minnesota Timberwolves",
+      "line": "+7.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 107,
+      "away_pts": 117,
+      "minutes_before_tip": 78.5
+    },
+    {
+      "market": "Total",
+      "event_id": "b2557f74f4d7675ed3b76a4a064e0bc9",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 01:30:00+00:00",
+      "game_time": "8:30 PM ET",
+      "away_team": "Minnesota Timberwolves",
+      "home_team": "Houston Rockets",
+      "selection": "OVER",
+      "line": "218.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 107,
+      "away_pts": 117,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Spread",
       "event_id": "3469f522ffcacb13f88e6cd297adc110",
       "game_date": "2026-11-04",
       "commence_time": "2026-11-05 01:10:00+00:00",
@@ -243,10 +243,10 @@
       "line": "-4.5",
       "book": "LowVig.ag",
       "decimal_odds": "1.94",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 112,
-      "away_pts": 110,
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 120,
+      "away_pts": 113,
       "minutes_before_tip": 78.5
     },
     {
@@ -279,10 +279,10 @@
       "line": "232",
       "book": "LowVig.ag",
       "decimal_odds": "1.98",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 112,
-      "away_pts": 110,
+      "result": "WIN",
+      "pnl": "+0.98",
+      "home_pts": 120,
+      "away_pts": 113,
       "minutes_before_tip": 78.4
     },
     {
@@ -1976,67 +1976,31 @@
       "home_pts": 106,
       "away_pts": 122,
       "minutes_before_tip": 99.4
-    },
-    {
-      "market": "Total",
-      "event_id": "cce3cd5869541979d68f7bde648f7c20",
-      "game_date": "2026-10-24",
-      "commence_time": "2026-10-25 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Washington Wizards",
-      "home_team": "Chicago Bulls",
-      "selection": "UNDER",
-      "line": "244.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.91",
-      "result": "WIN",
-      "pnl": "+0.91",
-      "home_pts": 120,
-      "away_pts": 124,
-      "minutes_before_tip": 99.3
-    },
-    {
-      "market": "Total",
-      "event_id": "efb2248ad964f84921b3e700125e404b",
-      "game_date": "2026-10-24",
-      "commence_time": "2026-10-25 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "San Antonio Spurs",
-      "home_team": "Dallas Mavericks",
-      "selection": "OVER",
-      "line": "229.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 106,
-      "away_pts": 122,
-      "minutes_before_tip": 99.3
     }
   ],
   "performance": {
-    "spread_record": "29-37-0",
-    "spread_roi": "-14.3%",
-    "totals_record": "29-31-0",
-    "totals_roi": "-6.5%",
+    "spread_record": "31-36-0",
+    "spread_roi": "-9.7%",
+    "totals_record": "31-30-0",
+    "totals_roi": "-1.7%",
     "periods": {
       "7": {
-        "spread_record": "12-22-0",
-        "spread_roi": "-31.0%",
-        "totals_record": "15-16-0",
-        "totals_roi": "-6.7%"
+        "spread_record": "14-21-0",
+        "spread_roi": "-21.9%",
+        "totals_record": "17-15-0",
+        "totals_roi": "2.7%"
       },
       "30": {
-        "spread_record": "29-37-0",
-        "spread_roi": "-14.3%",
-        "totals_record": "29-31-0",
-        "totals_roi": "-6.5%"
+        "spread_record": "31-36-0",
+        "spread_roi": "-9.7%",
+        "totals_record": "31-30-0",
+        "totals_roi": "-1.7%"
       },
       "All": {
-        "spread_record": "29-37-0",
-        "spread_roi": "-14.3%",
-        "totals_record": "29-31-0",
-        "totals_roi": "-6.5%"
+        "spread_record": "31-36-0",
+        "spread_roi": "-9.7%",
+        "totals_record": "31-30-0",
+        "totals_roi": "-1.7%"
       }
     }
   }
