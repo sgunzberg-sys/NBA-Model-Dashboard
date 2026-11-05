@@ -1,56 +1,54 @@
 {
-  "last_updated": "Nov 5, 2026 | 1:00 AM ET",
-  "last_updated_iso": "2026-11-05T01:00:08.771928-05:00",
+  "last_updated": "Nov 5, 2026 | 1:30 AM ET",
+  "last_updated_iso": "2026-11-05T01:30:08.839438-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 13,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "spread_signal_count": 0,
+    "total_signal_count": 0,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
-  "spreads": [
+  "spreads": [],
+  "totals": [],
+  "history": [
     {
+      "market": "Spread",
       "event_id": "72c786e70ad9360fdc41e4c2a50fa788",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 03:40:00+00:00",
+      "game_time": "10:40 PM ET",
       "away_team": "Miami Heat",
-      "home_team": "Los Angeles Clippers",
-      "pick_team": "Los Angeles Clippers",
+      "home_team": "LA Clippers",
+      "selection": "LA Clippers",
       "line": "+5.5",
       "book": "LowVig.ag",
       "decimal_odds": "1.99",
-      "model_cover_probability": "74.2%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "25.4%",
-      "modeled_ev": "+47.8%",
-      "ev_numeric": 0.4775294374182294,
-      "model_projection": "Los Angeles Clippers by 3.7",
-      "minutes_before_tip": 78.4,
-      "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-11-05T02:21:33.262339+00:00"
-    }
-  ],
-  "totals": [
+      "result": "WIN",
+      "pnl": "+0.99",
+      "home_pts": 116,
+      "away_pts": 117,
+      "minutes_before_tip": 78.4
+    },
     {
+      "market": "Total",
       "event_id": "72c786e70ad9360fdc41e4c2a50fa788",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 03:40:00+00:00",
+      "game_time": "10:40 PM ET",
       "away_team": "Miami Heat",
       "home_team": "LA Clippers",
-      "side": "UNDER",
+      "selection": "UNDER",
       "line": "233.5",
       "book": "MyBookie.ag",
       "decimal_odds": "1.91",
-      "model_probability": "55.8%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "5.8%",
-      "modeled_ev": "+6.6%",
-      "ev_numeric": 0.0664361485108117,
-      "model_projection": "231.4 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-11-05T02:21:37.393301+00:00"
-    }
-  ],
-  "history": [
+      "result": "WIN",
+      "pnl": "+0.91",
+      "home_pts": 116,
+      "away_pts": 117,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "29988f1011d7738962e13e0a0beb693f",
@@ -1814,67 +1812,31 @@
       "home_pts": 110,
       "away_pts": 102,
       "minutes_before_tip": 57.0
-    },
-    {
-      "market": "Total",
-      "event_id": "90620ab57facf54f629af8beec468e54",
-      "game_date": "2026-10-26",
-      "commence_time": "2026-10-27 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Phoenix Suns",
-      "home_team": "Oklahoma City Thunder",
-      "selection": "OVER",
-      "line": "221.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.96",
-      "result": "WIN",
-      "pnl": "+0.96",
-      "home_pts": 125,
-      "away_pts": 114,
-      "minutes_before_tip": 57.0
-    },
-    {
-      "market": "Spread",
-      "event_id": "252f3af49fb5271bb040e95e0119f207",
-      "game_date": "2026-10-25",
-      "commence_time": "2026-10-25 23:40:00+00:00",
-      "game_time": "7:40 PM ET",
-      "away_team": "Detroit Pistons",
-      "home_team": "Philadelphia 76ers",
-      "selection": "Detroit Pistons",
-      "line": "-1.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.88",
-      "result": "WIN",
-      "pnl": "+0.88",
-      "home_pts": 93,
-      "away_pts": 106,
-      "minutes_before_tip": 99.0
     }
   ],
   "performance": {
-    "spread_record": "31-40-0",
-    "spread_roi": "-14.8%",
-    "totals_record": "32-32-0",
-    "totals_roi": "-3.2%",
+    "spread_record": "32-40-0",
+    "spread_roi": "-13.2%",
+    "totals_record": "33-32-0",
+    "totals_roi": "-1.8%",
     "periods": {
       "7": {
-        "spread_record": "13-23-0",
-        "spread_roi": "-29.2%",
-        "totals_record": "16-16-0",
-        "totals_roi": "-3.4%"
+        "spread_record": "14-23-0",
+        "spread_roi": "-25.8%",
+        "totals_record": "17-16-0",
+        "totals_roi": "-0.5%"
       },
       "30": {
-        "spread_record": "31-40-0",
-        "spread_roi": "-14.8%",
-        "totals_record": "32-32-0",
-        "totals_roi": "-3.2%"
+        "spread_record": "32-40-0",
+        "spread_roi": "-13.2%",
+        "totals_record": "33-32-0",
+        "totals_roi": "-1.8%"
       },
       "All": {
-        "spread_record": "31-40-0",
-        "spread_roi": "-14.8%",
-        "totals_record": "32-32-0",
-        "totals_roi": "-3.2%"
+        "spread_record": "32-40-0",
+        "spread_roi": "-13.2%",
+        "totals_record": "33-32-0",
+        "totals_roi": "-1.8%"
       }
     }
   }
