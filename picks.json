@@ -1,6 +1,6 @@
 {
-  "last_updated": "Nov 4, 2026 | 9:00 PM ET",
-  "last_updated_iso": "2026-11-04T21:00:08.647709-05:00",
+  "last_updated": "Nov 4, 2026 | 9:21 PM ET",
+  "last_updated_iso": "2026-11-04T21:21:40.365252-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
@@ -61,9 +61,9 @@
       "modeled_ev": "+47.8%",
       "ev_numeric": 0.4775294374182294,
       "model_projection": "Los Angeles Clippers by 3.7",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.4,
       "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-11-05T01:51:32.829611+00:00"
+      "snapshot_time": "2026-11-05T02:21:33.262339+00:00"
     },
     {
       "event_id": "6b33f8632d4dd100cba8453db82213fa",
@@ -441,9 +441,9 @@
       "modeled_ev": "+6.6%",
       "ev_numeric": 0.0664361485108117,
       "model_projection": "231.4 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-11-05T01:51:36.824682+00:00"
+      "snapshot_time": "2026-11-05T02:21:37.393301+00:00"
     },
     {
       "event_id": "d3d91c40111aca301d41c9cdb9d64608",
