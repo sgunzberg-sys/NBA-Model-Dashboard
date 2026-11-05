@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 4, 2026 | 11:30 PM ET",
-  "last_updated_iso": "2026-11-04T23:30:09.034625-05:00",
+  "last_updated": "Nov 5, 2026 | 12:00 AM ET",
+  "last_updated_iso": "2026-11-05T00:00:08.735567-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 13,
-    "spread_signal_count": 5,
-    "total_signal_count": 4,
+    "spread_signal_count": 3,
+    "total_signal_count": 3,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -48,24 +48,6 @@
       "snapshot_time": "2026-11-05T01:11:32.851957+00:00"
     },
     {
-      "event_id": "50bdc20ea9ea3c88d4bfa261b9b2307e",
-      "away_team": "Toronto Raptors",
-      "home_team": "Denver Nuggets",
-      "pick_team": "Toronto Raptors",
-      "line": "+4.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.99",
-      "model_cover_probability": "58.8%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "10.0%",
-      "modeled_ev": "+17.0%",
-      "ev_numeric": 0.1703074574792848,
-      "model_projection": "Denver Nuggets by 1.8",
-      "minutes_before_tip": 78.5,
-      "game_time": "9:00 PM ET",
-      "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
-    },
-    {
       "event_id": "29988f1011d7738962e13e0a0beb693f",
       "away_team": "Los Angeles Lakers",
       "home_team": "Sacramento Kings",
@@ -82,24 +64,6 @@
       "minutes_before_tip": 78.5,
       "game_time": "10:10 PM ET",
       "snapshot_time": "2026-11-05T01:51:32.829611+00:00"
-    },
-    {
-      "event_id": "d3d91c40111aca301d41c9cdb9d64608",
-      "away_team": "Portland Trail Blazers",
-      "home_team": "Phoenix Suns",
-      "pick_team": "Phoenix Suns",
-      "line": "+3",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "54.2%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "4.2%",
-      "modeled_ev": "+5.2%",
-      "ev_numeric": 0.0520671609245528,
-      "model_projection": "Portland Trail Blazers by 1.4",
-      "minutes_before_tip": 78.5,
-      "game_time": "9:00 PM ET",
-      "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
     }
   ],
   "totals": [
@@ -156,27 +120,63 @@
       "minutes_before_tip": 78.4,
       "game_time": "10:40 PM ET",
       "snapshot_time": "2026-11-05T02:21:37.393301+00:00"
-    },
-    {
-      "event_id": "d3d91c40111aca301d41c9cdb9d64608",
-      "away_team": "Portland Trail Blazers",
-      "home_team": "Phoenix Suns",
-      "side": "UNDER",
-      "line": "228.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.88",
-      "model_probability": "55.5%",
-      "sportsbook_fair_probability": "50.5%",
-      "model_edge": "4.9%",
-      "modeled_ev": "+4.3%",
-      "ev_numeric": 0.0427825377396979,
-      "model_projection": "226.5 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:00 PM ET",
-      "snapshot_time": "2026-11-05T00:41:36.705764+00:00"
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "50bdc20ea9ea3c88d4bfa261b9b2307e",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 02:00:00+00:00",
+      "game_time": "9:00 PM ET",
+      "away_team": "Toronto Raptors",
+      "home_team": "Denver Nuggets",
+      "selection": "Toronto Raptors",
+      "line": "+4.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 128,
+      "away_pts": 109,
+      "minutes_before_tip": 78.5
+    },
+    {
+      "market": "Spread",
+      "event_id": "d3d91c40111aca301d41c9cdb9d64608",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 02:00:00+00:00",
+      "game_time": "9:00 PM ET",
+      "away_team": "Portland Trail Blazers",
+      "home_team": "Phoenix Suns",
+      "selection": "Phoenix Suns",
+      "line": "+3",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 119,
+      "away_pts": 132,
+      "minutes_before_tip": 78.5
+    },
+    {
+      "market": "Total",
+      "event_id": "d3d91c40111aca301d41c9cdb9d64608",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 02:00:00+00:00",
+      "game_time": "9:00 PM ET",
+      "away_team": "Portland Trail Blazers",
+      "home_team": "Phoenix Suns",
+      "selection": "UNDER",
+      "line": "228.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 119,
+      "away_pts": 132,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "b2557f74f4d7675ed3b76a4a064e0bc9",
@@ -1922,85 +1922,31 @@
       "home_pts": 102,
       "away_pts": 111,
       "minutes_before_tip": 59.0
-    },
-    {
-      "market": "Total",
-      "event_id": "4bdaabae0c074d48156aaa3e315a5c4d",
-      "game_date": "2026-10-25",
-      "commence_time": "2026-10-25 23:00:00+00:00",
-      "game_time": "7:00 PM ET",
-      "away_team": "Orlando Magic",
-      "home_team": "New York Knicks",
-      "selection": "OVER",
-      "line": "224.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.95",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 102,
-      "away_pts": 111,
-      "minutes_before_tip": 58.9
-    },
-    {
-      "market": "Spread",
-      "event_id": "cce3cd5869541979d68f7bde648f7c20",
-      "game_date": "2026-10-24",
-      "commence_time": "2026-10-25 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Washington Wizards",
-      "home_team": "Chicago Bulls",
-      "selection": "Chicago Bulls",
-      "line": "-1.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 120,
-      "away_pts": 124,
-      "minutes_before_tip": 99.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "efb2248ad964f84921b3e700125e404b",
-      "game_date": "2026-10-24",
-      "commence_time": "2026-10-25 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "San Antonio Spurs",
-      "home_team": "Dallas Mavericks",
-      "selection": "Dallas Mavericks",
-      "line": "+15.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 106,
-      "away_pts": 122,
-      "minutes_before_tip": 99.4
     }
   ],
   "performance": {
-    "spread_record": "31-36-0",
-    "spread_roi": "-9.7%",
-    "totals_record": "31-30-0",
-    "totals_roi": "-1.7%",
+    "spread_record": "31-38-0",
+    "spread_roi": "-12.4%",
+    "totals_record": "31-31-0",
+    "totals_roi": "-3.2%",
     "periods": {
       "7": {
-        "spread_record": "14-21-0",
-        "spread_roi": "-21.9%",
-        "totals_record": "17-15-0",
-        "totals_roi": "2.7%"
+        "spread_record": "13-21-0",
+        "spread_roi": "-25.1%",
+        "totals_record": "15-15-0",
+        "totals_roi": "-3.4%"
       },
       "30": {
-        "spread_record": "31-36-0",
-        "spread_roi": "-9.7%",
-        "totals_record": "31-30-0",
-        "totals_roi": "-1.7%"
+        "spread_record": "31-38-0",
+        "spread_roi": "-12.4%",
+        "totals_record": "31-31-0",
+        "totals_roi": "-3.2%"
       },
       "All": {
-        "spread_record": "31-36-0",
-        "spread_roi": "-9.7%",
-        "totals_record": "31-30-0",
-        "totals_roi": "-1.7%"
+        "spread_record": "31-38-0",
+        "spread_roi": "-12.4%",
+        "totals_record": "31-31-0",
+        "totals_roi": "-3.2%"
       }
     }
   }
