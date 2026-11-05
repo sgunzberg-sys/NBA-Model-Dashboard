@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 4, 2026 | 7:11 PM ET",
-  "last_updated_iso": "2026-11-04T19:11:40.203570-05:00",
+  "last_updated": "Nov 4, 2026 | 7:41 PM ET",
+  "last_updated_iso": "2026-11-04T19:41:39.816754-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 14,
-    "spread_signal_count": 10,
-    "total_signal_count": 9,
-    "next_snapshot": "7:15 PM ET",
-    "next_snapshot_iso": "2026-11-04T19:15:00-05:00"
+    "spread_signal_count": 11,
+    "total_signal_count": 10,
+    "next_snapshot": "7:45 PM ET",
+    "next_snapshot_iso": "2026-11-04T19:45:00-05:00"
   },
   "spreads": [
     {
@@ -102,6 +102,24 @@
       "snapshot_time": "2026-11-04T23:41:32.655086+00:00"
     },
     {
+      "event_id": "6b25f3932db93d4c5ad7658def2645bf",
+      "away_team": "Dallas Mavericks",
+      "home_team": "San Antonio Spurs",
+      "pick_team": "San Antonio Spurs",
+      "line": "-12",
+      "book": "MyBookie.ag",
+      "decimal_odds": "1.91",
+      "model_cover_probability": "62.9%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "12.9%",
+      "modeled_ev": "+20.1%",
+      "ev_numeric": 0.2007261229829916,
+      "model_projection": "San Antonio Spurs by 16.5",
+      "minutes_before_tip": 108.5,
+      "game_time": "9:30 PM ET",
+      "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
+    },
+    {
       "event_id": "50bdc20ea9ea3c88d4bfa261b9b2307e",
       "away_team": "Toronto Raptors",
       "home_team": "Denver Nuggets",
@@ -115,9 +133,9 @@
       "modeled_ev": "+17.0%",
       "ev_numeric": 0.1703074574792848,
       "model_projection": "Denver Nuggets by 1.8",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.5,
       "game_time": "9:00 PM ET",
-      "snapshot_time": "2026-11-05T00:11:32.675914+00:00"
+      "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
     },
     {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
@@ -169,9 +187,9 @@
       "modeled_ev": "+5.2%",
       "ev_numeric": 0.0520671609245528,
       "model_projection": "Portland Trail Blazers by 1.4",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.5,
       "game_time": "9:00 PM ET",
-      "snapshot_time": "2026-11-05T00:11:32.675914+00:00"
+      "snapshot_time": "2026-11-05T00:41:32.617677+00:00"
     },
     {
       "event_id": "0b5966b7b96eb844618eea8f215a0c71",
@@ -246,6 +264,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "7:00 PM ET",
       "snapshot_time": "2026-11-04T22:41:36.989142+00:00"
+    },
+    {
+      "event_id": "6b25f3932db93d4c5ad7658def2645bf",
+      "away_team": "Dallas Mavericks",
+      "home_team": "San Antonio Spurs",
+      "side": "OVER",
+      "line": "225.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "model_probability": "65.4%",
+      "sportsbook_fair_probability": "50.7%",
+      "model_edge": "14.8%",
+      "modeled_ev": "+23.0%",
+      "ev_numeric": 0.2299388004895959,
+      "model_projection": "233.5 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:30 PM ET",
+      "snapshot_time": "2026-11-05T00:41:36.705764+00:00"
     },
     {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
@@ -343,17 +379,17 @@
       "home_team": "Phoenix Suns",
       "side": "UNDER",
       "line": "228.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.89",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
       "model_probability": "55.5%",
       "sportsbook_fair_probability": "50.5%",
       "model_edge": "4.9%",
-      "modeled_ev": "+4.8%",
-      "ev_numeric": 0.0483292533659729,
+      "modeled_ev": "+4.3%",
+      "ev_numeric": 0.0427825377396979,
       "model_projection": "226.5 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "9:00 PM ET",
-      "snapshot_time": "2026-11-05T00:11:36.957267+00:00"
+      "snapshot_time": "2026-11-05T00:41:36.705764+00:00"
     }
   ],
   "history": [
