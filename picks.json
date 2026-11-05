@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 4, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-04T20:30:08.751278-05:00",
+  "last_updated": "Nov 4, 2026 | 8:51 PM ET",
+  "last_updated_iso": "2026-11-04T20:51:39.819109-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
-    "game_count": 14,
-    "spread_signal_count": 12,
-    "total_signal_count": 11,
+    "game_count": 13,
+    "spread_signal_count": 13,
+    "total_signal_count": 12,
     "next_snapshot": "8:55 PM ET",
     "next_snapshot_iso": "2026-11-04T20:55:00-05:00"
   },
@@ -46,6 +46,24 @@
       "minutes_before_tip": 78.5,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
+    },
+    {
+      "event_id": "72c786e70ad9360fdc41e4c2a50fa788",
+      "away_team": "Miami Heat",
+      "home_team": "Los Angeles Clippers",
+      "pick_team": "Los Angeles Clippers",
+      "line": "+5.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "74.2%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "25.4%",
+      "modeled_ev": "+47.8%",
+      "ev_numeric": 0.4775294374182294,
+      "model_projection": "Los Angeles Clippers by 3.7",
+      "minutes_before_tip": 108.5,
+      "game_time": "10:40 PM ET",
+      "snapshot_time": "2026-11-05T01:51:32.829611+00:00"
     },
     {
       "event_id": "6b33f8632d4dd100cba8453db82213fa",
@@ -151,9 +169,9 @@
       "modeled_ev": "+16.2%",
       "ev_numeric": 0.1624967291757522,
       "model_projection": "Los Angeles Lakers by 9.1",
-      "minutes_before_tip": 118.5,
+      "minutes_before_tip": 78.5,
       "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-05T01:11:32.851957+00:00"
+      "snapshot_time": "2026-11-05T01:51:32.829611+00:00"
     },
     {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
@@ -284,24 +302,6 @@
       "snapshot_time": "2026-11-04T22:41:36.989142+00:00"
     },
     {
-      "event_id": "29988f1011d7738962e13e0a0beb693f",
-      "away_team": "Los Angeles Lakers",
-      "home_team": "Sacramento Kings",
-      "side": "UNDER",
-      "line": "234",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_probability": "63.7%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "13.7%",
-      "modeled_ev": "+23.0%",
-      "ev_numeric": 0.2303651570787432,
-      "model_projection": "227.5 points",
-      "minutes_before_tip": 118.4,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-05T01:11:36.804585+00:00"
-    },
-    {
       "event_id": "6b25f3932db93d4c5ad7658def2645bf",
       "away_team": "Dallas Mavericks",
       "home_team": "San Antonio Spurs",
@@ -318,6 +318,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "9:30 PM ET",
       "snapshot_time": "2026-11-05T01:11:36.804585+00:00"
+    },
+    {
+      "event_id": "29988f1011d7738962e13e0a0beb693f",
+      "away_team": "Los Angeles Lakers",
+      "home_team": "Sacramento Kings",
+      "side": "UNDER",
+      "line": "233.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_probability": "62.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "12.8%",
+      "modeled_ev": "+21.1%",
+      "ev_numeric": 0.2114667482660137,
+      "model_projection": "227.5 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-05T01:51:36.824682+00:00"
     },
     {
       "event_id": "1cb12166c3eda270d40cc65b9b34459a",
@@ -408,6 +426,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:00 PM ET",
       "snapshot_time": "2026-11-04T23:41:36.808073+00:00"
+    },
+    {
+      "event_id": "72c786e70ad9360fdc41e4c2a50fa788",
+      "away_team": "Miami Heat",
+      "home_team": "LA Clippers",
+      "side": "UNDER",
+      "line": "233.5",
+      "book": "MyBookie.ag",
+      "decimal_odds": "1.91",
+      "model_probability": "55.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "5.8%",
+      "modeled_ev": "+6.6%",
+      "ev_numeric": 0.0664361485108117,
+      "model_projection": "231.4 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "10:40 PM ET",
+      "snapshot_time": "2026-11-05T01:51:36.824682+00:00"
     },
     {
       "event_id": "d3d91c40111aca301d41c9cdb9d64608",
