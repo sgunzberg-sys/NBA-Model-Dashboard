@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 4, 2026 | 9:21 PM ET",
-  "last_updated_iso": "2026-11-04T21:21:40.365252-05:00",
+  "last_updated": "Nov 4, 2026 | 9:30 PM ET",
+  "last_updated_iso": "2026-11-04T21:30:08.488787-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-04",
     "game_count": 13,
-    "spread_signal_count": 13,
+    "spread_signal_count": 12,
     "total_signal_count": 12,
-    "next_snapshot": "9:25 PM ET",
-    "next_snapshot_iso": "2026-11-04T21:25:00-05:00"
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [
     {
@@ -28,24 +28,6 @@
       "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-04T23:51:32.703174+00:00"
-    },
-    {
-      "event_id": "05200821a78e4f6db8131cff1652550f",
-      "away_team": "Atlanta Hawks",
-      "home_team": "Washington Wizards",
-      "pick_team": "Atlanta Hawks",
-      "line": "-3",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "77.6%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "27.6%",
-      "modeled_ev": "+50.6%",
-      "ev_numeric": 0.5063977322285215,
-      "model_projection": "Atlanta Hawks by 13.3",
-      "minutes_before_tip": 78.5,
-      "game_time": "7:10 PM ET",
-      "snapshot_time": "2026-11-04T22:51:32.394023+00:00"
     },
     {
       "event_id": "72c786e70ad9360fdc41e4c2a50fa788",
@@ -465,6 +447,24 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "05200821a78e4f6db8131cff1652550f",
+      "game_date": "2026-11-04",
+      "commence_time": "2026-11-05 00:10:00+00:00",
+      "game_time": "7:10 PM ET",
+      "away_team": "Atlanta Hawks",
+      "home_team": "Washington Wizards",
+      "selection": "Atlanta Hawks",
+      "line": "-3",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 105,
+      "away_pts": 120,
+      "minutes_before_tip": 78.5
+    },
     {
       "market": "Spread",
       "event_id": "27c333f22603d4eda3b9b6a3888476dc",
@@ -2246,47 +2246,29 @@
       "home_pts": 114,
       "away_pts": 106,
       "minutes_before_tip": 118.1
-    },
-    {
-      "market": "Spread",
-      "event_id": "60431a347feac3f1c7ed925b8b769ec5",
-      "game_date": "2026-10-21",
-      "commence_time": "2026-10-21 23:40:00+00:00",
-      "game_time": "7:40 PM ET",
-      "away_team": "Chicago Bulls",
-      "home_team": "Toronto Raptors",
-      "selection": "Toronto Raptors",
-      "line": "-10",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.90",
-      "result": "WIN",
-      "pnl": "+0.90",
-      "home_pts": 135,
-      "away_pts": 92,
-      "minutes_before_tip": 100.5
     }
   ],
   "performance": {
-    "spread_record": "26-33-0",
-    "spread_roi": "-14.1%",
+    "spread_record": "27-33-0",
+    "spread_roi": "-12.3%",
     "totals_record": "27-26-0",
     "totals_roi": "-1.5%",
     "periods": {
       "7": {
-        "spread_record": "9-18-0",
-        "spread_roi": "-34.9%",
+        "spread_record": "10-18-0",
+        "spread_roi": "-30.3%",
         "totals_record": "13-11-0",
         "totals_roi": "4.5%"
       },
       "30": {
-        "spread_record": "26-33-0",
-        "spread_roi": "-14.1%",
+        "spread_record": "27-33-0",
+        "spread_roi": "-12.3%",
         "totals_record": "27-26-0",
         "totals_roi": "-1.5%"
       },
       "All": {
-        "spread_record": "26-33-0",
-        "spread_roi": "-14.1%",
+        "spread_record": "27-33-0",
+        "spread_roi": "-12.3%",
         "totals_record": "27-26-0",
         "totals_roi": "-1.5%"
       }
