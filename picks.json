@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 5, 2026 | 9:00 PM ET",
-  "last_updated_iso": "2026-11-05T21:00:08.853867-05:00",
+  "last_updated": "Nov 5, 2026 | 11:30 PM ET",
+  "last_updated_iso": "2026-11-05T23:30:11.937319-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-05",
     "game_count": 2,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
+    "spread_signal_count": 1,
+    "total_signal_count": 1,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -28,45 +28,9 @@
       "minutes_before_tip": 78.4,
       "game_time": "10:10 PM ET",
       "snapshot_time": "2026-11-06T01:51:33.325498+00:00"
-    },
-    {
-      "event_id": "2a76b31e02d1416de069a995589515fc",
-      "away_team": "Orlando Magic",
-      "home_team": "Phoenix Suns",
-      "pick_team": "Phoenix Suns",
-      "line": "-1.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.95",
-      "model_cover_probability": "56.8%",
-      "sportsbook_fair_probability": "49.0%",
-      "model_edge": "7.8%",
-      "modeled_ev": "+10.7%",
-      "ev_numeric": 0.1068142171827299,
-      "model_projection": "Phoenix Suns by 3.8",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-06T00:51:33.704786+00:00"
     }
   ],
   "totals": [
-    {
-      "event_id": "2a76b31e02d1416de069a995589515fc",
-      "away_team": "Orlando Magic",
-      "home_team": "Phoenix Suns",
-      "side": "OVER",
-      "line": "223",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.98",
-      "model_probability": "61.4%",
-      "sportsbook_fair_probability": "48.7%",
-      "model_edge": "12.7%",
-      "modeled_ev": "+21.6%",
-      "ev_numeric": 0.2161933904528763,
-      "model_projection": "228.8 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-06T00:51:37.625359+00:00"
-    },
     {
       "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
       "away_team": "Miami Heat",
@@ -87,6 +51,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "2a76b31e02d1416de069a995589515fc",
+      "game_date": "2026-11-05",
+      "commence_time": "2026-11-06 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Phoenix Suns",
+      "selection": "Phoenix Suns",
+      "line": "-1.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.95",
+      "result": "WIN",
+      "pnl": "+0.95",
+      "home_pts": 117,
+      "away_pts": 104,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "2a76b31e02d1416de069a995589515fc",
+      "game_date": "2026-11-05",
+      "commence_time": "2026-11-06 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Phoenix Suns",
+      "selection": "OVER",
+      "line": "223",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 117,
+      "away_pts": 104,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "72c786e70ad9360fdc41e4c2a50fa788",
@@ -1850,67 +1850,31 @@
       "home_pts": 110,
       "away_pts": 102,
       "minutes_before_tip": 57.2
-    },
-    {
-      "market": "Spread",
-      "event_id": "90620ab57facf54f629af8beec468e54",
-      "game_date": "2026-10-26",
-      "commence_time": "2026-10-27 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Phoenix Suns",
-      "home_team": "Oklahoma City Thunder",
-      "selection": "Oklahoma City Thunder",
-      "line": "-8",
-      "book": "BetUS",
-      "decimal_odds": "1.91",
-      "result": "WIN",
-      "pnl": "+0.91",
-      "home_pts": 125,
-      "away_pts": 114,
-      "minutes_before_tip": 57.2
-    },
-    {
-      "market": "Total",
-      "event_id": "a423c3941aa43179ca93caf6b689a0ce",
-      "game_date": "2026-10-26",
-      "commence_time": "2026-10-27 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Indiana Pacers",
-      "home_team": "Milwaukee Bucks",
-      "selection": "UNDER",
-      "line": "238.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.96",
-      "result": "WIN",
-      "pnl": "+0.96",
-      "home_pts": 110,
-      "away_pts": 102,
-      "minutes_before_tip": 57.0
     }
   ],
   "performance": {
-    "spread_record": "32-40-0",
-    "spread_roi": "-13.2%",
-    "totals_record": "33-32-0",
-    "totals_roi": "-1.8%",
+    "spread_record": "33-40-0",
+    "spread_roi": "-11.8%",
+    "totals_record": "33-33-0",
+    "totals_roi": "-3.3%",
     "periods": {
       "7": {
-        "spread_record": "14-23-0",
-        "spread_roi": "-25.8%",
-        "totals_record": "17-16-0",
-        "totals_roi": "-0.5%"
+        "spread_record": "15-23-0",
+        "spread_roi": "-22.6%",
+        "totals_record": "17-17-0",
+        "totals_roi": "-3.5%"
       },
       "30": {
-        "spread_record": "32-40-0",
-        "spread_roi": "-13.2%",
-        "totals_record": "33-32-0",
-        "totals_roi": "-1.8%"
+        "spread_record": "33-40-0",
+        "spread_roi": "-11.8%",
+        "totals_record": "33-33-0",
+        "totals_roi": "-3.3%"
       },
       "All": {
-        "spread_record": "32-40-0",
-        "spread_roi": "-13.2%",
-        "totals_record": "33-32-0",
-        "totals_roi": "-1.8%"
+        "spread_record": "33-40-0",
+        "spread_roi": "-11.8%",
+        "totals_record": "33-33-0",
+        "totals_roi": "-3.3%"
       }
     }
   }
