@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 6, 2026 | 6:21 PM ET",
-  "last_updated_iso": "2026-11-06T18:21:41.751830-05:00",
+  "last_updated": "Nov 6, 2026 | 6:51 PM ET",
+  "last_updated_iso": "2026-11-06T18:51:40.129776-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-06",
     "game_count": 9,
     "spread_signal_count": 7,
-    "total_signal_count": 7,
-    "next_snapshot": "6:25 PM ET",
-    "next_snapshot_iso": "2026-11-06T18:25:00-05:00"
+    "total_signal_count": 6,
+    "next_snapshot": "6:55 PM ET",
+    "next_snapshot_iso": "2026-11-06T18:55:00-05:00"
   },
   "spreads": [
     {
@@ -25,9 +25,9 @@
       "modeled_ev": "+67.6%",
       "ev_numeric": 0.6757871783689489,
       "model_projection": "Oklahoma City Thunder by 18.4",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:34.354008+00:00"
+      "snapshot_time": "2026-11-06T23:51:32.573463+00:00"
     },
     {
       "event_id": "49daf3d42e20ce4bc70f8a68cf70ce4c",
@@ -88,18 +88,18 @@
       "away_team": "Toronto Raptors",
       "home_team": "Milwaukee Bucks",
       "pick_team": "Toronto Raptors",
-      "line": "-4.5",
+      "line": "-3.5",
       "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "61.3%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "11.3%",
-      "modeled_ev": "+18.8%",
-      "ev_numeric": 0.1882817269952026,
+      "decimal_odds": "1.99",
+      "model_cover_probability": "63.8%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "15.0%",
+      "modeled_ev": "+27.0%",
+      "ev_numeric": 0.2701112080244222,
       "model_projection": "Toronto Raptors by 7.8",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:34.354008+00:00"
+      "snapshot_time": "2026-11-06T23:51:32.573463+00:00"
     },
     {
       "event_id": "5e4708fadda49a3c06fd7ac50414020e",
@@ -115,9 +115,9 @@
       "modeled_ev": "+7.3%",
       "ev_numeric": 0.0732184910597469,
       "model_projection": "Minnesota Timberwolves by 5.1",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:34.354008+00:00"
+      "snapshot_time": "2026-11-06T23:51:32.573463+00:00"
     },
     {
       "event_id": "62a92e31b546d31ba57caf792815bf65",
@@ -133,9 +133,9 @@
       "modeled_ev": "+5.6%",
       "ev_numeric": 0.0557893589184473,
       "model_projection": "Dallas Mavericks by 5.4",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:34.354008+00:00"
+      "snapshot_time": "2026-11-06T23:51:32.573463+00:00"
     }
   ],
   "totals": [
@@ -171,9 +171,9 @@
       "modeled_ev": "+39.7%",
       "ev_numeric": 0.3965136678906569,
       "model_projection": "237.0 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:38.555832+00:00"
+      "snapshot_time": "2026-11-06T23:51:36.896111+00:00"
     },
     {
       "event_id": "86684f64a8ec8385537a36c3b3768935",
@@ -182,16 +182,16 @@
       "side": "OVER",
       "line": "222.5",
       "book": "BetRivers",
-      "decimal_odds": "1.87",
+      "decimal_odds": "1.88",
       "model_probability": "69.1%",
-      "sportsbook_fair_probability": "50.8%",
-      "model_edge": "18.3%",
-      "modeled_ev": "+29.3%",
-      "ev_numeric": 0.2928253773969809,
+      "sportsbook_fair_probability": "50.5%",
+      "model_edge": "18.6%",
+      "modeled_ev": "+30.0%",
+      "ev_numeric": 0.2997388820889431,
       "model_projection": "232.2 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:38.555832+00:00"
+      "snapshot_time": "2026-11-06T23:51:36.896111+00:00"
     },
     {
       "event_id": "9246c91f746732472c13e94bd8e7be85",
@@ -225,27 +225,9 @@
       "modeled_ev": "+11.1%",
       "ev_numeric": 0.1106752345981232,
       "model_projection": "234.4 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:38.555832+00:00"
-    },
-    {
-      "event_id": "1c60a090180de530cfe273a5d6a381e6",
-      "away_team": "Toronto Raptors",
-      "home_team": "Milwaukee Bucks",
-      "side": "UNDER",
-      "line": "229.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.93",
-      "model_probability": "55.5%",
-      "sportsbook_fair_probability": "49.3%",
-      "model_edge": "6.1%",
-      "modeled_ev": "+7.1%",
-      "ev_numeric": 0.0705161158710729,
-      "model_projection": "227.5 points",
-      "minutes_before_tip": 108.4,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-06T23:21:38.555832+00:00"
+      "snapshot_time": "2026-11-06T23:51:36.896111+00:00"
     },
     {
       "event_id": "85869b2fdc16ef10d3e2582bf05ead95",
