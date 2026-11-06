@@ -1,16 +1,34 @@
 {
-  "last_updated": "Nov 5, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-05T20:30:09.047588-05:00",
+  "last_updated": "Nov 5, 2026 | 8:51 PM ET",
+  "last_updated_iso": "2026-11-05T20:51:39.963895-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-05",
     "game_count": 2,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
     "next_snapshot": "8:55 PM ET",
     "next_snapshot_iso": "2026-11-05T20:55:00-05:00"
   },
   "spreads": [
+    {
+      "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+      "away_team": "Miami Heat",
+      "home_team": "Golden State Warriors",
+      "pick_team": "Miami Heat",
+      "line": "+3.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.96",
+      "model_cover_probability": "64.3%",
+      "sportsbook_fair_probability": "48.6%",
+      "model_edge": "15.7%",
+      "modeled_ev": "+26.0%",
+      "ev_numeric": 0.2603663323157436,
+      "model_projection": "Miami Heat by 0.9",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-06T01:51:33.325498+00:00"
+    },
     {
       "event_id": "2a76b31e02d1416de069a995589515fc",
       "away_team": "Orlando Magic",
@@ -48,6 +66,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-11-06T00:51:37.625359+00:00"
+    },
+    {
+      "event_id": "ac38449dd3dfbe1c9b48164b6a41aa83",
+      "away_team": "Miami Heat",
+      "home_team": "Golden State Warriors",
+      "side": "UNDER",
+      "line": "235.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_probability": "59.5%",
+      "sportsbook_fair_probability": "48.7%",
+      "model_edge": "10.8%",
+      "modeled_ev": "+17.7%",
+      "ev_numeric": 0.1774173806609547,
+      "model_projection": "231.6 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-06T01:51:36.993330+00:00"
     }
   ],
   "history": [
