@@ -1,17 +1,55 @@
 {
-  "last_updated": "Nov 5, 2026 | 9:01 AM ET",
-  "last_updated_iso": "2026-11-05T09:01:32.223910-05:00",
+  "last_updated": "Nov 5, 2026 | 7:51 PM ET",
+  "last_updated_iso": "2026-11-05T19:51:41.653230-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-05",
     "game_count": 2,
-    "spread_signal_count": 0,
-    "total_signal_count": 0,
+    "spread_signal_count": 1,
+    "total_signal_count": 1,
     "next_snapshot": "7:55 PM ET",
     "next_snapshot_iso": "2026-11-05T19:55:00-05:00"
   },
-  "spreads": [],
-  "totals": [],
+  "spreads": [
+    {
+      "event_id": "2a76b31e02d1416de069a995589515fc",
+      "away_team": "Orlando Magic",
+      "home_team": "Phoenix Suns",
+      "pick_team": "Phoenix Suns",
+      "line": "-1.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.95",
+      "model_cover_probability": "56.8%",
+      "sportsbook_fair_probability": "49.0%",
+      "model_edge": "7.8%",
+      "modeled_ev": "+10.7%",
+      "ev_numeric": 0.1068142171827299,
+      "model_projection": "Phoenix Suns by 3.8",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-06T00:51:33.704786+00:00"
+    }
+  ],
+  "totals": [
+    {
+      "event_id": "2a76b31e02d1416de069a995589515fc",
+      "away_team": "Orlando Magic",
+      "home_team": "Phoenix Suns",
+      "side": "OVER",
+      "line": "223",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_probability": "61.4%",
+      "sportsbook_fair_probability": "48.7%",
+      "model_edge": "12.7%",
+      "modeled_ev": "+21.6%",
+      "ev_numeric": 0.2161933904528763,
+      "model_projection": "228.8 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-06T00:51:37.625359+00:00"
+    }
+  ],
   "history": [
     {
       "market": "Spread",
