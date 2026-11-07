@@ -1,17 +1,36 @@
 {
-  "last_updated": "Nov 7, 2026 | 9:01 AM ET",
-  "last_updated_iso": "2026-11-07T09:01:32.073696-05:00",
+  "last_updated": "Nov 7, 2026 | 3:52 PM ET",
+  "last_updated_iso": "2026-11-07T15:52:31.597760-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-07",
     "game_count": 7,
     "spread_signal_count": 0,
-    "total_signal_count": 0,
+    "total_signal_count": 1,
     "next_snapshot": "3:55 PM ET",
     "next_snapshot_iso": "2026-11-07T15:55:00-05:00"
   },
   "spreads": [],
-  "totals": [],
+  "totals": [
+    {
+      "event_id": "e76682ca6c25a37b0a53cec226b91aab",
+      "away_team": "Denver Nuggets",
+      "home_team": "Indiana Pacers",
+      "side": "OVER",
+      "line": "229",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_probability": "57.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "7.8%",
+      "modeled_ev": "+11.5%",
+      "ev_numeric": 0.1153998368013056,
+      "model_projection": "233.0 points",
+      "minutes_before_tip": 77.6,
+      "game_time": "5:10 PM ET",
+      "snapshot_time": "2026-11-07T20:52:26.792140+00:00"
+    }
+  ],
   "history": [
     {
       "market": "Spread",
