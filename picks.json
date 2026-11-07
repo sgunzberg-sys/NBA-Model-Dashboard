@@ -1,34 +1,16 @@
 {
-  "last_updated": "Nov 6, 2026 | 11:00 PM ET",
-  "last_updated_iso": "2026-11-06T23:00:09.878269-05:00",
+  "last_updated": "Nov 7, 2026 | 1:00 AM ET",
+  "last_updated_iso": "2026-11-07T01:00:10.570137-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-06",
     "game_count": 8,
-    "spread_signal_count": 2,
+    "spread_signal_count": 1,
     "total_signal_count": 1,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
   "spreads": [
-    {
-      "event_id": "d24eb5492983d6e28be3b96df396fa12",
-      "away_team": "San Antonio Spurs",
-      "home_team": "Sacramento Kings",
-      "pick_team": "Sacramento Kings",
-      "line": "+17.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "58.7%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "8.7%",
-      "modeled_ev": "+13.9%",
-      "ev_numeric": 0.1392106410815525,
-      "model_projection": "San Antonio Spurs by 14.5",
-      "minutes_before_tip": 78.4,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-07T01:51:33.624354+00:00"
-    },
     {
       "event_id": "83d77fe350d56a036fd7a3404e78249a",
       "away_team": "Portland Trail Blazers",
@@ -69,6 +51,24 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "d24eb5492983d6e28be3b96df396fa12",
+      "game_date": "2026-11-06",
+      "commence_time": "2026-11-07 03:10:00+00:00",
+      "game_time": "10:10 PM ET",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Sacramento Kings",
+      "selection": "Sacramento Kings",
+      "line": "+17.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 109,
+      "away_pts": 124,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "62a92e31b546d31ba57caf792815bf65",
@@ -1850,47 +1850,29 @@
       "home_pts": 97,
       "away_pts": 89,
       "minutes_before_tip": 71.5
-    },
-    {
-      "market": "Spread",
-      "event_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
-      "game_date": "2026-10-28",
-      "commence_time": "2026-10-28 23:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Washington Wizards",
-      "home_team": "Cleveland Cavaliers",
-      "selection": "Cleveland Cavaliers",
-      "line": "-9.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "WIN",
-      "pnl": "+0.94",
-      "home_pts": 121,
-      "away_pts": 111,
-      "minutes_before_tip": 71.5
     }
   ],
   "performance": {
-    "spread_record": "37-44-0",
-    "spread_roi": "-10.8%",
+    "spread_record": "38-44-0",
+    "spread_roi": "-9.5%",
     "totals_record": "37-36-0",
     "totals_roi": "-2.0%",
     "periods": {
       "7": {
-        "spread_record": "19-27-0",
-        "spread_roi": "-19.0%",
-        "totals_record": "21-20-0",
-        "totals_roi": "-1.1%"
+        "spread_record": "19-22-0",
+        "spread_roi": "-9.2%",
+        "totals_record": "17-18-0",
+        "totals_roi": "-6.3%"
       },
       "30": {
-        "spread_record": "37-44-0",
-        "spread_roi": "-10.8%",
+        "spread_record": "38-44-0",
+        "spread_roi": "-9.5%",
         "totals_record": "37-36-0",
         "totals_roi": "-2.0%"
       },
       "All": {
-        "spread_record": "37-44-0",
-        "spread_roi": "-10.8%",
+        "spread_record": "38-44-0",
+        "spread_roi": "-9.5%",
         "totals_record": "37-36-0",
         "totals_roi": "-2.0%"
       }
