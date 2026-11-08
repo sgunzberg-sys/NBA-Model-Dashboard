@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 7, 2026 | 10:30 PM ET",
-  "last_updated_iso": "2026-11-07T22:30:10.289094-05:00",
+  "last_updated": "Nov 7, 2026 | 11:30 PM ET",
+  "last_updated_iso": "2026-11-07T23:30:09.631068-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-07",
     "game_count": 6,
-    "spread_signal_count": 3,
-    "total_signal_count": 3,
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -28,24 +28,6 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
       "snapshot_time": "2026-11-08T00:21:33.861695+00:00"
-    },
-    {
-      "event_id": "af8d920f175d73f12933c64ae296573f",
-      "away_team": "Houston Rockets",
-      "home_team": "Phoenix Suns",
-      "pick_team": "Phoenix Suns",
-      "line": "+6.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "60.9%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "12.0%",
-      "modeled_ev": "+18.1%",
-      "ev_numeric": 0.1806672481465329,
-      "model_projection": "Houston Rockets by 2.6",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-08T00:51:33.774584+00:00"
     },
     {
       "event_id": "08d47dd5e50e83839e395e49870d6a0d",
@@ -86,24 +68,6 @@
       "snapshot_time": "2026-11-08T00:21:37.907833+00:00"
     },
     {
-      "event_id": "af8d920f175d73f12933c64ae296573f",
-      "away_team": "Houston Rockets",
-      "home_team": "Phoenix Suns",
-      "side": "OVER",
-      "line": "223",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_probability": "59.1%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "9.1%",
-      "modeled_ev": "+14.1%",
-      "ev_numeric": 0.1413851489188086,
-      "model_projection": "227.8 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-08T00:51:38.241311+00:00"
-    },
-    {
       "event_id": "e76682ca6c25a37b0a53cec226b91aab",
       "away_team": "Denver Nuggets",
       "home_team": "Indiana Pacers",
@@ -123,6 +87,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "af8d920f175d73f12933c64ae296573f",
+      "game_date": "2026-11-07",
+      "commence_time": "2026-11-08 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Houston Rockets",
+      "home_team": "Phoenix Suns",
+      "selection": "Phoenix Suns",
+      "line": "+6.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 102,
+      "away_pts": 99,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "af8d920f175d73f12933c64ae296573f",
+      "game_date": "2026-11-07",
+      "commence_time": "2026-11-08 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Houston Rockets",
+      "home_team": "Phoenix Suns",
+      "selection": "OVER",
+      "line": "223",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 102,
+      "away_pts": 99,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "fdf3b77f50b2fad3988193af5ef4b00e",
@@ -1886,67 +1886,31 @@
       "home_pts": 103,
       "away_pts": 124,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "b123d92eb8046e43fabf95a33a676634",
-      "game_date": "2026-10-29",
-      "commence_time": "2026-10-30 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Cleveland Cavaliers",
-      "home_team": "Atlanta Hawks",
-      "selection": "Atlanta Hawks",
-      "line": "-0.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.88",
-      "result": "WIN",
-      "pnl": "+0.88",
-      "home_pts": 114,
-      "away_pts": 111,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "f91d27cc050b1b85073d745372c73833",
-      "game_date": "2026-10-29",
-      "commence_time": "2026-10-30 00:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Sacramento Kings",
-      "home_team": "New Orleans Pelicans",
-      "selection": "Sacramento Kings",
-      "line": "+6.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 132,
-      "away_pts": 120,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "39-47-0",
-    "spread_roi": "-11.4%",
-    "totals_record": "38-39-0",
-    "totals_roi": "-4.6%",
+    "spread_record": "40-47-0",
+    "spread_roi": "-10.2%",
+    "totals_record": "38-40-0",
+    "totals_roi": "-5.8%",
     "periods": {
       "7": {
-        "spread_record": "20-25-0",
-        "spread_roi": "-12.9%",
-        "totals_record": "18-21-0",
-        "totals_roi": "-10.9%"
+        "spread_record": "21-25-0",
+        "spread_roi": "-10.6%",
+        "totals_record": "18-22-0",
+        "totals_roi": "-13.1%"
       },
       "30": {
-        "spread_record": "39-47-0",
-        "spread_roi": "-11.4%",
-        "totals_record": "38-39-0",
-        "totals_roi": "-4.6%"
+        "spread_record": "40-47-0",
+        "spread_roi": "-10.2%",
+        "totals_record": "38-40-0",
+        "totals_roi": "-5.8%"
       },
       "All": {
-        "spread_record": "39-47-0",
-        "spread_roi": "-11.4%",
-        "totals_record": "38-39-0",
-        "totals_roi": "-4.6%"
+        "spread_record": "40-47-0",
+        "spread_roi": "-10.2%",
+        "totals_record": "38-40-0",
+        "totals_roi": "-5.8%"
       }
     }
   }
