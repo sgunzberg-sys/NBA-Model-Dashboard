@@ -1,11 +1,11 @@
 {
-  "last_updated": "Nov 7, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-07T20:30:11.286758-05:00",
+  "last_updated": "Nov 7, 2026 | 8:41 PM ET",
+  "last_updated_iso": "2026-11-07T20:41:41.338127-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-07",
     "game_count": 6,
-    "spread_signal_count": 5,
+    "spread_signal_count": 6,
     "total_signal_count": 6,
     "next_snapshot": "8:45 PM ET",
     "next_snapshot_iso": "2026-11-07T20:45:00-05:00"
@@ -100,6 +100,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-11-08T00:51:33.774584+00:00"
+    },
+    {
+      "event_id": "08d47dd5e50e83839e395e49870d6a0d",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Portland Trail Blazers",
+      "pick_team": "Portland Trail Blazers",
+      "line": "+5.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "model_cover_probability": "58.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "8.8%",
+      "modeled_ev": "+14.0%",
+      "ev_numeric": 0.1400566942869602,
+      "model_projection": "San Antonio Spurs by 2.5",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:00 PM ET",
+      "snapshot_time": "2026-11-08T01:41:33.729218+00:00"
     }
   ],
   "totals": [
