@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 7, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-07T18:51:41.741143-05:00",
+  "last_updated": "Nov 7, 2026 | 7:21 PM ET",
+  "last_updated_iso": "2026-11-07T19:21:41.255542-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-07",
     "game_count": 7,
-    "spread_signal_count": 4,
-    "total_signal_count": 5,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-07T18:55:00-05:00"
+    "spread_signal_count": 5,
+    "total_signal_count": 6,
+    "next_snapshot": "7:25 PM ET",
+    "next_snapshot_iso": "2026-11-07T19:25:00-05:00"
   },
   "spreads": [
     {
@@ -36,16 +36,16 @@
       "pick_team": "Orlando Magic",
       "line": "+7.5",
       "book": "LowVig.ag",
-      "decimal_odds": "1.93",
+      "decimal_odds": "1.99",
       "model_cover_probability": "74.1%",
-      "sportsbook_fair_probability": "50.4%",
-      "model_edge": "23.7%",
-      "modeled_ev": "+43.0%",
-      "ev_numeric": 0.4296140427387701,
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "25.2%",
+      "modeled_ev": "+47.4%",
+      "ev_numeric": 0.4740580026166594,
       "model_projection": "Orlando Magic by 1.1",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-07T23:51:33.979573+00:00"
+      "snapshot_time": "2026-11-08T00:21:33.861695+00:00"
     },
     {
       "event_id": "ee45341df802cfb42dd48f1ad60c8b81",
@@ -82,6 +82,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-07T23:51:33.979573+00:00"
+    },
+    {
+      "event_id": "af8d920f175d73f12933c64ae296573f",
+      "away_team": "Houston Rockets",
+      "home_team": "Phoenix Suns",
+      "pick_team": "Phoenix Suns",
+      "line": "+6.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.94",
+      "model_cover_probability": "60.9%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "12.0%",
+      "modeled_ev": "+18.1%",
+      "ev_numeric": 0.1806672481465329,
+      "model_projection": "Houston Rockets by 2.6",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-08T00:21:33.861695+00:00"
     }
   ],
   "totals": [
@@ -99,9 +117,9 @@
       "modeled_ev": "+34.9%",
       "ev_numeric": 0.3492676458588331,
       "model_projection": "229.7 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-07T23:51:38.273443+00:00"
+      "snapshot_time": "2026-11-08T00:21:37.907833+00:00"
     },
     {
       "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
@@ -156,6 +174,24 @@
       "minutes_before_tip": 77.6,
       "game_time": "5:10 PM ET",
       "snapshot_time": "2026-11-07T20:52:26.792140+00:00"
+    },
+    {
+      "event_id": "af8d920f175d73f12933c64ae296573f",
+      "away_team": "Houston Rockets",
+      "home_team": "Phoenix Suns",
+      "side": "OVER",
+      "line": "223.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.91",
+      "model_probability": "58.2%",
+      "sportsbook_fair_probability": "49.7%",
+      "model_edge": "8.5%",
+      "modeled_ev": "+11.2%",
+      "ev_numeric": 0.1124133006935944,
+      "model_projection": "227.8 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-08T00:21:37.907833+00:00"
     },
     {
       "event_id": "ee45341df802cfb42dd48f1ad60c8b81",
