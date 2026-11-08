@@ -1,6 +1,6 @@
 {
-  "last_updated": "Nov 8, 2026 | 6:26 PM ET",
-  "last_updated_iso": "2026-11-08T18:26:37.092260-05:00",
+  "last_updated": "Nov 8, 2026 | 6:51 PM ET",
+  "last_updated_iso": "2026-11-08T18:51:38.713329-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-08",
@@ -43,9 +43,9 @@
       "modeled_ev": "+13.9%",
       "ev_numeric": 0.1392106410815525,
       "model_projection": "Boston Celtics by 10.5",
-      "minutes_before_tip": 103.5,
+      "minutes_before_tip": 78.5,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-08T23:26:30.820638+00:00"
+      "snapshot_time": "2026-11-08T23:51:30.645856+00:00"
     },
     {
       "event_id": "182e2b5349fa0ff4ad3c0e8359c1a9a0",
@@ -153,9 +153,9 @@
       "modeled_ev": "+20.4%",
       "ev_numeric": 0.2035924112607099,
       "model_projection": "227.8 points",
-      "minutes_before_tip": 103.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-08T23:26:34.380829+00:00"
+      "snapshot_time": "2026-11-08T23:51:35.396311+00:00"
     },
     {
       "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
