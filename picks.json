@@ -1,34 +1,16 @@
 {
-  "last_updated": "Nov 7, 2026 | 11:30 PM ET",
-  "last_updated_iso": "2026-11-07T23:30:09.631068-05:00",
+  "last_updated": "Nov 8, 2026 | 12:00 AM ET",
+  "last_updated_iso": "2026-11-08T00:00:09.807735-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-07",
     "game_count": 6,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
+    "spread_signal_count": 1,
+    "total_signal_count": 1,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
   "spreads": [
-    {
-      "event_id": "39099dc03208d0771daaab5f7993478a",
-      "away_team": "Orlando Magic",
-      "home_team": "Golden State Warriors",
-      "pick_team": "Orlando Magic",
-      "line": "+7.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.99",
-      "model_cover_probability": "74.1%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "25.2%",
-      "modeled_ev": "+47.4%",
-      "ev_numeric": 0.4740580026166594,
-      "model_projection": "Orlando Magic by 1.1",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-08T00:21:33.861695+00:00"
-    },
     {
       "event_id": "08d47dd5e50e83839e395e49870d6a0d",
       "away_team": "San Antonio Spurs",
@@ -49,24 +31,6 @@
     }
   ],
   "totals": [
-    {
-      "event_id": "39099dc03208d0771daaab5f7993478a",
-      "away_team": "Orlando Magic",
-      "home_team": "Golden State Warriors",
-      "side": "OVER",
-      "line": "219.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_probability": "69.9%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "19.9%",
-      "modeled_ev": "+34.9%",
-      "ev_numeric": 0.3492676458588331,
-      "model_projection": "229.7 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-08T00:21:37.907833+00:00"
-    },
     {
       "event_id": "e76682ca6c25a37b0a53cec226b91aab",
       "away_team": "Denver Nuggets",
@@ -121,6 +85,42 @@
       "pnl": "-1.00",
       "home_pts": 102,
       "away_pts": 99,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Spread",
+      "event_id": "39099dc03208d0771daaab5f7993478a",
+      "game_date": "2026-11-07",
+      "commence_time": "2026-11-08 01:40:00+00:00",
+      "game_time": "8:40 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Golden State Warriors",
+      "selection": "Orlando Magic",
+      "line": "+7.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "result": "WIN",
+      "pnl": "+0.99",
+      "home_pts": 126,
+      "away_pts": 119,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "39099dc03208d0771daaab5f7993478a",
+      "game_date": "2026-11-07",
+      "commence_time": "2026-11-08 01:40:00+00:00",
+      "game_time": "8:40 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Golden State Warriors",
+      "selection": "OVER",
+      "line": "219.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "result": "WIN",
+      "pnl": "+0.93",
+      "home_pts": 126,
+      "away_pts": 119,
       "minutes_before_tip": 78.4
     },
     {
@@ -1850,67 +1850,31 @@
       "home_pts": 104,
       "away_pts": 109,
       "minutes_before_tip": 76.7
-    },
-    {
-      "market": "Spread",
-      "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
-      "game_date": "2026-10-29",
-      "commence_time": "2026-10-30 02:10:00+00:00",
-      "game_time": "10:10 PM ET",
-      "away_team": "Memphis Grizzlies",
-      "home_team": "Portland Trail Blazers",
-      "selection": "Portland Trail Blazers",
-      "line": "-7.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.99",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 103,
-      "away_pts": 124,
-      "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Total",
-      "event_id": "ba667ca1b0b042f0661cb9d9af56c165",
-      "game_date": "2026-10-29",
-      "commence_time": "2026-10-30 02:10:00+00:00",
-      "game_time": "10:10 PM ET",
-      "away_team": "Memphis Grizzlies",
-      "home_team": "Portland Trail Blazers",
-      "selection": "UNDER",
-      "line": "233.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.92",
-      "result": "WIN",
-      "pnl": "+0.92",
-      "home_pts": 103,
-      "away_pts": 124,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "40-47-0",
-    "spread_roi": "-10.2%",
-    "totals_record": "38-40-0",
-    "totals_roi": "-5.8%",
+    "spread_record": "41-47-0",
+    "spread_roi": "-9.0%",
+    "totals_record": "39-40-0",
+    "totals_roi": "-4.6%",
     "periods": {
       "7": {
-        "spread_record": "21-25-0",
-        "spread_roi": "-10.6%",
-        "totals_record": "18-22-0",
-        "totals_roi": "-13.1%"
+        "spread_record": "22-21-0",
+        "spread_roi": "0.3%",
+        "totals_record": "16-21-0",
+        "totals_roi": "-16.5%"
       },
       "30": {
-        "spread_record": "40-47-0",
-        "spread_roi": "-10.2%",
-        "totals_record": "38-40-0",
-        "totals_roi": "-5.8%"
+        "spread_record": "41-47-0",
+        "spread_roi": "-9.0%",
+        "totals_record": "39-40-0",
+        "totals_roi": "-4.6%"
       },
       "All": {
-        "spread_record": "40-47-0",
-        "spread_roi": "-10.2%",
-        "totals_record": "38-40-0",
-        "totals_roi": "-5.8%"
+        "spread_record": "41-47-0",
+        "spread_roi": "-9.0%",
+        "totals_record": "39-40-0",
+        "totals_roi": "-4.6%"
       }
     }
   }
