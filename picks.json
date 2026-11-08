@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 8, 2026 | 5:06 PM ET",
-  "last_updated_iso": "2026-11-08T17:06:52.615783-05:00",
+  "last_updated": "Nov 8, 2026 | 5:51 PM ET",
+  "last_updated_iso": "2026-11-08T17:51:37.299205-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-08",
     "game_count": 7,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
+    "spread_signal_count": 3,
+    "total_signal_count": 4,
     "next_snapshot": "5:55 PM ET",
     "next_snapshot_iso": "2026-11-08T17:55:00-05:00"
   },
@@ -46,9 +46,45 @@
       "minutes_before_tip": 63.2,
       "game_time": "6:10 PM ET",
       "snapshot_time": "2026-11-08T22:06:45.090162+00:00"
+    },
+    {
+      "event_id": "c5b6599e8e4949749798dcdadceb68d4",
+      "away_team": "Brooklyn Nets",
+      "home_team": "Dallas Mavericks",
+      "pick_team": "Brooklyn Nets",
+      "line": "+7",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "52.7%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "3.9%",
+      "modeled_ev": "+4.9%",
+      "ev_numeric": 0.0488072394243349,
+      "model_projection": "Dallas Mavericks by 6.4",
+      "minutes_before_tip": 108.5,
+      "game_time": "7:40 PM ET",
+      "snapshot_time": "2026-11-08T22:51:30.366730+00:00"
     }
   ],
   "totals": [
+    {
+      "event_id": "758ca94b2abd151c0593b182254dab32",
+      "away_team": "Utah Jazz",
+      "home_team": "Minnesota Timberwolves",
+      "side": "OVER",
+      "line": "222.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.91",
+      "model_probability": "75.3%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "25.3%",
+      "modeled_ev": "+43.8%",
+      "ev_numeric": 0.4381497348021216,
+      "model_projection": "235.6 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "7:10 PM ET",
+      "snapshot_time": "2026-11-08T22:51:34.200306+00:00"
+    },
     {
       "event_id": "182e2b5349fa0ff4ad3c0e8359c1a9a0",
       "away_team": "Los Angeles Lakers",
@@ -66,6 +102,24 @@
       "minutes_before_tip": 63.2,
       "game_time": "6:10 PM ET",
       "snapshot_time": "2026-11-08T22:06:48.280682+00:00"
+    },
+    {
+      "event_id": "c5b6599e8e4949749798dcdadceb68d4",
+      "away_team": "Brooklyn Nets",
+      "home_team": "Dallas Mavericks",
+      "side": "OVER",
+      "line": "223.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.93",
+      "model_probability": "64.4%",
+      "sportsbook_fair_probability": "49.2%",
+      "model_edge": "15.2%",
+      "modeled_ev": "+24.4%",
+      "ev_numeric": 0.2437515299877601,
+      "model_projection": "231.0 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "7:40 PM ET",
+      "snapshot_time": "2026-11-08T22:51:34.200306+00:00"
     },
     {
       "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
