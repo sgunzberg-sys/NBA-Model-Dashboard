@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 8, 2026 | 2:31 PM ET",
-  "last_updated_iso": "2026-11-08T14:31:37.675787-05:00",
+  "last_updated": "Nov 8, 2026 | 5:06 PM ET",
+  "last_updated_iso": "2026-11-08T17:06:52.615783-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-08",
     "game_count": 7,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
-    "next_snapshot": "4:55 PM ET",
-    "next_snapshot_iso": "2026-11-08T16:55:00-05:00"
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
+    "next_snapshot": "5:55 PM ET",
+    "next_snapshot_iso": "2026-11-08T17:55:00-05:00"
   },
   "spreads": [
     {
@@ -28,9 +28,45 @@
       "minutes_before_tip": 68.5,
       "game_time": "3:40 PM ET",
       "snapshot_time": "2026-11-08T19:31:30.093050+00:00"
+    },
+    {
+      "event_id": "182e2b5349fa0ff4ad3c0e8359c1a9a0",
+      "away_team": "Los Angeles Lakers",
+      "home_team": "Detroit Pistons",
+      "pick_team": "Los Angeles Lakers",
+      "line": "+8.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.85",
+      "model_cover_probability": "59.9%",
+      "sportsbook_fair_probability": "51.6%",
+      "model_edge": "8.4%",
+      "modeled_ev": "+10.9%",
+      "ev_numeric": 0.1089511556912342,
+      "model_projection": "Detroit Pistons by 5.5",
+      "minutes_before_tip": 63.2,
+      "game_time": "6:10 PM ET",
+      "snapshot_time": "2026-11-08T22:06:45.090162+00:00"
     }
   ],
   "totals": [
+    {
+      "event_id": "182e2b5349fa0ff4ad3c0e8359c1a9a0",
+      "away_team": "Los Angeles Lakers",
+      "home_team": "Detroit Pistons",
+      "side": "OVER",
+      "line": "217",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.95",
+      "model_probability": "71.4%",
+      "sportsbook_fair_probability": "49.6%",
+      "model_edge": "21.8%",
+      "modeled_ev": "+39.2%",
+      "ev_numeric": 0.3918910648714809,
+      "model_projection": "227.9 points",
+      "minutes_before_tip": 63.2,
+      "game_time": "6:10 PM ET",
+      "snapshot_time": "2026-11-08T22:06:48.280682+00:00"
+    },
     {
       "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
       "away_team": "Philadelphia 76ers",
