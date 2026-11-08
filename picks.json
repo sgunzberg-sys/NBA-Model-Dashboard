@@ -1,35 +1,16 @@
 {
-  "last_updated": "Nov 8, 2026 | 12:00 AM ET",
-  "last_updated_iso": "2026-11-08T00:00:09.807735-05:00",
+  "last_updated": "Nov 8, 2026 | 1:00 AM ET",
+  "last_updated_iso": "2026-11-08T01:00:11.012720-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-07",
     "game_count": 6,
-    "spread_signal_count": 1,
+    "spread_signal_count": 0,
     "total_signal_count": 1,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
-  "spreads": [
-    {
-      "event_id": "08d47dd5e50e83839e395e49870d6a0d",
-      "away_team": "San Antonio Spurs",
-      "home_team": "Portland Trail Blazers",
-      "pick_team": "Portland Trail Blazers",
-      "line": "+5.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "58.8%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "8.8%",
-      "modeled_ev": "+14.0%",
-      "ev_numeric": 0.1400566942869602,
-      "model_projection": "San Antonio Spurs by 2.5",
-      "minutes_before_tip": 78.4,
-      "game_time": "10:00 PM ET",
-      "snapshot_time": "2026-11-08T01:41:33.729218+00:00"
-    }
-  ],
+  "spreads": [],
   "totals": [
     {
       "event_id": "e76682ca6c25a37b0a53cec226b91aab",
@@ -51,6 +32,24 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "08d47dd5e50e83839e395e49870d6a0d",
+      "game_date": "2026-11-07",
+      "commence_time": "2026-11-08 03:00:00+00:00",
+      "game_time": "10:00 PM ET",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Portland Trail Blazers",
+      "selection": "Portland Trail Blazers",
+      "line": "+5.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 103,
+      "away_pts": 125,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "af8d920f175d73f12933c64ae296573f",
@@ -1832,47 +1831,29 @@
       "home_pts": 104,
       "away_pts": 109,
       "minutes_before_tip": 76.8
-    },
-    {
-      "market": "Total",
-      "event_id": "067d97a124c10ea2d206546384500c5e",
-      "game_date": "2026-10-31",
-      "commence_time": "2026-10-31 22:10:00+00:00",
-      "game_time": "6:10 PM ET",
-      "away_team": "Philadelphia 76ers",
-      "home_team": "Charlotte Hornets",
-      "selection": "OVER",
-      "line": "212",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "result": "WIN",
-      "pnl": "+0.93",
-      "home_pts": 104,
-      "away_pts": 109,
-      "minutes_before_tip": 76.7
     }
   ],
   "performance": {
-    "spread_record": "41-47-0",
-    "spread_roi": "-9.0%",
+    "spread_record": "41-48-0",
+    "spread_roi": "-10.0%",
     "totals_record": "39-40-0",
     "totals_roi": "-4.6%",
     "periods": {
       "7": {
-        "spread_record": "22-21-0",
-        "spread_roi": "0.3%",
+        "spread_record": "22-22-0",
+        "spread_roi": "-2.0%",
         "totals_record": "16-21-0",
         "totals_roi": "-16.5%"
       },
       "30": {
-        "spread_record": "41-47-0",
-        "spread_roi": "-9.0%",
+        "spread_record": "41-48-0",
+        "spread_roi": "-10.0%",
         "totals_record": "39-40-0",
         "totals_roi": "-4.6%"
       },
       "All": {
-        "spread_record": "41-47-0",
-        "spread_roi": "-9.0%",
+        "spread_record": "41-48-0",
+        "spread_roi": "-10.0%",
         "totals_record": "39-40-0",
         "totals_roi": "-4.6%"
       }
