@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 8, 2026 | 7:51 PM ET",
-  "last_updated_iso": "2026-11-08T19:51:38.865226-05:00",
+  "last_updated": "Nov 8, 2026 | 8:30 PM ET",
+  "last_updated_iso": "2026-11-08T20:30:09.331189-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-08",
     "game_count": 6,
-    "spread_signal_count": 6,
-    "total_signal_count": 7,
-    "next_snapshot": "7:55 PM ET",
-    "next_snapshot_iso": "2026-11-08T19:55:00-05:00"
+    "spread_signal_count": 5,
+    "total_signal_count": 6,
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [
     {
@@ -46,24 +46,6 @@
       "minutes_before_tip": 78.5,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-11-09T00:51:31.582339+00:00"
-    },
-    {
-      "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
-      "away_team": "Philadelphia 76ers",
-      "home_team": "Chicago Bulls",
-      "pick_team": "Chicago Bulls",
-      "line": "+10",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "64.4%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "14.4%",
-      "modeled_ev": "+25.0%",
-      "ev_numeric": 0.2500436109899694,
-      "model_projection": "Philadelphia 76ers by 5.0",
-      "minutes_before_tip": 68.5,
-      "game_time": "3:40 PM ET",
-      "snapshot_time": "2026-11-08T19:31:30.093050+00:00"
     },
     {
       "event_id": "98eae523edadc7d4d42ab37222eb2c88",
@@ -194,24 +176,6 @@
       "snapshot_time": "2026-11-08T23:51:35.396311+00:00"
     },
     {
-      "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
-      "away_team": "Philadelphia 76ers",
-      "home_team": "Chicago Bulls",
-      "side": "UNDER",
-      "line": "237.5",
-      "book": "DraftKings",
-      "decimal_odds": "1.93",
-      "model_probability": "62.2%",
-      "sportsbook_fair_probability": "49.3%",
-      "model_edge": "12.9%",
-      "modeled_ev": "+20.1%",
-      "ev_numeric": 0.2012301101591188,
-      "model_projection": "231.9 points",
-      "minutes_before_tip": 68.4,
-      "game_time": "3:40 PM ET",
-      "snapshot_time": "2026-11-08T19:31:33.696049+00:00"
-    },
-    {
       "event_id": "7ea5547b35ef782963e4f384d3414dfa",
       "away_team": "Miami Heat",
       "home_team": "Sacramento Kings",
@@ -249,6 +213,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
+      "game_date": "2026-11-08",
+      "commence_time": "2026-11-08 20:40:00+00:00",
+      "game_time": "3:40 PM ET",
+      "away_team": "Philadelphia 76ers",
+      "home_team": "Chicago Bulls",
+      "selection": "Chicago Bulls",
+      "line": "+10",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 121,
+      "away_pts": 127,
+      "minutes_before_tip": 68.5
+    },
+    {
+      "market": "Total",
+      "event_id": "a5d2d9c68b7446860de658aa4bc33c5b",
+      "game_date": "2026-11-08",
+      "commence_time": "2026-11-08 20:40:00+00:00",
+      "game_time": "3:40 PM ET",
+      "away_team": "Philadelphia 76ers",
+      "home_team": "Chicago Bulls",
+      "selection": "UNDER",
+      "line": "237.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.93",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 121,
+      "away_pts": 127,
+      "minutes_before_tip": 68.4
+    },
     {
       "market": "Spread",
       "event_id": "08d47dd5e50e83839e395e49870d6a0d",
@@ -2012,67 +2012,31 @@
       "home_pts": 121,
       "away_pts": 99,
       "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Total",
-      "event_id": "77270837bc694d198c10f42937690d75",
-      "game_date": "2026-10-31",
-      "commence_time": "2026-10-31 23:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Atlanta Hawks",
-      "home_team": "New Orleans Pelicans",
-      "selection": "UNDER",
-      "line": "240.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "result": "WIN",
-      "pnl": "+0.93",
-      "home_pts": 121,
-      "away_pts": 99,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "067d97a124c10ea2d206546384500c5e",
-      "game_date": "2026-10-31",
-      "commence_time": "2026-10-31 22:10:00+00:00",
-      "game_time": "6:10 PM ET",
-      "away_team": "Philadelphia 76ers",
-      "home_team": "Charlotte Hornets",
-      "selection": "Charlotte Hornets",
-      "line": "+1",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 104,
-      "away_pts": 109,
-      "minutes_before_tip": 76.8
     }
   ],
   "performance": {
-    "spread_record": "41-48-0",
-    "spread_roi": "-10.0%",
-    "totals_record": "39-40-0",
-    "totals_roi": "-4.6%",
+    "spread_record": "42-48-0",
+    "spread_roi": "-8.8%",
+    "totals_record": "39-41-0",
+    "totals_roi": "-5.7%",
     "periods": {
       "7": {
-        "spread_record": "22-22-0",
-        "spread_roi": "-2.0%",
-        "totals_record": "16-21-0",
-        "totals_roi": "-16.5%"
+        "spread_record": "23-22-0",
+        "spread_roi": "0.1%",
+        "totals_record": "16-22-0",
+        "totals_roi": "-18.7%"
       },
       "30": {
-        "spread_record": "41-48-0",
-        "spread_roi": "-10.0%",
-        "totals_record": "39-40-0",
-        "totals_roi": "-4.6%"
+        "spread_record": "42-48-0",
+        "spread_roi": "-8.8%",
+        "totals_record": "39-41-0",
+        "totals_roi": "-5.7%"
       },
       "All": {
-        "spread_record": "41-48-0",
-        "spread_roi": "-10.0%",
-        "totals_record": "39-40-0",
-        "totals_roi": "-4.6%"
+        "spread_record": "42-48-0",
+        "spread_roi": "-8.8%",
+        "totals_record": "39-41-0",
+        "totals_roi": "-5.7%"
       }
     }
   }
