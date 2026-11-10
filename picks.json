@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 9, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-09T20:30:10.586888-05:00",
+  "last_updated": "Nov 9, 2026 | 8:51 PM ET",
+  "last_updated_iso": "2026-11-09T20:51:41.035797-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-09",
     "game_count": 8,
-    "spread_signal_count": 7,
-    "total_signal_count": 7,
+    "spread_signal_count": 8,
+    "total_signal_count": 8,
     "next_snapshot": "8:55 PM ET",
     "next_snapshot_iso": "2026-11-09T20:55:00-05:00"
   },
@@ -64,6 +64,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-09T22:51:33.837295+00:00"
+    },
+    {
+      "event_id": "3619e1cf4b0a325c3e0ba5b1fb7f3d91",
+      "away_team": "New Orleans Pelicans",
+      "home_team": "Golden State Warriors",
+      "pick_team": "New Orleans Pelicans",
+      "line": "+11",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "71.7%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "22.8%",
+      "modeled_ev": "+42.6%",
+      "ev_numeric": 0.426325774095072,
+      "model_projection": "Golden State Warriors by 3.6",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-10T01:51:33.594403+00:00"
     },
     {
       "event_id": "9866fa22adc8509d487522ef4cf0fc24",
@@ -264,6 +282,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-11-10T00:51:37.826303+00:00"
+    },
+    {
+      "event_id": "3619e1cf4b0a325c3e0ba5b1fb7f3d91",
+      "away_team": "New Orleans Pelicans",
+      "home_team": "Golden State Warriors",
+      "side": "OVER",
+      "line": "228.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_probability": "55.7%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "5.7%",
+      "modeled_ev": "+7.5%",
+      "ev_numeric": 0.0752407180742553,
+      "model_projection": "231.7 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-10T01:51:37.926079+00:00"
     }
   ],
   "history": [
