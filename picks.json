@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 10, 2026 | 6:21 PM ET",
-  "last_updated_iso": "2026-11-10T18:21:45.378039-05:00",
+  "last_updated": "Nov 10, 2026 | 6:56 PM ET",
+  "last_updated_iso": "2026-11-10T18:56:48.319156-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-10",
     "game_count": 6,
     "spread_signal_count": 2,
     "total_signal_count": 2,
-    "next_snapshot": "6:25 PM ET",
-    "next_snapshot_iso": "2026-11-10T18:25:00-05:00"
+    "next_snapshot": "7:55 PM ET",
+    "next_snapshot_iso": "2026-11-10T19:55:00-05:00"
   },
   "spreads": [
     {
@@ -43,9 +43,9 @@
       "modeled_ev": "+17.8%",
       "ev_numeric": 0.1782490187527255,
       "model_projection": "Boston Celtics by 4.6",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 73.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-10T23:21:36.311473+00:00"
+      "snapshot_time": "2026-11-10T23:56:35.391261+00:00"
     }
   ],
   "totals": [
@@ -55,17 +55,17 @@
       "home_team": "Philadelphia 76ers",
       "side": "OVER",
       "line": "217.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.94",
+      "book": "DraftKings",
+      "decimal_odds": "1.95",
       "model_probability": "70.2%",
-      "sportsbook_fair_probability": "49.2%",
-      "model_edge": "21.0%",
-      "modeled_ev": "+36.2%",
-      "ev_numeric": 0.3617992656058751,
+      "sportsbook_fair_probability": "49.0%",
+      "model_edge": "21.2%",
+      "modeled_ev": "+36.9%",
+      "ev_numeric": 0.3688188494492044,
       "model_projection": "227.8 points",
-      "minutes_before_tip": 108.3,
+      "minutes_before_tip": 73.3,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-10T23:21:40.702632+00:00"
+      "snapshot_time": "2026-11-10T23:56:43.557731+00:00"
     },
     {
       "event_id": "3689d555c9a1c81e3d300375b4c80530",
