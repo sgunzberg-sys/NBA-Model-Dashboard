@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 9, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-09T18:51:39.930224-05:00",
+  "last_updated": "Nov 9, 2026 | 7:21 PM ET",
+  "last_updated_iso": "2026-11-09T19:21:40.553778-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-09",
     "game_count": 8,
-    "spread_signal_count": 6,
-    "total_signal_count": 6,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-09T18:55:00-05:00"
+    "spread_signal_count": 7,
+    "total_signal_count": 7,
+    "next_snapshot": "7:25 PM ET",
+    "next_snapshot_iso": "2026-11-09T19:25:00-05:00"
   },
   "spreads": [
     {
@@ -84,6 +84,24 @@
       "snapshot_time": "2026-11-09T23:51:33.153266+00:00"
     },
     {
+      "event_id": "dc4eb6ae9979b3d3418c35b4210f0c72",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Phoenix Suns",
+      "pick_team": "Phoenix Suns",
+      "line": "+9",
+      "book": "LowVig.ag",
+      "decimal_odds": "2.01",
+      "model_cover_probability": "59.7%",
+      "sportsbook_fair_probability": "48.3%",
+      "model_edge": "11.4%",
+      "modeled_ev": "+20.0%",
+      "ev_numeric": 0.2004775403401656,
+      "model_projection": "San Antonio Spurs by 5.6",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-10T00:21:33.427876+00:00"
+    },
+    {
       "event_id": "dc61de43b5db9de357f48f44c8022494",
       "away_team": "Denver Nuggets",
       "home_team": "Houston Rockets",
@@ -97,9 +115,9 @@
       "modeled_ev": "+7.3%",
       "ev_numeric": 0.0732817269952027,
       "model_projection": "Houston Rockets by 3.2",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-09T23:51:33.153266+00:00"
+      "snapshot_time": "2026-11-10T00:21:33.427876+00:00"
     },
     {
       "event_id": "07361a8381206817e27bd2697fad7479",
@@ -162,18 +180,18 @@
       "away_team": "Denver Nuggets",
       "home_team": "Houston Rockets",
       "side": "OVER",
-      "line": "223",
-      "book": "LowVig.ag",
+      "line": "223.5",
+      "book": "MyBookie.ag",
       "decimal_odds": "1.91",
-      "model_probability": "68.6%",
-      "sportsbook_fair_probability": "50.6%",
-      "model_edge": "18.0%",
-      "modeled_ev": "+31.1%",
-      "ev_numeric": 0.311128110975112,
+      "model_probability": "67.3%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "17.3%",
+      "modeled_ev": "+28.5%",
+      "ev_numeric": 0.2846328029375764,
       "model_projection": "232.4 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-09T23:51:36.823098+00:00"
+      "snapshot_time": "2026-11-10T00:21:37.448359+00:00"
     },
     {
       "event_id": "9866fa22adc8509d487522ef4cf0fc24",
@@ -228,6 +246,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "7:40 PM ET",
       "snapshot_time": "2026-11-09T23:21:37.280288+00:00"
+    },
+    {
+      "event_id": "dc4eb6ae9979b3d3418c35b4210f0c72",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Phoenix Suns",
+      "side": "OVER",
+      "line": "226",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.96",
+      "model_probability": "53.9%",
+      "sportsbook_fair_probability": "49.4%",
+      "model_edge": "4.6%",
+      "modeled_ev": "+5.7%",
+      "ev_numeric": 0.0567686658506733,
+      "model_projection": "228.4 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-10T00:21:37.448359+00:00"
     }
   ],
   "history": [
