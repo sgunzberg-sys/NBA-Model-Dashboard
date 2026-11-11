@@ -1,34 +1,16 @@
 {
-  "last_updated": "Nov 10, 2026 | 9:51 PM ET",
-  "last_updated_iso": "2026-11-10T21:51:41.222883-05:00",
+  "last_updated": "Nov 10, 2026 | 10:00 PM ET",
+  "last_updated_iso": "2026-11-10T22:00:11.107049-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-10",
     "game_count": 5,
-    "spread_signal_count": 4,
-    "total_signal_count": 6,
-    "next_snapshot": "9:55 PM ET",
-    "next_snapshot_iso": "2026-11-10T21:55:00-05:00"
+    "spread_signal_count": 3,
+    "total_signal_count": 5,
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [
-    {
-      "event_id": "3689d555c9a1c81e3d300375b4c80530",
-      "away_team": "Milwaukee Bucks",
-      "home_team": "New York Knicks",
-      "pick_team": "Milwaukee Bucks",
-      "line": "+16",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.96",
-      "model_cover_probability": "67.8%",
-      "sportsbook_fair_probability": "49.6%",
-      "model_edge": "18.2%",
-      "modeled_ev": "+32.9%",
-      "ev_numeric": 0.328748364587876,
-      "model_projection": "New York Knicks by 10.3",
-      "minutes_before_tip": 78.4,
-      "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-10T23:21:36.311473+00:00"
-    },
     {
       "event_id": "cfa503c66cd505776a910921875ef7dd",
       "away_team": "Boston Celtics",
@@ -140,24 +122,6 @@
       "snapshot_time": "2026-11-11T01:51:38.287084+00:00"
     },
     {
-      "event_id": "3689d555c9a1c81e3d300375b4c80530",
-      "away_team": "Milwaukee Bucks",
-      "home_team": "New York Knicks",
-      "side": "OVER",
-      "line": "221.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.98",
-      "model_probability": "56.8%",
-      "sportsbook_fair_probability": "48.7%",
-      "model_edge": "8.1%",
-      "modeled_ev": "+12.5%",
-      "ev_numeric": 0.124908200734394,
-      "model_projection": "225.0 points",
-      "minutes_before_tip": 78.3,
-      "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-10T23:21:40.702632+00:00"
-    },
-    {
       "event_id": "8178ff2ec61f604b61dfe6d7b8d71103",
       "away_team": "LA Clippers",
       "home_team": "Phoenix Suns",
@@ -195,6 +159,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "3689d555c9a1c81e3d300375b4c80530",
+      "game_date": "2026-11-10",
+      "commence_time": "2026-11-11 00:40:00+00:00",
+      "game_time": "7:40 PM ET",
+      "away_team": "Milwaukee Bucks",
+      "home_team": "New York Knicks",
+      "selection": "Milwaukee Bucks",
+      "line": "+16",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.96",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 117,
+      "away_pts": 85,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "3689d555c9a1c81e3d300375b4c80530",
+      "game_date": "2026-11-10",
+      "commence_time": "2026-11-11 00:40:00+00:00",
+      "game_time": "7:40 PM ET",
+      "away_team": "Milwaukee Bucks",
+      "home_team": "New York Knicks",
+      "selection": "OVER",
+      "line": "221.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 117,
+      "away_pts": 85,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "3619e1cf4b0a325c3e0ba5b1fb7f3d91",
@@ -1958,67 +1958,31 @@
       "home_pts": 112,
       "away_pts": 100,
       "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Total",
-      "event_id": "df7f8fce0b1c11db5140d60e1e126eb3",
-      "game_date": "2026-11-02",
-      "commence_time": "2026-11-03 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Sacramento Kings",
-      "home_team": "Dallas Mavericks",
-      "selection": "OVER",
-      "line": "229.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.88",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 100,
-      "away_pts": 115,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "6579d9162df09172d12f48eecc5220fb",
-      "game_date": "2026-11-02",
-      "commence_time": "2026-11-03 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "New Orleans Pelicans",
-      "home_team": "Memphis Grizzlies",
-      "selection": "OVER",
-      "line": "231",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "result": "WIN",
-      "pnl": "+0.93",
-      "home_pts": 134,
-      "away_pts": 135,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "49-54-0",
-    "spread_roi": "-7.1%",
-    "totals_record": "45-49-0",
-    "totals_roi": "-7.6%",
+    "spread_record": "49-55-0",
+    "spread_roi": "-8.0%",
+    "totals_record": "45-50-0",
+    "totals_roi": "-8.5%",
     "periods": {
       "7": {
-        "spread_record": "23-21-0",
-        "spread_roi": "2.1%",
-        "totals_record": "18-23-0",
-        "totals_roi": "-15.4%"
+        "spread_record": "23-22-0",
+        "spread_roi": "-0.2%",
+        "totals_record": "18-24-0",
+        "totals_roi": "-17.5%"
       },
       "30": {
-        "spread_record": "49-54-0",
-        "spread_roi": "-7.1%",
-        "totals_record": "45-49-0",
-        "totals_roi": "-7.6%"
+        "spread_record": "49-55-0",
+        "spread_roi": "-8.0%",
+        "totals_record": "45-50-0",
+        "totals_roi": "-8.5%"
       },
       "All": {
-        "spread_record": "49-54-0",
-        "spread_roi": "-7.1%",
-        "totals_record": "45-49-0",
-        "totals_roi": "-7.6%"
+        "spread_record": "49-55-0",
+        "spread_roi": "-8.0%",
+        "totals_record": "45-50-0",
+        "totals_roi": "-8.5%"
       }
     }
   }
