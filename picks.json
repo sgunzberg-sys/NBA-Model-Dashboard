@@ -1,56 +1,54 @@
 {
-  "last_updated": "Nov 11, 2026 | 1:00 AM ET",
-  "last_updated_iso": "2026-11-11T01:00:07.116309-05:00",
+  "last_updated": "Nov 11, 2026 | 2:00 AM ET",
+  "last_updated_iso": "2026-11-11T02:00:07.795321-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-10",
     "game_count": 5,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "spread_signal_count": 0,
+    "total_signal_count": 0,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
-  "spreads": [
+  "spreads": [],
+  "totals": [],
+  "history": [
     {
+      "market": "Spread",
       "event_id": "f5477c781c94e09e85374bbf9149c0f1",
+      "game_date": "2026-11-10",
+      "commence_time": "2026-11-11 04:10:00+00:00",
+      "game_time": "11:10 PM ET",
       "away_team": "Oklahoma City Thunder",
       "home_team": "Portland Trail Blazers",
-      "pick_team": "Oklahoma City Thunder",
+      "selection": "Oklahoma City Thunder",
       "line": "-1.5",
       "book": "Bovada",
       "decimal_odds": "1.91",
-      "model_cover_probability": "54.4%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "4.4%",
-      "modeled_ev": "+4.0%",
-      "ev_numeric": 0.0399629306585259,
-      "model_projection": "Oklahoma City Thunder by 2.7",
-      "minutes_before_tip": 78.4,
-      "game_time": "11:10 PM ET",
-      "snapshot_time": "2026-11-11T02:51:33.728734+00:00"
-    }
-  ],
-  "totals": [
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 123,
+      "away_pts": 103,
+      "minutes_before_tip": 78.4
+    },
     {
+      "market": "Total",
       "event_id": "f5477c781c94e09e85374bbf9149c0f1",
+      "game_date": "2026-11-10",
+      "commence_time": "2026-11-11 04:10:00+00:00",
+      "game_time": "11:10 PM ET",
       "away_team": "Oklahoma City Thunder",
       "home_team": "Portland Trail Blazers",
-      "side": "OVER",
+      "selection": "OVER",
       "line": "226.5",
       "book": "DraftKings",
       "decimal_odds": "1.94",
-      "model_probability": "53.3%",
-      "sportsbook_fair_probability": "49.1%",
-      "model_edge": "4.2%",
-      "modeled_ev": "+3.4%",
-      "ev_numeric": 0.0341126070991431,
-      "model_projection": "228.6 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "11:10 PM ET",
-      "snapshot_time": "2026-11-11T02:51:37.806149+00:00"
-    }
-  ],
-  "history": [
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 123,
+      "away_pts": 103,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Total",
       "event_id": "78ab42ddb22b68903fd53a384d0fc616",
@@ -1814,67 +1812,31 @@
       "home_pts": 138,
       "away_pts": 117,
       "minutes_before_tip": 78.3
-    },
-    {
-      "market": "Spread",
-      "event_id": "1dd700c1205f0c7287e5df99c7a17822",
-      "game_date": "2026-11-02",
-      "commence_time": "2026-11-03 02:10:00+00:00",
-      "game_time": "9:10 PM ET",
-      "away_team": "Portland Trail Blazers",
-      "home_team": "Denver Nuggets",
-      "selection": "Portland Trail Blazers",
-      "line": "+4",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.97",
-      "result": "WIN",
-      "pnl": "+0.97",
-      "home_pts": 110,
-      "away_pts": 118,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "d6cb49b0ae478270e74d0e7ce7082e57",
-      "game_date": "2026-11-02",
-      "commence_time": "2026-11-03 01:40:00+00:00",
-      "game_time": "8:40 PM ET",
-      "away_team": "Boston Celtics",
-      "home_team": "Houston Rockets",
-      "selection": "Boston Celtics",
-      "line": "+5.5",
-      "book": "MyBookie.ag",
-      "decimal_odds": "1.91",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 109,
-      "away_pts": 93,
-      "minutes_before_tip": 78.5
     }
   ],
   "performance": {
-    "spread_record": "50-56-0",
-    "spread_roi": "-7.9%",
-    "totals_record": "47-52-0",
-    "totals_roi": "-8.3%",
+    "spread_record": "50-57-0",
+    "spread_roi": "-8.8%",
+    "totals_record": "47-53-0",
+    "totals_roi": "-9.2%",
     "periods": {
       "7": {
-        "spread_record": "18-16-0",
-        "spread_roi": "3.3%",
-        "totals_record": "14-20-0",
-        "totals_roi": "-20.8%"
+        "spread_record": "18-17-0",
+        "spread_roi": "0.4%",
+        "totals_record": "14-21-0",
+        "totals_roi": "-23.1%"
       },
       "30": {
-        "spread_record": "50-56-0",
-        "spread_roi": "-7.9%",
-        "totals_record": "47-52-0",
-        "totals_roi": "-8.3%"
+        "spread_record": "50-57-0",
+        "spread_roi": "-8.8%",
+        "totals_record": "47-53-0",
+        "totals_roi": "-9.2%"
       },
       "All": {
-        "spread_record": "50-56-0",
-        "spread_roi": "-7.9%",
-        "totals_record": "47-52-0",
-        "totals_roi": "-8.3%"
+        "spread_record": "50-57-0",
+        "spread_roi": "-8.8%",
+        "totals_record": "47-53-0",
+        "totals_roi": "-9.2%"
       }
     }
   }
