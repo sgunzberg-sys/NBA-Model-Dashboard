@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 11, 2026 | 12:00 AM ET",
-  "last_updated_iso": "2026-11-11T00:00:10.366953-05:00",
+  "last_updated": "Nov 11, 2026 | 1:00 AM ET",
+  "last_updated_iso": "2026-11-11T01:00:07.116309-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-10",
     "game_count": 5,
     "spread_signal_count": 1,
-    "total_signal_count": 2,
+    "total_signal_count": 1,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -32,24 +32,6 @@
   ],
   "totals": [
     {
-      "event_id": "78ab42ddb22b68903fd53a384d0fc616",
-      "away_team": "Orlando Magic",
-      "home_team": "Sacramento Kings",
-      "side": "OVER",
-      "line": "221.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.89",
-      "model_probability": "67.7%",
-      "sportsbook_fair_probability": "50.5%",
-      "model_edge": "17.1%",
-      "modeled_ev": "+27.9%",
-      "ev_numeric": 0.2788922888616891,
-      "model_projection": "230.6 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-11T01:51:38.287084+00:00"
-    },
-    {
       "event_id": "f5477c781c94e09e85374bbf9149c0f1",
       "away_team": "Oklahoma City Thunder",
       "home_team": "Portland Trail Blazers",
@@ -69,6 +51,24 @@
     }
   ],
   "history": [
+    {
+      "market": "Total",
+      "event_id": "78ab42ddb22b68903fd53a384d0fc616",
+      "game_date": "2026-11-10",
+      "commence_time": "2026-11-11 03:10:00+00:00",
+      "game_time": "10:10 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Sacramento Kings",
+      "selection": "OVER",
+      "line": "221.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.89",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 100,
+      "away_pts": 107,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "8178ff2ec61f604b61dfe6d7b8d71103",
@@ -1850,49 +1850,31 @@
       "home_pts": 109,
       "away_pts": 93,
       "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Spread",
-      "event_id": "fe9664deb3e21a28b10a3de39adfb82a",
-      "game_date": "2026-11-02",
-      "commence_time": "2026-11-03 01:40:00+00:00",
-      "game_time": "8:40 PM ET",
-      "away_team": "Utah Jazz",
-      "home_team": "San Antonio Spurs",
-      "selection": "San Antonio Spurs",
-      "line": "-16",
-      "book": "Bovada",
-      "decimal_odds": "1.91",
-      "result": "WIN",
-      "pnl": "+0.91",
-      "home_pts": 119,
-      "away_pts": 97,
-      "minutes_before_tip": 78.5
     }
   ],
   "performance": {
     "spread_record": "50-56-0",
     "spread_roi": "-7.9%",
-    "totals_record": "47-51-0",
-    "totals_roi": "-7.4%",
+    "totals_record": "47-52-0",
+    "totals_roi": "-8.3%",
     "periods": {
       "7": {
         "spread_record": "18-16-0",
         "spread_roi": "3.3%",
-        "totals_record": "14-19-0",
-        "totals_roi": "-18.4%"
+        "totals_record": "14-20-0",
+        "totals_roi": "-20.8%"
       },
       "30": {
         "spread_record": "50-56-0",
         "spread_roi": "-7.9%",
-        "totals_record": "47-51-0",
-        "totals_roi": "-7.4%"
+        "totals_record": "47-52-0",
+        "totals_roi": "-8.3%"
       },
       "All": {
         "spread_record": "50-56-0",
         "spread_roi": "-7.9%",
-        "totals_record": "47-51-0",
-        "totals_roi": "-7.4%"
+        "totals_record": "47-52-0",
+        "totals_roi": "-8.3%"
       }
     }
   }
