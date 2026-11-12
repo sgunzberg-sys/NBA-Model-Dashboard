@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 12, 2026 | 12:00 AM ET",
-  "last_updated_iso": "2026-11-12T00:00:06.908478-05:00",
+  "last_updated": "Nov 12, 2026 | 12:30 AM ET",
+  "last_updated_iso": "2026-11-12T00:30:07.268812-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-11",
     "game_count": 10,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
+    "spread_signal_count": 1,
+    "total_signal_count": 1,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -28,45 +28,9 @@
       "minutes_before_tip": 73.4,
       "game_time": "10:10 PM ET",
       "snapshot_time": "2026-11-12T01:56:36.621394+00:00"
-    },
-    {
-      "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
-      "away_team": "Golden State Warriors",
-      "home_team": "Houston Rockets",
-      "pick_team": "Houston Rockets",
-      "line": "-6.5",
-      "book": "BetMGM",
-      "decimal_odds": "1.95",
-      "model_cover_probability": "63.5%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "13.5%",
-      "modeled_ev": "+23.8%",
-      "ev_numeric": 0.2377780200610554,
-      "model_projection": "Houston Rockets by 11.2",
-      "minutes_before_tip": 78.4,
-      "game_time": "9:40 PM ET",
-      "snapshot_time": "2026-11-12T01:21:36.428579+00:00"
     }
   ],
   "totals": [
-    {
-      "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
-      "away_team": "Golden State Warriors",
-      "home_team": "Houston Rockets",
-      "side": "OVER",
-      "line": "219.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.92",
-      "model_probability": "68.1%",
-      "sportsbook_fair_probability": "49.5%",
-      "model_edge": "18.6%",
-      "modeled_ev": "+30.7%",
-      "ev_numeric": 0.3070257037943695,
-      "model_projection": "228.7 points",
-      "minutes_before_tip": 78.3,
-      "game_time": "9:40 PM ET",
-      "snapshot_time": "2026-11-12T01:21:42.575881+00:00"
-    },
     {
       "event_id": "d4f288eeb0132970825be17748f2b4f0",
       "away_team": "Oklahoma City Thunder",
@@ -87,6 +51,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
+      "game_date": "2026-11-11",
+      "commence_time": "2026-11-12 02:40:00+00:00",
+      "game_time": "9:40 PM ET",
+      "away_team": "Golden State Warriors",
+      "home_team": "Houston Rockets",
+      "selection": "Houston Rockets",
+      "line": "-6.5",
+      "book": "BetMGM",
+      "decimal_odds": "1.95",
+      "result": "WIN",
+      "pnl": "+0.95",
+      "home_pts": 115,
+      "away_pts": 105,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
+      "game_date": "2026-11-11",
+      "commence_time": "2026-11-12 02:40:00+00:00",
+      "game_time": "9:40 PM ET",
+      "away_team": "Golden State Warriors",
+      "home_team": "Houston Rockets",
+      "selection": "OVER",
+      "line": "219.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.92",
+      "result": "WIN",
+      "pnl": "+0.92",
+      "home_pts": 115,
+      "away_pts": 105,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "423255883d0e6c5d1a94a533b90e935b",
@@ -1850,67 +1850,31 @@
       "home_pts": 103,
       "away_pts": 107,
       "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Spread",
-      "event_id": "0b5966b7b96eb844618eea8f215a0c71",
-      "game_date": "2026-11-04",
-      "commence_time": "2026-11-05 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Utah Jazz",
-      "home_team": "New Orleans Pelicans",
-      "selection": "New Orleans Pelicans",
-      "line": "-4.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "WIN",
-      "pnl": "+0.94",
-      "home_pts": 120,
-      "away_pts": 113,
-      "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Total",
-      "event_id": "3469f522ffcacb13f88e6cd297adc110",
-      "game_date": "2026-11-04",
-      "commence_time": "2026-11-05 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Indiana Pacers",
-      "home_team": "Memphis Grizzlies",
-      "selection": "OVER",
-      "line": "228",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.92",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 103,
-      "away_pts": 107,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "56-58-1",
-    "spread_roi": "-4.1%",
-    "totals_record": "51-57-0",
-    "totals_roi": "-8.8%",
+    "spread_record": "57-58-1",
+    "spread_roi": "-3.3%",
+    "totals_record": "52-57-0",
+    "totals_roi": "-7.9%",
     "periods": {
       "7": {
-        "spread_record": "23-17-1",
-        "spread_roi": "11.9%",
-        "totals_record": "17-24-0",
-        "totals_roi": "-20.3%"
+        "spread_record": "24-17-1",
+        "spread_roi": "13.8%",
+        "totals_record": "18-24-0",
+        "totals_roi": "-17.6%"
       },
       "30": {
-        "spread_record": "56-58-1",
-        "spread_roi": "-4.1%",
-        "totals_record": "51-57-0",
-        "totals_roi": "-8.8%"
+        "spread_record": "57-58-1",
+        "spread_roi": "-3.3%",
+        "totals_record": "52-57-0",
+        "totals_roi": "-7.9%"
       },
       "All": {
-        "spread_record": "56-58-1",
-        "spread_roi": "-4.1%",
-        "totals_record": "51-57-0",
-        "totals_roi": "-8.8%"
+        "spread_record": "57-58-1",
+        "spread_roi": "-3.3%",
+        "totals_record": "52-57-0",
+        "totals_roi": "-7.9%"
       }
     }
   }
