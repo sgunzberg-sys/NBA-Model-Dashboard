@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 11, 2026 | 10:00 PM ET",
-  "last_updated_iso": "2026-11-11T22:00:08.376967-05:00",
+  "last_updated": "Nov 11, 2026 | 10:30 PM ET",
+  "last_updated_iso": "2026-11-11T22:30:06.845003-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-11",
     "game_count": 10,
-    "spread_signal_count": 7,
-    "total_signal_count": 7,
+    "spread_signal_count": 6,
+    "total_signal_count": 6,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -118,24 +118,6 @@
       "minutes_before_tip": 73.5,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-11-12T00:56:32.735369+00:00"
-    },
-    {
-      "event_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
-      "away_team": "San Antonio Spurs",
-      "home_team": "Chicago Bulls",
-      "pick_team": "Chicago Bulls",
-      "line": "+15.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.95",
-      "model_cover_probability": "56.8%",
-      "sportsbook_fair_probability": "48.7%",
-      "model_edge": "8.1%",
-      "modeled_ev": "+10.8%",
-      "ev_numeric": 0.1076646314871347,
-      "model_projection": "San Antonio Spurs by 13.2",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-11T23:51:38.444234+00:00"
     }
   ],
   "totals": [
@@ -212,24 +194,6 @@
       "snapshot_time": "2026-11-11T23:51:46.070194+00:00"
     },
     {
-      "event_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
-      "away_team": "San Antonio Spurs",
-      "home_team": "Chicago Bulls",
-      "side": "UNDER",
-      "line": "237",
-      "book": "Bovada",
-      "decimal_odds": "1.91",
-      "model_probability": "58.4%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "8.4%",
-      "modeled_ev": "+11.6%",
-      "ev_numeric": 0.1163096695226436,
-      "model_projection": "233.7 points",
-      "minutes_before_tip": 78.2,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-11T23:51:46.070194+00:00"
-    },
-    {
       "event_id": "e6a37eea1dddcbd0384c81237e81f47f",
       "away_team": "Brooklyn Nets",
       "home_team": "New Orleans Pelicans",
@@ -267,6 +231,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
+      "game_date": "2026-11-11",
+      "commence_time": "2026-11-12 01:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Chicago Bulls",
+      "selection": "Chicago Bulls",
+      "line": "+15.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.95",
+      "result": "WIN",
+      "pnl": "+0.95",
+      "home_pts": 119,
+      "away_pts": 124,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "8e0fdbf07b1f288b00ec5b370f6c1e2d",
+      "game_date": "2026-11-11",
+      "commence_time": "2026-11-12 01:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "San Antonio Spurs",
+      "home_team": "Chicago Bulls",
+      "selection": "UNDER",
+      "line": "237",
+      "book": "Bovada",
+      "decimal_odds": "1.91",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 119,
+      "away_pts": 124,
+      "minutes_before_tip": 78.2
+    },
     {
       "market": "Spread",
       "event_id": "37f4c00ff7ec01d5aa7c33dd1ac84bbc",
@@ -2030,67 +2030,31 @@
       "home_pts": 114,
       "away_pts": 104,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "05200821a78e4f6db8131cff1652550f",
-      "game_date": "2026-11-04",
-      "commence_time": "2026-11-05 00:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Atlanta Hawks",
-      "home_team": "Washington Wizards",
-      "selection": "Atlanta Hawks",
-      "line": "-3",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "WIN",
-      "pnl": "+0.94",
-      "home_pts": 105,
-      "away_pts": 120,
-      "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Spread",
-      "event_id": "91df86557819598ca270ba35410cfcfa",
-      "game_date": "2026-11-04",
-      "commence_time": "2026-11-05 00:00:00+00:00",
-      "game_time": "7:00 PM ET",
-      "away_team": "Philadelphia 76ers",
-      "home_team": "Detroit Pistons",
-      "selection": "Detroit Pistons",
-      "line": "-2.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.92",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 106,
-      "away_pts": 112,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "52-57-1",
-    "spread_roi": "-6.8%",
-    "totals_record": "48-55-0",
-    "totals_roi": "-10.0%",
+    "spread_record": "53-57-1",
+    "spread_roi": "-5.9%",
+    "totals_record": "48-56-0",
+    "totals_roi": "-10.9%",
     "periods": {
       "7": {
-        "spread_record": "20-17-1",
-        "spread_roi": "5.3%",
-        "totals_record": "15-23-0",
-        "totals_roi": "-24.1%"
+        "spread_record": "21-17-1",
+        "spread_roi": "7.6%",
+        "totals_record": "15-24-0",
+        "totals_roi": "-26.1%"
       },
       "30": {
-        "spread_record": "52-57-1",
-        "spread_roi": "-6.8%",
-        "totals_record": "48-55-0",
-        "totals_roi": "-10.0%"
+        "spread_record": "53-57-1",
+        "spread_roi": "-5.9%",
+        "totals_record": "48-56-0",
+        "totals_roi": "-10.9%"
       },
       "All": {
-        "spread_record": "52-57-1",
-        "spread_roi": "-6.8%",
-        "totals_record": "48-55-0",
-        "totals_roi": "-10.0%"
+        "spread_record": "53-57-1",
+        "spread_roi": "-5.9%",
+        "totals_record": "48-56-0",
+        "totals_roi": "-10.9%"
       }
     }
   }
