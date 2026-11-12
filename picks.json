@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 11, 2026 | 11:00 PM ET",
-  "last_updated_iso": "2026-11-11T23:00:06.764134-05:00",
+  "last_updated": "Nov 12, 2026 | 12:00 AM ET",
+  "last_updated_iso": "2026-11-12T00:00:06.908478-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-11",
     "game_count": 10,
-    "spread_signal_count": 3,
-    "total_signal_count": 3,
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -46,45 +46,9 @@
       "minutes_before_tip": 78.4,
       "game_time": "9:40 PM ET",
       "snapshot_time": "2026-11-12T01:21:36.428579+00:00"
-    },
-    {
-      "event_id": "423255883d0e6c5d1a94a533b90e935b",
-      "away_team": "Orlando Magic",
-      "home_team": "Utah Jazz",
-      "pick_team": "Orlando Magic",
-      "line": "-4.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.97",
-      "model_cover_probability": "58.5%",
-      "sportsbook_fair_probability": "49.4%",
-      "model_edge": "9.1%",
-      "modeled_ev": "+15.3%",
-      "ev_numeric": 0.1525316179677277,
-      "model_projection": "Orlando Magic by 7.0",
-      "minutes_before_tip": 73.5,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-12T00:56:32.735369+00:00"
     }
   ],
   "totals": [
-    {
-      "event_id": "423255883d0e6c5d1a94a533b90e935b",
-      "away_team": "Orlando Magic",
-      "home_team": "Utah Jazz",
-      "side": "OVER",
-      "line": "214",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.91",
-      "model_probability": "87.2%",
-      "sportsbook_fair_probability": "50.6%",
-      "model_edge": "36.6%",
-      "modeled_ev": "+66.6%",
-      "ev_numeric": 0.6656976744186046,
-      "model_projection": "235.2 points",
-      "minutes_before_tip": 73.4,
-      "game_time": "9:10 PM ET",
-      "snapshot_time": "2026-11-12T00:56:36.465657+00:00"
-    },
     {
       "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
       "away_team": "Golden State Warriors",
@@ -123,6 +87,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "423255883d0e6c5d1a94a533b90e935b",
+      "game_date": "2026-11-11",
+      "commence_time": "2026-11-12 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Utah Jazz",
+      "selection": "Orlando Magic",
+      "line": "-4.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.97",
+      "result": "WIN",
+      "pnl": "+0.97",
+      "home_pts": 106,
+      "away_pts": 123,
+      "minutes_before_tip": 73.5
+    },
+    {
+      "market": "Total",
+      "event_id": "423255883d0e6c5d1a94a533b90e935b",
+      "game_date": "2026-11-11",
+      "commence_time": "2026-11-12 02:10:00+00:00",
+      "game_time": "9:10 PM ET",
+      "away_team": "Orlando Magic",
+      "home_team": "Utah Jazz",
+      "selection": "OVER",
+      "line": "214",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.91",
+      "result": "WIN",
+      "pnl": "+0.91",
+      "home_pts": 106,
+      "away_pts": 123,
+      "minutes_before_tip": 73.4
+    },
     {
       "market": "Spread",
       "event_id": "e6a37eea1dddcbd0384c81237e81f47f",
@@ -1886,67 +1886,31 @@
       "home_pts": 103,
       "away_pts": 107,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "0b5966b7b96eb844618eea8f215a0c71",
-      "game_date": "2026-11-04",
-      "commence_time": "2026-11-05 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Utah Jazz",
-      "home_team": "New Orleans Pelicans",
-      "selection": "OVER",
-      "line": "232",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.98",
-      "result": "WIN",
-      "pnl": "+0.98",
-      "home_pts": 120,
-      "away_pts": 113,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "38fdb396939e8aabebd93cb509618927",
-      "game_date": "2026-11-04",
-      "commence_time": "2026-11-05 01:00:00+00:00",
-      "game_time": "8:00 PM ET",
-      "away_team": "Cleveland Cavaliers",
-      "home_team": "Oklahoma City Thunder",
-      "selection": "Oklahoma City Thunder",
-      "line": "-3.5",
-      "book": "BetUS",
-      "decimal_odds": "1.95",
-      "result": "WIN",
-      "pnl": "+0.95",
-      "home_pts": 124,
-      "away_pts": 116,
-      "minutes_before_tip": 78.5
     }
   ],
   "performance": {
-    "spread_record": "55-58-1",
-    "spread_roi": "-5.0%",
-    "totals_record": "50-57-0",
-    "totals_roi": "-9.7%",
+    "spread_record": "56-58-1",
+    "spread_roi": "-4.1%",
+    "totals_record": "51-57-0",
+    "totals_roi": "-8.8%",
     "periods": {
       "7": {
-        "spread_record": "23-18-1",
-        "spread_roi": "9.1%",
-        "totals_record": "17-25-0",
-        "totals_roi": "-22.0%"
+        "spread_record": "23-17-1",
+        "spread_roi": "11.9%",
+        "totals_record": "17-24-0",
+        "totals_roi": "-20.3%"
       },
       "30": {
-        "spread_record": "55-58-1",
-        "spread_roi": "-5.0%",
-        "totals_record": "50-57-0",
-        "totals_roi": "-9.7%"
+        "spread_record": "56-58-1",
+        "spread_roi": "-4.1%",
+        "totals_record": "51-57-0",
+        "totals_roi": "-8.8%"
       },
       "All": {
-        "spread_record": "55-58-1",
-        "spread_roi": "-5.0%",
-        "totals_record": "50-57-0",
-        "totals_roi": "-9.7%"
+        "spread_record": "56-58-1",
+        "spread_roi": "-4.1%",
+        "totals_record": "51-57-0",
+        "totals_roi": "-8.8%"
       }
     }
   }
