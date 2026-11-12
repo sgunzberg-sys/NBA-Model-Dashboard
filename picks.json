@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 11, 2026 | 8:21 PM ET",
-  "last_updated_iso": "2026-11-11T20:21:48.338296-05:00",
+  "last_updated": "Nov 11, 2026 | 8:56 PM ET",
+  "last_updated_iso": "2026-11-11T20:56:48.820886-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-11",
     "game_count": 10,
     "spread_signal_count": 10,
     "total_signal_count": 10,
-    "next_snapshot": "8:25 PM ET",
-    "next_snapshot_iso": "2026-11-11T20:25:00-05:00"
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [
     {
@@ -61,9 +61,9 @@
       "modeled_ev": "+30.7%",
       "ev_numeric": 0.3071761883994766,
       "model_projection": "Oklahoma City Thunder by 2.7",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 73.4,
       "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-12T01:21:36.428579+00:00"
+      "snapshot_time": "2026-11-12T01:56:36.621394+00:00"
     },
     {
       "event_id": "e9545a3084389f5f3429e19fea891124",
@@ -297,9 +297,9 @@
       "modeled_ev": "+12.1%",
       "ev_numeric": 0.1209118727050183,
       "model_projection": "228.6 points",
-      "minutes_before_tip": 108.3,
+      "minutes_before_tip": 73.3,
       "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-12T01:21:42.575881+00:00"
+      "snapshot_time": "2026-11-12T01:56:42.953094+00:00"
     },
     {
       "event_id": "21792501482fecfaacd3a4a24776c9e6",
