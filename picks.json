@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 12, 2026 | 5:56 PM ET",
-  "last_updated_iso": "2026-11-12T17:56:40.584947-05:00",
+  "last_updated": "Nov 12, 2026 | 6:51 PM ET",
+  "last_updated_iso": "2026-11-12T18:51:44.007385-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-12",
     "game_count": 4,
-    "spread_signal_count": 2,
-    "total_signal_count": 2,
+    "spread_signal_count": 3,
+    "total_signal_count": 3,
     "next_snapshot": "6:55 PM ET",
     "next_snapshot_iso": "2026-11-12T18:55:00-05:00"
   },
@@ -46,6 +46,24 @@
       "minutes_before_tip": 73.5,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-12T22:56:32.269413+00:00"
+    },
+    {
+      "event_id": "3c93e4724d36d796aed71c0ca4055b1b",
+      "away_team": "Dallas Mavericks",
+      "home_team": "Minnesota Timberwolves",
+      "pick_team": "Minnesota Timberwolves",
+      "line": "-6",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "59.4%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "10.5%",
+      "modeled_ev": "+18.2%",
+      "ev_numeric": 0.1815896205843873,
+      "model_projection": "Minnesota Timberwolves by 9.2",
+      "minutes_before_tip": 78.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-12T23:51:34.814744+00:00"
     }
   ],
   "totals": [
@@ -66,6 +84,24 @@
       "minutes_before_tip": 73.4,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-12T22:56:36.287962+00:00"
+    },
+    {
+      "event_id": "3c93e4724d36d796aed71c0ca4055b1b",
+      "away_team": "Dallas Mavericks",
+      "home_team": "Minnesota Timberwolves",
+      "side": "OVER",
+      "line": "226.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_probability": "65.0%",
+      "sportsbook_fair_probability": "48.7%",
+      "model_edge": "16.3%",
+      "modeled_ev": "+28.6%",
+      "ev_numeric": 0.2864749082007345,
+      "model_projection": "234.2 points",
+      "minutes_before_tip": 78.3,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-12T23:51:39.402583+00:00"
     },
     {
       "event_id": "a98ff1ab79feb59277d989c656f16144",
