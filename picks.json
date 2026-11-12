@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 12, 2026 | 6:53 PM ET",
-  "last_updated_iso": "2026-11-12T18:53:55.959096-05:00",
+  "last_updated": "Nov 12, 2026 | 6:56 PM ET",
+  "last_updated_iso": "2026-11-12T18:56:26.809431-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-12",
     "game_count": 4,
     "spread_signal_count": 3,
     "total_signal_count": 3,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-12T18:55:00-05:00"
+    "next_snapshot": "7:55 PM ET",
+    "next_snapshot_iso": "2026-11-12T19:55:00-05:00"
   },
   "spreads": [
     {
@@ -1952,7 +1952,7 @@
   },
   "edge_performance": [
     {
-      "edge_range": "0â€“10%",
+      "edge_range": "0-10%",
       "spread_record": "19-28-0",
       "total_record": "16-21-0",
       "combined_record": "35-49-0",
@@ -1963,7 +1963,7 @@
       "combined_n": 84
     },
     {
-      "edge_range": "10â€“15%",
+      "edge_range": "10-15%",
       "spread_record": "16-9-1",
       "total_record": "18-18-0",
       "combined_record": "34-27-1",
@@ -1974,7 +1974,7 @@
       "combined_n": 62
     },
     {
-      "edge_range": "15â€“20%",
+      "edge_range": "15-20%",
       "spread_record": "7-12-0",
       "total_record": "9-10-0",
       "combined_record": "16-22-0",
