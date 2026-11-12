@@ -1,6 +1,6 @@
 {
-  "last_updated": "Nov 12, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-12T18:51:44.007385-05:00",
+  "last_updated": "Nov 12, 2026 | 6:53 PM ET",
+  "last_updated_iso": "2026-11-12T18:53:55.959096-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-12",
@@ -1949,5 +1949,51 @@
         "totals_roi": "-7.0%"
       }
     }
-  }
+  },
+  "edge_performance": [
+    {
+      "edge_range": "0â€“10%",
+      "spread_record": "19-28-0",
+      "total_record": "16-21-0",
+      "combined_record": "35-49-0",
+      "combined_win_rate": "41.7%",
+      "combined_roi": "-19.5%",
+      "spread_n": 47,
+      "total_n": 37,
+      "combined_n": 84
+    },
+    {
+      "edge_range": "10â€“15%",
+      "spread_record": "16-9-1",
+      "total_record": "18-18-0",
+      "combined_record": "34-27-1",
+      "combined_win_rate": "55.7%",
+      "combined_roi": "+8.4%",
+      "spread_n": 26,
+      "total_n": 36,
+      "combined_n": 62
+    },
+    {
+      "edge_range": "15â€“20%",
+      "spread_record": "7-12-0",
+      "total_record": "9-10-0",
+      "combined_record": "16-22-0",
+      "combined_win_rate": "42.1%",
+      "combined_roi": "-18.3%",
+      "spread_n": 19,
+      "total_n": 19,
+      "combined_n": 38
+    },
+    {
+      "edge_range": "20%+",
+      "spread_record": "15-10-0",
+      "total_record": "10-8-0",
+      "combined_record": "25-18-0",
+      "combined_win_rate": "58.1%",
+      "combined_roi": "+13.2%",
+      "spread_n": 25,
+      "total_n": 18,
+      "combined_n": 43
+    }
+  ]
 }
