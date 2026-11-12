@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -573,6 +573,57 @@
   </section>
 
 
+<section class="section">
+
+  <div class="section-header">
+    <div>
+      <h2>Performance by Model Edge</h2>
+    </div>
+  </div>
+
+  <div class="history-wrap">
+
+    <table class="history-table">
+
+      <thead>
+        <tr>
+          <th>Model Edge</th>
+          <th>Spread Record</th>
+          <th>Total Record</th>
+          <th>Combined Record</th>
+          <th>Combined Win Rate</th>
+          <th>Combined ROI</th>
+        </tr>
+      </thead>
+
+      <tbody id="edgePerformanceBody">
+        <tr>
+          <td colspan="6">
+            Loading edge performance…
+          </td>
+        </tr>
+      </tbody>
+
+    </table>
+
+  </div>
+
+  <p style="
+      margin:12px 0 0;
+      opacity:.72;
+      font-size:.9rem;
+      line-height:1.45;
+  ">
+    Model-edge buckets are non-overlapping
+    forward-test results. Small samples can
+    produce large swings and should not be
+    interpreted as calibrated confidence levels.
+  </p>
+
+</section>
+
+
+
   <section class="section">
 
     <div class="section-header">
@@ -1016,6 +1067,73 @@ function updateSlate(data) {
 }
 
 
+
+function renderEdgePerformance(rows) {
+
+  const body =
+    document.getElementById(
+      "edgePerformanceBody"
+    );
+
+  if (!body) {
+    return;
+  }
+
+  if (
+    !Array.isArray(rows)
+    || rows.length === 0
+  ) {
+
+    body.innerHTML = `
+      <tr>
+        <td colspan="6">
+          No settled edge-bucket data yet.
+        </td>
+      </tr>
+    `;
+
+    return;
+  }
+
+  body.innerHTML =
+    rows.map(row => `
+      <tr>
+        <td>
+          <strong>
+            ${row.edge_range || "—"}
+          </strong>
+        </td>
+
+        <td>
+          ${row.spread_record || "—"}
+        </td>
+
+        <td>
+          ${row.total_record || "—"}
+        </td>
+
+        <td>
+          <strong>
+            ${row.combined_record || "—"}
+          </strong>
+        </td>
+
+        <td>
+          <strong>
+            ${row.combined_win_rate || "—"}
+          </strong>
+        </td>
+
+        <td>
+          <strong>
+            ${row.combined_roi || "—"}
+          </strong>
+        </td>
+      </tr>
+    `).join("");
+}
+
+
 async function loadDashboard() {
 
   try {
@@ -1029,6 +1147,8 @@ async function loadDashboard() {
     }
 
     const data = await response.json();
+
+    renderEdgePerformance(data.edge_performance || []);
 
     updateFreshness(data);
     updateSlate(data);
