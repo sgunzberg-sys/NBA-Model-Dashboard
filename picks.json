@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 11, 2026 | 7:56 PM ET",
-  "last_updated_iso": "2026-11-11T19:56:41.079091-05:00",
+  "last_updated": "Nov 11, 2026 | 8:21 PM ET",
+  "last_updated_iso": "2026-11-11T20:21:48.338296-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-11",
     "game_count": 10,
-    "spread_signal_count": 9,
-    "total_signal_count": 9,
+    "spread_signal_count": 10,
+    "total_signal_count": 10,
     "next_snapshot": "8:25 PM ET",
     "next_snapshot_iso": "2026-11-11T20:25:00-05:00"
   },
@@ -48,6 +48,24 @@
       "snapshot_time": "2026-11-11T23:51:38.444234+00:00"
     },
     {
+      "event_id": "d4f288eeb0132970825be17748f2b4f0",
+      "away_team": "Oklahoma City Thunder",
+      "home_team": "Portland Trail Blazers",
+      "pick_team": "Oklahoma City Thunder",
+      "line": "+2.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.97",
+      "model_cover_probability": "66.4%",
+      "sportsbook_fair_probability": "49.4%",
+      "model_edge": "17.0%",
+      "modeled_ev": "+30.7%",
+      "ev_numeric": 0.3071761883994766,
+      "model_projection": "Oklahoma City Thunder by 2.7",
+      "minutes_before_tip": 108.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-12T01:21:36.428579+00:00"
+    },
+    {
       "event_id": "e9545a3084389f5f3429e19fea891124",
       "away_team": "Washington Wizards",
       "home_team": "Indiana Pacers",
@@ -66,6 +84,24 @@
       "snapshot_time": "2026-11-11T22:51:40.088251+00:00"
     },
     {
+      "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
+      "away_team": "Golden State Warriors",
+      "home_team": "Houston Rockets",
+      "pick_team": "Houston Rockets",
+      "line": "-6.5",
+      "book": "BetMGM",
+      "decimal_odds": "1.95",
+      "model_cover_probability": "63.5%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "13.5%",
+      "modeled_ev": "+23.8%",
+      "ev_numeric": 0.2377780200610554,
+      "model_projection": "Houston Rockets by 11.2",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:40 PM ET",
+      "snapshot_time": "2026-11-12T01:21:36.428579+00:00"
+    },
+    {
       "event_id": "37f4c00ff7ec01d5aa7c33dd1ac84bbc",
       "away_team": "Boston Celtics",
       "home_team": "Toronto Raptors",
@@ -82,24 +118,6 @@
       "minutes_before_tip": 78.3,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-11T22:51:40.088251+00:00"
-    },
-    {
-      "event_id": "f41d186dc7a7dcf01adab32579a82ca3",
-      "away_team": "Golden State Warriors",
-      "home_team": "Houston Rockets",
-      "pick_team": "Houston Rockets",
-      "line": "-6.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.92",
-      "model_cover_probability": "63.5%",
-      "sportsbook_fair_probability": "50.6%",
-      "model_edge": "12.8%",
-      "modeled_ev": "+21.9%",
-      "ev_numeric": 0.2187352812908852,
-      "model_projection": "Houston Rockets by 11.2",
-      "minutes_before_tip": 103.5,
-      "game_time": "9:40 PM ET",
-      "snapshot_time": "2026-11-12T00:56:32.735369+00:00"
     },
     {
       "event_id": "e6a37eea1dddcbd0384c81237e81f47f",
@@ -225,9 +243,9 @@
       "modeled_ev": "+30.7%",
       "ev_numeric": 0.3070257037943695,
       "model_projection": "228.7 points",
-      "minutes_before_tip": 103.4,
+      "minutes_before_tip": 78.3,
       "game_time": "9:40 PM ET",
-      "snapshot_time": "2026-11-12T00:56:36.465657+00:00"
+      "snapshot_time": "2026-11-12T01:21:42.575881+00:00"
     },
     {
       "event_id": "095441822e3b9b1b84bff9e482b9057a",
@@ -264,6 +282,24 @@
       "minutes_before_tip": 78.2,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-11T22:51:47.151888+00:00"
+    },
+    {
+      "event_id": "d4f288eeb0132970825be17748f2b4f0",
+      "away_team": "Oklahoma City Thunder",
+      "home_team": "Portland Trail Blazers",
+      "side": "OVER",
+      "line": "224.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.93",
+      "model_probability": "58.1%",
+      "sportsbook_fair_probability": "49.5%",
+      "model_edge": "8.6%",
+      "modeled_ev": "+12.1%",
+      "ev_numeric": 0.1209118727050183,
+      "model_projection": "228.6 points",
+      "minutes_before_tip": 108.3,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-12T01:21:42.575881+00:00"
     },
     {
       "event_id": "21792501482fecfaacd3a4a24776c9e6",
