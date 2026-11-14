@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 14, 2026 | 6:21 PM ET",
-  "last_updated_iso": "2026-11-14T18:21:40.346431-05:00",
+  "last_updated": "Nov 14, 2026 | 6:51 PM ET",
+  "last_updated_iso": "2026-11-14T18:51:40.738938-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-14",
     "game_count": 5,
     "spread_signal_count": 5,
-    "total_signal_count": 4,
-    "next_snapshot": "6:25 PM ET",
-    "next_snapshot_iso": "2026-11-14T18:25:00-05:00"
+    "total_signal_count": 5,
+    "next_snapshot": "6:55 PM ET",
+    "next_snapshot_iso": "2026-11-14T18:55:00-05:00"
   },
   "spreads": [
     {
@@ -43,9 +43,9 @@
       "modeled_ev": "+34.8%",
       "ev_numeric": 0.34818578281727,
       "model_projection": "Minnesota Timberwolves by 9.6",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-14T23:21:33.154698+00:00"
+      "snapshot_time": "2026-11-14T23:51:33.042482+00:00"
     },
     {
       "event_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
@@ -79,9 +79,9 @@
       "modeled_ev": "+15.9%",
       "ev_numeric": 0.1590252943741822,
       "model_projection": "Memphis Grizzlies by 1.0",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-14T23:21:33.154698+00:00"
+      "snapshot_time": "2026-11-14T23:51:33.042482+00:00"
     },
     {
       "event_id": "cb06267ae037a883ae6f71078d6e2aaa",
@@ -89,17 +89,17 @@
       "home_team": "Miami Heat",
       "pick_team": "Detroit Pistons",
       "line": "-4",
-      "book": "BetUS",
-      "decimal_odds": "1.91",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
       "model_cover_probability": "57.1%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "7.1%",
-      "modeled_ev": "+9.1%",
-      "ev_numeric": 0.0907740950719581,
+      "sportsbook_fair_probability": "50.3%",
+      "model_edge": "6.9%",
+      "modeled_ev": "+10.2%",
+      "ev_numeric": 0.1021958133449628,
       "model_projection": "Detroit Pistons by 6.1",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-14T23:21:33.154698+00:00"
+      "snapshot_time": "2026-11-14T23:51:33.042482+00:00"
     }
   ],
   "totals": [
@@ -135,27 +135,45 @@
       "modeled_ev": "+19.2%",
       "ev_numeric": 0.1921970624235005,
       "model_projection": "230.6 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-14T23:21:36.969670+00:00"
+      "snapshot_time": "2026-11-14T23:51:37.046068+00:00"
     },
     {
       "event_id": "cb06267ae037a883ae6f71078d6e2aaa",
       "away_team": "Detroit Pistons",
       "home_team": "Miami Heat",
       "side": "OVER",
-      "line": "228",
-      "book": "Bovada",
-      "decimal_odds": "1.91",
-      "model_probability": "59.3%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "9.3%",
-      "modeled_ev": "+13.3%",
-      "ev_numeric": 0.1326744186046512,
+      "line": "227.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.93",
+      "model_probability": "60.6%",
+      "sportsbook_fair_probability": "49.3%",
+      "model_edge": "11.2%",
+      "modeled_ev": "+16.9%",
+      "ev_numeric": 0.1689453284373724,
       "model_projection": "232.8 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-14T23:21:36.969670+00:00"
+      "snapshot_time": "2026-11-14T23:51:37.046068+00:00"
+    },
+    {
+      "event_id": "5773e80d52d3fba36b11be38ded62790",
+      "away_team": "Chicago Bulls",
+      "home_team": "Minnesota Timberwolves",
+      "side": "UNDER",
+      "line": "237.5",
+      "book": "BetMGM",
+      "decimal_odds": "1.91",
+      "model_probability": "57.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "7.8%",
+      "modeled_ev": "+10.5%",
+      "ev_numeric": 0.1046205630354956,
+      "model_projection": "234.4 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "8:10 PM ET",
+      "snapshot_time": "2026-11-14T23:51:37.046068+00:00"
     },
     {
       "event_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
