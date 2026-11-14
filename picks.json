@@ -1,6 +1,6 @@
 {
-  "last_updated": "Nov 13, 2026 | 9:00 PM ET",
-  "last_updated_iso": "2026-11-13T21:00:09.251140-05:00",
+  "last_updated": "Nov 13, 2026 | 9:21 PM ET",
+  "last_updated_iso": "2026-11-13T21:21:40.425438-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-13",
@@ -225,9 +225,9 @@
       "modeled_ev": "+21.1%",
       "ev_numeric": 0.2113810689514483,
       "model_projection": "228.3 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "10:40 PM ET",
-      "snapshot_time": "2026-11-14T01:51:36.685180+00:00"
+      "snapshot_time": "2026-11-14T02:21:36.894690+00:00"
     },
     {
       "event_id": "76416359b5453c01968e94702a375f16",
