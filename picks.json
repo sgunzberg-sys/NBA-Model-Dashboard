@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 13, 2026 | 11:00 PM ET",
-  "last_updated_iso": "2026-11-13T23:00:09.933406-05:00",
+  "last_updated": "Nov 13, 2026 | 11:30 PM ET",
+  "last_updated_iso": "2026-11-13T23:30:09.554160-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-13",
     "game_count": 9,
-    "spread_signal_count": 2,
-    "total_signal_count": 4,
+    "spread_signal_count": 1,
+    "total_signal_count": 3,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -28,24 +28,6 @@
       "minutes_before_tip": 78.5,
       "game_time": "9:40 PM ET",
       "snapshot_time": "2026-11-14T01:21:32.593835+00:00"
-    },
-    {
-      "event_id": "d04acca7f0f369fc53bf04cd3357cb0d",
-      "away_team": "Utah Jazz",
-      "home_team": "Houston Rockets",
-      "pick_team": "Houston Rockets",
-      "line": "-15",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.92",
-      "model_cover_probability": "56.1%",
-      "sportsbook_fair_probability": "50.6%",
-      "model_edge": "5.4%",
-      "modeled_ev": "+7.6%",
-      "ev_numeric": 0.0763890100305275,
-      "model_projection": "Houston Rockets by 17.1",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-14T00:21:33.077823+00:00"
     }
   ],
   "totals": [
@@ -66,24 +48,6 @@
       "minutes_before_tip": 78.4,
       "game_time": "9:40 PM ET",
       "snapshot_time": "2026-11-14T01:21:36.749775+00:00"
-    },
-    {
-      "event_id": "d04acca7f0f369fc53bf04cd3357cb0d",
-      "away_team": "Utah Jazz",
-      "home_team": "Houston Rockets",
-      "side": "OVER",
-      "line": "221",
-      "book": "Bovada",
-      "decimal_odds": "1.91",
-      "model_probability": "75.5%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "25.5%",
-      "modeled_ev": "+44.2%",
-      "ev_numeric": 0.442046103631171,
-      "model_projection": "234.2 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-14T00:21:36.905561+00:00"
     },
     {
       "event_id": "5344669fd560d317ffaee0a1d16be7c8",
@@ -123,6 +87,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "d04acca7f0f369fc53bf04cd3357cb0d",
+      "game_date": "2026-11-13",
+      "commence_time": "2026-11-14 01:40:00+00:00",
+      "game_time": "8:40 PM ET",
+      "away_team": "Utah Jazz",
+      "home_team": "Houston Rockets",
+      "selection": "Houston Rockets",
+      "line": "-15",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.92",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 125,
+      "away_pts": 118,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "d04acca7f0f369fc53bf04cd3357cb0d",
+      "game_date": "2026-11-13",
+      "commence_time": "2026-11-14 01:40:00+00:00",
+      "game_time": "8:40 PM ET",
+      "away_team": "Utah Jazz",
+      "home_team": "Houston Rockets",
+      "selection": "OVER",
+      "line": "221",
+      "book": "Bovada",
+      "decimal_odds": "1.91",
+      "result": "WIN",
+      "pnl": "+0.91",
+      "home_pts": 125,
+      "away_pts": 118,
+      "minutes_before_tip": 78.4
+    },
     {
       "market": "Spread",
       "event_id": "80ffc963f864f3d4fcefa82fd02b7d7b",
@@ -1886,81 +1886,45 @@
       "home_pts": 119,
       "away_pts": 95,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "85869b2fdc16ef10d3e2582bf05ead95",
-      "game_date": "2026-11-06",
-      "commence_time": "2026-11-07 00:40:00+00:00",
-      "game_time": "7:40 PM ET",
-      "away_team": "Philadelphia 76ers",
-      "home_team": "Cleveland Cavaliers",
-      "selection": "UNDER",
-      "line": "231.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "WIN",
-      "pnl": "+0.94",
-      "home_pts": 119,
-      "away_pts": 95,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "9246c91f746732472c13e94bd8e7be85",
-      "game_date": "2026-11-06",
-      "commence_time": "2026-11-07 00:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Washington Wizards",
-      "home_team": "Atlanta Hawks",
-      "selection": "Atlanta Hawks",
-      "line": "-8.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.97",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 139,
-      "away_pts": 132,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "61-64-1",
-    "spread_roi": "-4.7%",
-    "totals_record": "57-61-0",
-    "totals_roi": "-6.6%",
+    "spread_record": "61-65-1",
+    "spread_roi": "-5.4%",
+    "totals_record": "58-61-0",
+    "totals_roi": "-5.8%",
     "periods": {
       "7": {
-        "spread_record": "23-19-1",
-        "spread_roi": "6.8%",
-        "totals_record": "20-24-0",
-        "totals_roi": "-12.2%"
+        "spread_record": "23-20-1",
+        "spread_roi": "4.4%",
+        "totals_record": "21-24-0",
+        "totals_roi": "-9.9%"
       },
       "30": {
-        "spread_record": "61-64-1",
-        "spread_roi": "-4.7%",
-        "totals_record": "57-61-0",
-        "totals_roi": "-6.6%"
+        "spread_record": "61-65-1",
+        "spread_roi": "-5.4%",
+        "totals_record": "58-61-0",
+        "totals_roi": "-5.8%"
       },
       "All": {
-        "spread_record": "61-64-1",
-        "spread_roi": "-4.7%",
-        "totals_record": "57-61-0",
-        "totals_roi": "-6.6%"
+        "spread_record": "61-65-1",
+        "spread_roi": "-5.4%",
+        "totals_record": "58-61-0",
+        "totals_roi": "-5.8%"
       }
     }
   },
   "edge_performance": [
     {
       "edge_range": "0-10%",
-      "spread_record": "20-29-0",
+      "spread_record": "20-30-0",
       "total_record": "17-22-0",
-      "combined_record": "37-51-0",
-      "combined_win_rate": "42.0%",
-      "combined_roi": "-18.7%",
-      "spread_n": 49,
+      "combined_record": "37-52-0",
+      "combined_win_rate": "41.6%",
+      "combined_roi": "-19.6%",
+      "spread_n": 50,
       "total_n": 39,
-      "combined_n": 88
+      "combined_n": 89
     },
     {
       "edge_range": "10-15%",
@@ -1987,13 +1951,13 @@
     {
       "edge_range": "20%+",
       "spread_record": "16-13-0",
-      "total_record": "11-9-0",
-      "combined_record": "27-22-0",
-      "combined_win_rate": "55.1%",
-      "combined_roi": "+7.3%",
+      "total_record": "12-9-0",
+      "combined_record": "28-22-0",
+      "combined_win_rate": "56.0%",
+      "combined_roi": "+9.0%",
       "spread_n": 29,
-      "total_n": 20,
-      "combined_n": 49
+      "total_n": 21,
+      "combined_n": 50
     }
   ]
 }
