@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 13, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-13T18:51:40.203095-05:00",
+  "last_updated": "Nov 13, 2026 | 7:21 PM ET",
+  "last_updated_iso": "2026-11-13T19:21:40.424295-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-13",
     "game_count": 9,
     "spread_signal_count": 6,
     "total_signal_count": 5,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-13T18:55:00-05:00"
+    "next_snapshot": "7:25 PM ET",
+    "next_snapshot_iso": "2026-11-13T19:25:00-05:00"
   },
   "spreads": [
     {
@@ -97,9 +97,9 @@
       "modeled_ev": "+7.6%",
       "ev_numeric": 0.0763890100305275,
       "model_projection": "Houston Rockets by 17.1",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-13T23:51:32.687185+00:00"
+      "snapshot_time": "2026-11-14T00:21:33.077823+00:00"
     },
     {
       "event_id": "80ffc963f864f3d4fcefa82fd02b7d7b",
@@ -144,18 +144,18 @@
       "away_team": "Utah Jazz",
       "home_team": "Houston Rockets",
       "side": "OVER",
-      "line": "221.5",
-      "book": "BetMGM",
-      "decimal_odds": "1.95",
-      "model_probability": "74.6%",
-      "sportsbook_fair_probability": "49.0%",
-      "model_edge": "25.7%",
-      "modeled_ev": "+45.6%",
-      "ev_numeric": 0.4555385556915543,
+      "line": "221",
+      "book": "Bovada",
+      "decimal_odds": "1.91",
+      "model_probability": "75.5%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "25.5%",
+      "modeled_ev": "+44.2%",
+      "ev_numeric": 0.442046103631171,
       "model_projection": "234.2 points",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.4,
       "game_time": "8:40 PM ET",
-      "snapshot_time": "2026-11-13T23:51:36.669046+00:00"
+      "snapshot_time": "2026-11-14T00:21:36.905561+00:00"
     },
     {
       "event_id": "6669b911691463c669a5c10574742e8e",
