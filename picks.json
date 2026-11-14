@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 13, 2026 | 7:21 PM ET",
-  "last_updated_iso": "2026-11-13T19:21:40.424295-05:00",
+  "last_updated": "Nov 13, 2026 | 8:21 PM ET",
+  "last_updated_iso": "2026-11-13T20:21:41.160992-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-13",
     "game_count": 9,
-    "spread_signal_count": 6,
-    "total_signal_count": 5,
-    "next_snapshot": "7:25 PM ET",
-    "next_snapshot_iso": "2026-11-13T19:25:00-05:00"
+    "spread_signal_count": 7,
+    "total_signal_count": 7,
+    "next_snapshot": "8:25 PM ET",
+    "next_snapshot_iso": "2026-11-13T20:25:00-05:00"
   },
   "spreads": [
     {
@@ -84,6 +84,24 @@
       "snapshot_time": "2026-11-13T22:51:53.578155+00:00"
     },
     {
+      "event_id": "1fae7f34ec6035dffa74feb148ee26c7",
+      "away_team": "Golden State Warriors",
+      "home_team": "San Antonio Spurs",
+      "pick_team": "San Antonio Spurs",
+      "line": "-12",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "model_cover_probability": "56.4%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "6.4%",
+      "modeled_ev": "+9.4%",
+      "ev_numeric": 0.0935237679895333,
+      "model_projection": "San Antonio Spurs by 14.2",
+      "minutes_before_tip": 78.5,
+      "game_time": "9:40 PM ET",
+      "snapshot_time": "2026-11-14T01:21:32.593835+00:00"
+    },
+    {
       "event_id": "d04acca7f0f369fc53bf04cd3357cb0d",
       "away_team": "Utah Jazz",
       "home_team": "Houston Rockets",
@@ -121,6 +139,24 @@
     }
   ],
   "totals": [
+    {
+      "event_id": "1fae7f34ec6035dffa74feb148ee26c7",
+      "away_team": "Golden State Warriors",
+      "home_team": "San Antonio Spurs",
+      "side": "OVER",
+      "line": "216",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "model_probability": "75.7%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "25.7%",
+      "modeled_ev": "+46.2%",
+      "ev_numeric": 0.4618706650346798,
+      "model_projection": "229.4 points",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:40 PM ET",
+      "snapshot_time": "2026-11-14T01:21:36.749775+00:00"
+    },
     {
       "event_id": "80ffc963f864f3d4fcefa82fd02b7d7b",
       "away_team": "Atlanta Hawks",
@@ -192,6 +228,24 @@
       "minutes_before_tip": 78.0,
       "game_time": "7:10 PM ET",
       "snapshot_time": "2026-11-13T22:51:58.069878+00:00"
+    },
+    {
+      "event_id": "a51c350318d7570c2b74af08eedb9fcd",
+      "away_team": "Portland Trail Blazers",
+      "home_team": "Sacramento Kings",
+      "side": "UNDER",
+      "line": "230.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.88",
+      "model_probability": "55.9%",
+      "sportsbook_fair_probability": "50.5%",
+      "model_edge": "5.4%",
+      "modeled_ev": "+5.1%",
+      "ev_numeric": 0.051219910240718,
+      "model_projection": "228.3 points",
+      "minutes_before_tip": 108.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-14T01:21:36.749775+00:00"
     },
     {
       "event_id": "58b860d500be69ebf853926aa1ac8271",
