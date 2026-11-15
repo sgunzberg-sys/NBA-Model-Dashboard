@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 14, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-14T20:30:10.623103-05:00",
+  "last_updated": "Nov 14, 2026 | 10:00 PM ET",
+  "last_updated_iso": "2026-11-14T22:00:09.293446-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-14",
     "game_count": 5,
-    "spread_signal_count": 5,
-    "total_signal_count": 5,
+    "spread_signal_count": 4,
+    "total_signal_count": 4,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -46,24 +46,6 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-14T23:51:33.042482+00:00"
-    },
-    {
-      "event_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
-      "away_team": "Denver Nuggets",
-      "home_team": "New Orleans Pelicans",
-      "pick_team": "New Orleans Pelicans",
-      "line": "+12.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "63.0%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "13.0%",
-      "modeled_ev": "+22.1%",
-      "ev_numeric": 0.2212778020061054,
-      "model_projection": "Denver Nuggets by 8.0",
-      "minutes_before_tip": 78.4,
-      "game_time": "7:10 PM ET",
-      "snapshot_time": "2026-11-14T22:51:38.298817+00:00"
     },
     {
       "event_id": "a7cb6062530bd69eb6caee84a015abd0",
@@ -174,27 +156,45 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-14T23:51:37.046068+00:00"
-    },
-    {
-      "event_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
-      "away_team": "Denver Nuggets",
-      "home_team": "New Orleans Pelicans",
-      "side": "UNDER",
-      "line": "236.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_probability": "53.1%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "3.1%",
-      "modeled_ev": "+2.6%",
-      "ev_numeric": 0.0256323949408402,
-      "model_projection": "235.4 points",
-      "minutes_before_tip": 78.3,
-      "game_time": "7:10 PM ET",
-      "snapshot_time": "2026-11-14T22:51:42.972512+00:00"
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
+      "game_date": "2026-11-14",
+      "commence_time": "2026-11-15 00:10:00+00:00",
+      "game_time": "7:10 PM ET",
+      "away_team": "Denver Nuggets",
+      "home_team": "New Orleans Pelicans",
+      "selection": "New Orleans Pelicans",
+      "line": "+12.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "WIN",
+      "pnl": "+0.94",
+      "home_pts": 108,
+      "away_pts": 116,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "6cb4c8feeadd57aa6ab46ebdee60818a",
+      "game_date": "2026-11-14",
+      "commence_time": "2026-11-15 00:10:00+00:00",
+      "game_time": "7:10 PM ET",
+      "away_team": "Denver Nuggets",
+      "home_team": "New Orleans Pelicans",
+      "selection": "UNDER",
+      "line": "236.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "result": "WIN",
+      "pnl": "+0.93",
+      "home_pts": 108,
+      "away_pts": 116,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Total",
       "event_id": "5344669fd560d317ffaee0a1d16be7c8",
@@ -1958,67 +1958,31 @@
       "home_pts": 97,
       "away_pts": 128,
       "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Spread",
-      "event_id": "1c60a090180de530cfe273a5d6a381e6",
-      "game_date": "2026-11-06",
-      "commence_time": "2026-11-07 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Toronto Raptors",
-      "home_team": "Milwaukee Bucks",
-      "selection": "Toronto Raptors",
-      "line": "-3.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.99",
-      "result": "WIN",
-      "pnl": "+0.99",
-      "home_pts": 107,
-      "away_pts": 121,
-      "minutes_before_tip": 78.5
-    },
-    {
-      "market": "Spread",
-      "event_id": "5e4708fadda49a3c06fd7ac50414020e",
-      "game_date": "2026-11-06",
-      "commence_time": "2026-11-07 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Minnesota Timberwolves",
-      "home_team": "New Orleans Pelicans",
-      "selection": "Minnesota Timberwolves",
-      "line": "-3.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "result": "WIN",
-      "pnl": "+0.94",
-      "home_pts": 109,
-      "away_pts": 115,
-      "minutes_before_tip": 78.5
     }
   ],
   "performance": {
-    "spread_record": "62-65-1",
-    "spread_roi": "-4.6%",
-    "totals_record": "60-62-0",
-    "totals_roi": "-5.0%",
+    "spread_record": "63-65-1",
+    "spread_roi": "-3.9%",
+    "totals_record": "61-62-0",
+    "totals_roi": "-4.2%",
     "periods": {
       "7": {
-        "spread_record": "21-17-1",
-        "spread_roi": "7.6%",
-        "totals_record": "21-22-0",
-        "totals_roi": "-5.9%"
+        "spread_record": "22-17-1",
+        "spread_roi": "9.8%",
+        "totals_record": "22-22-0",
+        "totals_roi": "-3.6%"
       },
       "30": {
-        "spread_record": "62-65-1",
-        "spread_roi": "-4.6%",
-        "totals_record": "60-62-0",
-        "totals_roi": "-5.0%"
+        "spread_record": "63-65-1",
+        "spread_roi": "-3.9%",
+        "totals_record": "61-62-0",
+        "totals_roi": "-4.2%"
       },
       "All": {
-        "spread_record": "62-65-1",
-        "spread_roi": "-4.6%",
-        "totals_record": "60-62-0",
-        "totals_roi": "-5.0%"
+        "spread_record": "63-65-1",
+        "spread_roi": "-3.9%",
+        "totals_record": "61-62-0",
+        "totals_roi": "-4.2%"
       }
     }
   },
@@ -2026,24 +1990,24 @@
     {
       "edge_range": "0-10%",
       "spread_record": "21-30-0",
-      "total_record": "18-22-0",
-      "combined_record": "39-52-0",
-      "combined_win_rate": "42.9%",
-      "combined_roi": "-17.1%",
+      "total_record": "19-22-0",
+      "combined_record": "40-52-0",
+      "combined_win_rate": "43.5%",
+      "combined_roi": "-15.9%",
       "spread_n": 51,
-      "total_n": 40,
-      "combined_n": 91
+      "total_n": 41,
+      "combined_n": 92
     },
     {
       "edge_range": "10-15%",
-      "spread_record": "18-10-1",
+      "spread_record": "19-10-1",
       "total_record": "19-19-0",
-      "combined_record": "37-29-1",
-      "combined_win_rate": "56.1%",
-      "combined_roi": "+9.1%",
-      "spread_n": 29,
+      "combined_record": "38-29-1",
+      "combined_win_rate": "56.7%",
+      "combined_roi": "+10.4%",
+      "spread_n": 30,
       "total_n": 38,
-      "combined_n": 67
+      "combined_n": 68
     },
     {
       "edge_range": "15-20%",
