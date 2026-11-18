@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 17, 2026 | 10:00 PM ET",
-  "last_updated_iso": "2026-11-17T22:00:14.682598-05:00",
+  "last_updated": "Nov 17, 2026 | 10:30 PM ET",
+  "last_updated_iso": "2026-11-17T22:30:11.976005-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-17",
     "game_count": 5,
-    "spread_signal_count": 5,
-    "total_signal_count": 5,
+    "spread_signal_count": 4,
+    "total_signal_count": 4,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -66,24 +66,6 @@
       "snapshot_time": "2026-11-18T02:51:39.663192+00:00"
     },
     {
-      "event_id": "5ff20ee6933177d35e4f8c875842a0b4",
-      "away_team": "New York Knicks",
-      "home_team": "Toronto Raptors",
-      "pick_team": "Toronto Raptors",
-      "line": "+2.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.94",
-      "model_cover_probability": "65.9%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "15.9%",
-      "modeled_ev": "+27.8%",
-      "ev_numeric": 0.2779633667684256,
-      "model_projection": "Toronto Raptors by 3.0",
-      "minutes_before_tip": 78.4,
-      "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-17T23:21:35.908431+00:00"
-    },
-    {
       "event_id": "f1c9f0cd022cd864154413efbd9d9522",
       "away_team": "Portland Trail Blazers",
       "home_team": "Minnesota Timberwolves",
@@ -103,24 +85,6 @@
     }
   ],
   "totals": [
-    {
-      "event_id": "5ff20ee6933177d35e4f8c875842a0b4",
-      "away_team": "New York Knicks",
-      "home_team": "Toronto Raptors",
-      "side": "OVER",
-      "line": "215.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.93",
-      "model_probability": "68.2%",
-      "sportsbook_fair_probability": "49.2%",
-      "model_edge": "19.0%",
-      "modeled_ev": "+31.6%",
-      "ev_numeric": 0.3161954304365566,
-      "model_projection": "224.8 points",
-      "minutes_before_tip": 78.3,
-      "game_time": "7:40 PM ET",
-      "snapshot_time": "2026-11-17T23:21:43.114537+00:00"
-    },
     {
       "event_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
       "away_team": "Detroit Pistons",
@@ -195,6 +159,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "5ff20ee6933177d35e4f8c875842a0b4",
+      "game_date": "2026-11-17",
+      "commence_time": "2026-11-18 00:40:00+00:00",
+      "game_time": "7:40 PM ET",
+      "away_team": "New York Knicks",
+      "home_team": "Toronto Raptors",
+      "selection": "Toronto Raptors",
+      "line": "+2.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.94",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 102,
+      "away_pts": 111,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "5ff20ee6933177d35e4f8c875842a0b4",
+      "game_date": "2026-11-17",
+      "commence_time": "2026-11-18 00:40:00+00:00",
+      "game_time": "7:40 PM ET",
+      "away_team": "New York Knicks",
+      "home_team": "Toronto Raptors",
+      "selection": "OVER",
+      "line": "215.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.93",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 102,
+      "away_pts": 111,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "a7cb6062530bd69eb6caee84a015abd0",
@@ -1958,67 +1958,31 @@
       "home_pts": 97,
       "away_pts": 109,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "6faeaee3bdf2a167eb67f93c44d3ef37",
-      "game_date": "2026-11-07",
-      "commence_time": "2026-11-08 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Washington Wizards",
-      "home_team": "Oklahoma City Thunder",
-      "selection": "OVER",
-      "line": "223.5",
-      "book": "DraftKings",
-      "decimal_odds": "1.93",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 114,
-      "away_pts": 75,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "ee45341df802cfb42dd48f1ad60c8b81",
-      "game_date": "2026-11-07",
-      "commence_time": "2026-11-08 00:40:00+00:00",
-      "game_time": "7:40 PM ET",
-      "away_team": "Brooklyn Nets",
-      "home_team": "Atlanta Hawks",
-      "selection": "Atlanta Hawks",
-      "line": "-6.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.90",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 124,
-      "away_pts": 121,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "64-67-1",
-    "spread_roi": "-4.5%",
-    "totals_record": "64-62-0",
-    "totals_roi": "-1.9%",
+    "spread_record": "64-68-1",
+    "spread_roi": "-5.3%",
+    "totals_record": "64-63-0",
+    "totals_roi": "-2.7%",
     "periods": {
       "7": {
-        "spread_record": "14-10-1",
-        "spread_roi": "13.7%",
-        "totals_record": "17-9-0",
-        "totals_roi": "26.3%"
+        "spread_record": "14-11-1",
+        "spread_roi": "9.3%",
+        "totals_record": "17-10-0",
+        "totals_roi": "21.6%"
       },
       "30": {
-        "spread_record": "64-67-1",
-        "spread_roi": "-4.5%",
-        "totals_record": "64-62-0",
-        "totals_roi": "-1.9%"
+        "spread_record": "64-68-1",
+        "spread_roi": "-5.3%",
+        "totals_record": "64-63-0",
+        "totals_roi": "-2.7%"
       },
       "All": {
-        "spread_record": "64-67-1",
-        "spread_roi": "-4.5%",
-        "totals_record": "64-62-0",
-        "totals_roi": "-1.9%"
+        "spread_record": "64-68-1",
+        "spread_roi": "-5.3%",
+        "totals_record": "64-63-0",
+        "totals_roi": "-2.7%"
       }
     }
   },
@@ -2047,14 +2011,14 @@
     },
     {
       "edge_range": "15-20%",
-      "spread_record": "8-12-0",
-      "total_record": "11-11-0",
-      "combined_record": "19-23-0",
-      "combined_win_rate": "45.2%",
-      "combined_roi": "-12.2%",
-      "spread_n": 20,
-      "total_n": 22,
-      "combined_n": 42
+      "spread_record": "8-13-0",
+      "total_record": "11-12-0",
+      "combined_record": "19-25-0",
+      "combined_win_rate": "43.2%",
+      "combined_roi": "-16.2%",
+      "spread_n": 21,
+      "total_n": 23,
+      "combined_n": 44
     },
     {
       "edge_range": "20%+",
