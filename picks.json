@@ -1,6 +1,6 @@
 {
-  "last_updated": "Nov 17, 2026 | 9:30 PM ET",
-  "last_updated_iso": "2026-11-17T21:30:09.727084-05:00",
+  "last_updated": "Nov 17, 2026 | 9:51 PM ET",
+  "last_updated_iso": "2026-11-17T21:51:55.167454-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-17",
@@ -52,18 +52,18 @@
       "away_team": "Charlotte Hornets",
       "home_team": "Los Angeles Lakers",
       "pick_team": "Charlotte Hornets",
-      "line": "+7.5",
-      "book": "BetRivers",
+      "line": "+7",
+      "book": "LowVig.ag",
       "decimal_odds": "1.94",
-      "model_cover_probability": "67.5%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "18.7%",
-      "modeled_ev": "+30.9%",
-      "ev_numeric": 0.3092673353685128,
+      "model_cover_probability": "66.2%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "16.2%",
+      "modeled_ev": "+28.4%",
+      "ev_numeric": 0.2838857392062798,
       "model_projection": "Los Angeles Lakers by 1.9",
-      "minutes_before_tip": 108.5,
+      "minutes_before_tip": 78.3,
       "game_time": "11:10 PM ET",
-      "snapshot_time": "2026-11-18T02:21:32.470700+00:00"
+      "snapshot_time": "2026-11-18T02:51:39.663192+00:00"
     },
     {
       "event_id": "5ff20ee6933177d35e4f8c875842a0b4",
@@ -158,6 +158,24 @@
       "snapshot_time": "2026-11-18T02:21:36.876731+00:00"
     },
     {
+      "event_id": "bed6147c75f3706f25e25f5bdfeaf1ec",
+      "away_team": "Charlotte Hornets",
+      "home_team": "Los Angeles Lakers",
+      "side": "OVER",
+      "line": "220.5",
+      "book": "Bovada",
+      "decimal_odds": "1.91",
+      "model_probability": "58.6%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "8.6%",
+      "modeled_ev": "+11.9%",
+      "ev_numeric": 0.1194267645858833,
+      "model_projection": "225.0 points",
+      "minutes_before_tip": 78.2,
+      "game_time": "11:10 PM ET",
+      "snapshot_time": "2026-11-18T02:51:49.062431+00:00"
+    },
+    {
       "event_id": "f1c9f0cd022cd864154413efbd9d9522",
       "away_team": "Portland Trail Blazers",
       "home_team": "Minnesota Timberwolves",
@@ -174,24 +192,6 @@
       "minutes_before_tip": 78.3,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-17T23:51:43.590517+00:00"
-    },
-    {
-      "event_id": "bed6147c75f3706f25e25f5bdfeaf1ec",
-      "away_team": "Charlotte Hornets",
-      "home_team": "Los Angeles Lakers",
-      "side": "OVER",
-      "line": "221.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.91",
-      "model_probability": "56.6%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "6.6%",
-      "modeled_ev": "+8.1%",
-      "ev_numeric": 0.0812423500611996,
-      "model_projection": "225.0 points",
-      "minutes_before_tip": 108.4,
-      "game_time": "11:10 PM ET",
-      "snapshot_time": "2026-11-18T02:21:36.876731+00:00"
     }
   ],
   "history": [
