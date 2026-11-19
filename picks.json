@@ -1,34 +1,16 @@
 {
-  "last_updated": "Nov 18, 2026 | 10:30 PM ET",
-  "last_updated_iso": "2026-11-18T22:30:15.960171-05:00",
+  "last_updated": "Nov 18, 2026 | 11:00 PM ET",
+  "last_updated_iso": "2026-11-18T23:00:15.236043-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-18",
     "game_count": 12,
-    "spread_signal_count": 3,
-    "total_signal_count": 3,
+    "spread_signal_count": 2,
+    "total_signal_count": 2,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
   "spreads": [
-    {
-      "event_id": "990b541d0ada46fce07ce8b502cf425c",
-      "away_team": "Detroit Pistons",
-      "home_team": "New Orleans Pelicans",
-      "pick_team": "Detroit Pistons",
-      "line": "-4.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.95",
-      "model_cover_probability": "68.8%",
-      "sportsbook_fair_probability": "49.0%",
-      "model_edge": "19.9%",
-      "modeled_ev": "+34.2%",
-      "ev_numeric": 0.3423789795028348,
-      "model_projection": "Detroit Pistons by 10.6",
-      "minutes_before_tip": 78.5,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-18T23:51:32.037168+00:00"
-    },
     {
       "event_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
       "away_team": "Utah Jazz",
@@ -84,24 +66,6 @@
       "minutes_before_tip": 78.3,
       "game_time": "9:10 PM ET",
       "snapshot_time": "2026-11-19T00:51:41.608161+00:00"
-    },
-    {
-      "event_id": "990b541d0ada46fce07ce8b502cf425c",
-      "away_team": "Detroit Pistons",
-      "home_team": "New Orleans Pelicans",
-      "side": "OVER",
-      "line": "226",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_probability": "63.5%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "13.5%",
-      "modeled_ev": "+22.5%",
-      "ev_numeric": 0.2248531211750305,
-      "model_projection": "232.9 points",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-18T23:51:35.818115+00:00"
     },
     {
       "event_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
@@ -160,6 +124,24 @@
       "minutes_before_tip": 78.5
     },
     {
+      "market": "Spread",
+      "event_id": "990b541d0ada46fce07ce8b502cf425c",
+      "game_date": "2026-11-18",
+      "commence_time": "2026-11-19 01:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "Detroit Pistons",
+      "home_team": "New Orleans Pelicans",
+      "selection": "Detroit Pistons",
+      "line": "-4.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.95",
+      "result": "WIN",
+      "pnl": "+0.95",
+      "home_pts": 109,
+      "away_pts": 122,
+      "minutes_before_tip": 78.5
+    },
+    {
       "market": "Total",
       "event_id": "6c0ae9cd6ba4762ef0bcf66156d3525e",
       "game_date": "2026-11-18",
@@ -175,6 +157,24 @@
       "pnl": "-1.00",
       "home_pts": 116,
       "away_pts": 94,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "990b541d0ada46fce07ce8b502cf425c",
+      "game_date": "2026-11-18",
+      "commence_time": "2026-11-19 01:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "Detroit Pistons",
+      "home_team": "New Orleans Pelicans",
+      "selection": "OVER",
+      "line": "226",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "result": "WIN",
+      "pnl": "+0.93",
+      "home_pts": 109,
+      "away_pts": 122,
       "minutes_before_tip": 78.4
     },
     {
@@ -1886,67 +1886,31 @@
       "home_pts": 122,
       "away_pts": 111,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "07361a8381206817e27bd2697fad7479",
-      "game_date": "2026-11-09",
-      "commence_time": "2026-11-10 00:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Los Angeles Lakers",
-      "home_team": "Atlanta Hawks",
-      "selection": "UNDER",
-      "line": "233.5",
-      "book": "BetMGM",
-      "decimal_odds": "1.95",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 114,
-      "away_pts": 124,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "1df5ff8fe9c6d2dbff1d0ae176063b37",
-      "game_date": "2026-11-09",
-      "commence_time": "2026-11-10 00:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Cleveland Cavaliers",
-      "home_team": "Charlotte Hornets",
-      "selection": "OVER",
-      "line": "214.5",
-      "book": "MyBookie.ag",
-      "decimal_odds": "1.91",
-      "result": "WIN",
-      "pnl": "+0.91",
-      "home_pts": 124,
-      "away_pts": 112,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "70-73-1",
-    "spread_roi": "-4.4%",
-    "totals_record": "67-71-0",
-    "totals_roi": "-6.3%",
+    "spread_record": "71-73-1",
+    "spread_roi": "-3.7%",
+    "totals_record": "68-71-0",
+    "totals_roi": "-5.5%",
     "periods": {
       "7": {
-        "spread_record": "13-14-0",
-        "spread_roi": "-5.7%",
-        "totals_record": "14-14-0",
-        "totals_roi": "-3.4%"
+        "spread_record": "14-14-0",
+        "spread_roi": "-2.1%",
+        "totals_record": "15-14-0",
+        "totals_roi": "-0.1%"
       },
       "30": {
-        "spread_record": "70-73-1",
-        "spread_roi": "-4.4%",
-        "totals_record": "67-71-0",
-        "totals_roi": "-6.3%"
+        "spread_record": "71-73-1",
+        "spread_roi": "-3.7%",
+        "totals_record": "68-71-0",
+        "totals_roi": "-5.5%"
       },
       "All": {
-        "spread_record": "70-73-1",
-        "spread_roi": "-4.4%",
-        "totals_record": "67-71-0",
-        "totals_roi": "-6.3%"
+        "spread_record": "71-73-1",
+        "spread_roi": "-3.7%",
+        "totals_record": "68-71-0",
+        "totals_roi": "-5.5%"
       }
     }
   },
@@ -1965,24 +1929,24 @@
     {
       "edge_range": "10-15%",
       "spread_record": "20-10-1",
-      "total_record": "23-23-0",
-      "combined_record": "43-33-1",
-      "combined_win_rate": "56.6%",
-      "combined_roi": "+10.0%",
+      "total_record": "24-23-0",
+      "combined_record": "44-33-1",
+      "combined_win_rate": "57.1%",
+      "combined_roi": "+11.1%",
       "spread_n": 31,
-      "total_n": 46,
-      "combined_n": 77
+      "total_n": 47,
+      "combined_n": 78
     },
     {
       "edge_range": "15-20%",
-      "spread_record": "11-15-0",
+      "spread_record": "12-15-0",
       "total_record": "12-15-0",
-      "combined_record": "23-30-0",
-      "combined_win_rate": "43.4%",
-      "combined_roi": "-15.7%",
-      "spread_n": 26,
+      "combined_record": "24-30-0",
+      "combined_win_rate": "44.4%",
+      "combined_roi": "-13.6%",
+      "spread_n": 27,
       "total_n": 27,
-      "combined_n": 53
+      "combined_n": 54
     },
     {
       "edge_range": "20%+",
