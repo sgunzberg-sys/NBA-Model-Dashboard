@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 18, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-18T18:51:38.958516-05:00",
+  "last_updated": "Nov 18, 2026 | 7:51 PM ET",
+  "last_updated_iso": "2026-11-18T19:51:46.292770-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-18",
     "game_count": 12,
-    "spread_signal_count": 8,
-    "total_signal_count": 8,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-18T18:55:00-05:00"
+    "spread_signal_count": 9,
+    "total_signal_count": 9,
+    "next_snapshot": "7:55 PM ET",
+    "next_snapshot_iso": "2026-11-18T19:55:00-05:00"
   },
   "spreads": [
     {
@@ -138,6 +138,24 @@
       "snapshot_time": "2026-11-18T22:56:34.521903+00:00"
     },
     {
+      "event_id": "ffeefa47d95e7ee9505d1955c62e3ae4",
+      "away_team": "Boston Celtics",
+      "home_team": "Denver Nuggets",
+      "pick_team": "Denver Nuggets",
+      "line": "+2.5",
+      "book": "BetMGM",
+      "decimal_odds": "1.95",
+      "model_cover_probability": "54.5%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "4.5%",
+      "modeled_ev": "+6.3%",
+      "ev_numeric": 0.0634430876580898,
+      "model_projection": "Boston Celtics by 0.8",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-19T00:51:35.259763+00:00"
+    },
+    {
       "event_id": "e0d8f7b450122679865f9a80b048908b",
       "away_team": "Atlanta Hawks",
       "home_team": "Oklahoma City Thunder",
@@ -157,6 +175,24 @@
     }
   ],
   "totals": [
+    {
+      "event_id": "ffeefa47d95e7ee9505d1955c62e3ae4",
+      "away_team": "Boston Celtics",
+      "home_team": "Denver Nuggets",
+      "side": "OVER",
+      "line": "220.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.98",
+      "model_probability": "71.2%",
+      "sportsbook_fair_probability": "48.7%",
+      "model_edge": "22.5%",
+      "modeled_ev": "+41.0%",
+      "ev_numeric": 0.4100734394124847,
+      "model_projection": "231.3 points",
+      "minutes_before_tip": 78.3,
+      "game_time": "9:10 PM ET",
+      "snapshot_time": "2026-11-19T00:51:41.608161+00:00"
+    },
     {
       "event_id": "635a9b07c018a821e08b521ea473133b",
       "away_team": "Philadelphia 76ers",
