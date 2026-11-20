@@ -1,12 +1,12 @@
 {
-  "last_updated": "Nov 19, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-19T20:30:10.666208-05:00",
+  "last_updated": "Nov 19, 2026 | 10:30 PM ET",
+  "last_updated_iso": "2026-11-19T22:30:11.308271-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-19",
     "game_count": 4,
-    "spread_signal_count": 4,
-    "total_signal_count": 4,
+    "spread_signal_count": 3,
+    "total_signal_count": 3,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
@@ -64,45 +64,9 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-19T23:51:35.847853+00:00"
-    },
-    {
-      "event_id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
-      "away_team": "New York Knicks",
-      "home_team": "Minnesota Timberwolves",
-      "pick_team": "Minnesota Timberwolves",
-      "line": "+1.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.88",
-      "model_cover_probability": "54.4%",
-      "sportsbook_fair_probability": "50.8%",
-      "model_edge": "3.6%",
-      "modeled_ev": "+2.3%",
-      "ev_numeric": 0.0228085477540339,
-      "model_projection": "Minnesota Timberwolves by 0.2",
-      "minutes_before_tip": 78.4,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-19T23:51:35.847853+00:00"
     }
   ],
   "totals": [
-    {
-      "event_id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
-      "away_team": "New York Knicks",
-      "home_team": "Minnesota Timberwolves",
-      "side": "OVER",
-      "line": "216",
-      "book": "MyBookie.ag",
-      "decimal_odds": "1.91",
-      "model_probability": "72.5%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "22.5%",
-      "modeled_ev": "+38.4%",
-      "ev_numeric": 0.3843798449612401,
-      "model_projection": "227.6 points",
-      "minutes_before_tip": 78.3,
-      "game_time": "8:10 PM ET",
-      "snapshot_time": "2026-11-19T23:51:42.265294+00:00"
-    },
     {
       "event_id": "3c082b72aa002131c276ff5e24bada1b",
       "away_team": "Golden State Warriors",
@@ -159,6 +123,42 @@
     }
   ],
   "history": [
+    {
+      "market": "Spread",
+      "event_id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+      "game_date": "2026-11-19",
+      "commence_time": "2026-11-20 01:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "New York Knicks",
+      "home_team": "Minnesota Timberwolves",
+      "selection": "Minnesota Timberwolves",
+      "line": "+1.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.88",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 99,
+      "away_pts": 102,
+      "minutes_before_tip": 78.4
+    },
+    {
+      "market": "Total",
+      "event_id": "5ee4efd00c1daaebd8249ff44fd6ac9d",
+      "game_date": "2026-11-19",
+      "commence_time": "2026-11-20 01:10:00+00:00",
+      "game_time": "8:10 PM ET",
+      "away_team": "New York Knicks",
+      "home_team": "Minnesota Timberwolves",
+      "selection": "OVER",
+      "line": "216",
+      "book": "MyBookie.ag",
+      "decimal_odds": "1.91",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 99,
+      "away_pts": 102,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
@@ -1922,81 +1922,45 @@
       "home_pts": 125,
       "away_pts": 122,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "9866fa22adc8509d487522ef4cf0fc24",
-      "game_date": "2026-11-09",
-      "commence_time": "2026-11-10 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Indiana Pacers",
-      "home_team": "Dallas Mavericks",
-      "selection": "OVER",
-      "line": "225.5",
-      "book": "BetRivers",
-      "decimal_odds": "1.87",
-      "result": "WIN",
-      "pnl": "+0.87",
-      "home_pts": 125,
-      "away_pts": 122,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "56efae2815b3a18850f07a3781d652a2",
-      "game_date": "2026-11-09",
-      "commence_time": "2026-11-10 00:40:00+00:00",
-      "game_time": "7:40 PM ET",
-      "away_team": "Memphis Grizzlies",
-      "home_team": "Toronto Raptors",
-      "selection": "Toronto Raptors",
-      "line": "+1.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.98",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 102,
-      "away_pts": 118,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "72-74-1",
-    "spread_roi": "-3.7%",
-    "totals_record": "68-73-0",
-    "totals_roi": "-6.9%",
+    "spread_record": "72-75-1",
+    "spread_roi": "-4.3%",
+    "totals_record": "68-74-0",
+    "totals_roi": "-7.5%",
     "periods": {
       "7": {
-        "spread_record": "13-13-0",
-        "spread_roi": "-2.2%",
-        "totals_record": "12-15-0",
-        "totals_roi": "-14.4%"
+        "spread_record": "13-14-0",
+        "spread_roi": "-5.8%",
+        "totals_record": "12-16-0",
+        "totals_roi": "-17.5%"
       },
       "30": {
-        "spread_record": "71-74-1",
-        "spread_roi": "-4.4%",
-        "totals_record": "66-73-0",
-        "totals_roi": "-8.3%"
+        "spread_record": "71-75-1",
+        "spread_roi": "-5.0%",
+        "totals_record": "66-74-0",
+        "totals_roi": "-9.0%"
       },
       "All": {
-        "spread_record": "72-74-1",
-        "spread_roi": "-3.7%",
-        "totals_record": "68-73-0",
-        "totals_roi": "-6.9%"
+        "spread_record": "72-75-1",
+        "spread_roi": "-4.3%",
+        "totals_record": "68-74-0",
+        "totals_roi": "-7.5%"
       }
     }
   },
   "edge_performance": [
     {
       "edge_range": "0-10%",
-      "spread_record": "23-34-0",
+      "spread_record": "23-35-0",
       "total_record": "20-24-0",
-      "combined_record": "43-58-0",
-      "combined_win_rate": "42.6%",
-      "combined_roi": "-17.7%",
-      "spread_n": 57,
+      "combined_record": "43-59-0",
+      "combined_win_rate": "42.2%",
+      "combined_roi": "-18.5%",
+      "spread_n": 58,
       "total_n": 44,
-      "combined_n": 101
+      "combined_n": 102
     },
     {
       "edge_range": "10-15%",
@@ -2023,13 +1987,13 @@
     {
       "edge_range": "20%+",
       "spread_record": "17-15-0",
-      "total_record": "12-11-0",
-      "combined_record": "29-26-0",
-      "combined_win_rate": "52.7%",
-      "combined_roi": "+2.7%",
+      "total_record": "12-12-0",
+      "combined_record": "29-27-0",
+      "combined_win_rate": "51.8%",
+      "combined_roi": "+0.9%",
       "spread_n": 32,
-      "total_n": 23,
-      "combined_n": 55
+      "total_n": 24,
+      "combined_n": 56
     }
   ]
 }
