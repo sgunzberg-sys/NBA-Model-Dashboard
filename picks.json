@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 19, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-19T18:51:48.166213-05:00",
+  "last_updated": "Nov 19, 2026 | 8:30 PM ET",
+  "last_updated_iso": "2026-11-19T20:30:10.666208-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-19",
     "game_count": 4,
     "spread_signal_count": 4,
     "total_signal_count": 4,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-19T18:55:00-05:00"
+    "next_snapshot": "Target times passed",
+    "next_snapshot_iso": null
   },
   "spreads": [
     {
@@ -413,6 +413,24 @@
     },
     {
       "market": "Spread",
+      "event_id": "b609888ea766ac28cd0e84f315d8f3d2",
+      "game_date": "2026-11-18",
+      "commence_time": "2026-11-19 00:10:00+00:00",
+      "game_time": "7:10 PM ET",
+      "away_team": "Milwaukee Bucks",
+      "home_team": "Miami Heat",
+      "selection": "Milwaukee Bucks",
+      "line": "+12.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.92",
+      "result": "WIN",
+      "pnl": "+0.92",
+      "home_pts": 137,
+      "away_pts": 130,
+      "minutes_before_tip": 73.4
+    },
+    {
+      "market": "Spread",
       "event_id": "635a9b07c018a821e08b521ea473133b",
       "game_date": "2026-11-18",
       "commence_time": "2026-11-19 00:10:00+00:00",
@@ -463,6 +481,24 @@
       "pnl": "-1.00",
       "home_pts": 104,
       "away_pts": 119,
+      "minutes_before_tip": 73.3
+    },
+    {
+      "market": "Total",
+      "event_id": "b609888ea766ac28cd0e84f315d8f3d2",
+      "game_date": "2026-11-18",
+      "commence_time": "2026-11-19 00:10:00+00:00",
+      "game_time": "7:10 PM ET",
+      "away_team": "Milwaukee Bucks",
+      "home_team": "Miami Heat",
+      "selection": "UNDER",
+      "line": "236.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.91",
+      "result": "LOSS",
+      "pnl": "-1.00",
+      "home_pts": 137,
+      "away_pts": 130,
       "minutes_before_tip": 73.3
     },
     {
@@ -1922,67 +1958,31 @@
       "home_pts": 102,
       "away_pts": 118,
       "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Total",
-      "event_id": "56efae2815b3a18850f07a3781d652a2",
-      "game_date": "2026-11-09",
-      "commence_time": "2026-11-10 00:40:00+00:00",
-      "game_time": "7:40 PM ET",
-      "away_team": "Memphis Grizzlies",
-      "home_team": "Toronto Raptors",
-      "selection": "OVER",
-      "line": "225.5",
-      "book": "DraftKings",
-      "decimal_odds": "1.95",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 102,
-      "away_pts": 118,
-      "minutes_before_tip": 78.4
-    },
-    {
-      "market": "Spread",
-      "event_id": "07361a8381206817e27bd2697fad7479",
-      "game_date": "2026-11-09",
-      "commence_time": "2026-11-10 00:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Los Angeles Lakers",
-      "home_team": "Atlanta Hawks",
-      "selection": "Los Angeles Lakers",
-      "line": "+3",
-      "book": "MyBookie.ag",
-      "decimal_odds": "1.91",
-      "result": "WIN",
-      "pnl": "+0.91",
-      "home_pts": 114,
-      "away_pts": 124,
-      "minutes_before_tip": 78.4
     }
   ],
   "performance": {
-    "spread_record": "71-74-1",
-    "spread_roi": "-4.3%",
-    "totals_record": "68-72-0",
-    "totals_roi": "-6.2%",
+    "spread_record": "72-74-1",
+    "spread_roi": "-3.7%",
+    "totals_record": "68-73-0",
+    "totals_roi": "-6.9%",
     "periods": {
       "7": {
-        "spread_record": "12-13-0",
-        "spread_roi": "-6.0%",
-        "totals_record": "12-14-0",
-        "totals_roi": "-11.2%"
+        "spread_record": "13-13-0",
+        "spread_roi": "-2.2%",
+        "totals_record": "12-15-0",
+        "totals_roi": "-14.4%"
       },
       "30": {
-        "spread_record": "70-74-1",
-        "spread_roi": "-5.0%",
-        "totals_record": "66-72-0",
-        "totals_roi": "-7.6%"
+        "spread_record": "71-74-1",
+        "spread_roi": "-4.4%",
+        "totals_record": "66-73-0",
+        "totals_roi": "-8.3%"
       },
       "All": {
-        "spread_record": "71-74-1",
-        "spread_roi": "-4.3%",
-        "totals_record": "68-72-0",
-        "totals_roi": "-6.2%"
+        "spread_record": "72-74-1",
+        "spread_roi": "-3.7%",
+        "totals_record": "68-73-0",
+        "totals_roi": "-6.9%"
       }
     }
   },
@@ -2001,24 +2001,24 @@
     {
       "edge_range": "10-15%",
       "spread_record": "20-10-1",
-      "total_record": "24-22-0",
-      "combined_record": "44-32-1",
-      "combined_win_rate": "57.9%",
-      "combined_roi": "+12.5%",
+      "total_record": "24-23-0",
+      "combined_record": "44-33-1",
+      "combined_win_rate": "57.1%",
+      "combined_roi": "+11.1%",
       "spread_n": 31,
-      "total_n": 46,
-      "combined_n": 77
+      "total_n": 47,
+      "combined_n": 78
     },
     {
       "edge_range": "15-20%",
-      "spread_record": "11-15-0",
+      "spread_record": "12-15-0",
       "total_record": "12-15-0",
-      "combined_record": "23-30-0",
-      "combined_win_rate": "43.4%",
-      "combined_roi": "-15.6%",
-      "spread_n": 26,
+      "combined_record": "24-30-0",
+      "combined_win_rate": "44.4%",
+      "combined_roi": "-13.6%",
+      "spread_n": 27,
       "total_n": 27,
-      "combined_n": 53
+      "combined_n": 54
     },
     {
       "edge_range": "20%+",
