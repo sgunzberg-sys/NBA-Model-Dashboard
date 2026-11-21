@@ -1,14 +1,14 @@
 {
-  "last_updated": "Nov 20, 2026 | 6:51 PM ET",
-  "last_updated_iso": "2026-11-20T18:51:39.475970-05:00",
+  "last_updated": "Nov 20, 2026 | 8:21 PM ET",
+  "last_updated_iso": "2026-11-20T20:21:51.354564-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-20",
     "game_count": 9,
-    "spread_signal_count": 6,
-    "total_signal_count": 6,
-    "next_snapshot": "6:55 PM ET",
-    "next_snapshot_iso": "2026-11-20T18:55:00-05:00"
+    "spread_signal_count": 9,
+    "total_signal_count": 9,
+    "next_snapshot": "8:25 PM ET",
+    "next_snapshot_iso": "2026-11-20T20:25:00-05:00"
   },
   "spreads": [
     {
@@ -66,6 +66,24 @@
       "snapshot_time": "2026-11-20T23:51:31.948404+00:00"
     },
     {
+      "event_id": "ee204ae35d677450476eab6ad6a146a7",
+      "away_team": "Phoenix Suns",
+      "home_team": "Utah Jazz",
+      "pick_team": "Phoenix Suns",
+      "line": "-4.5",
+      "book": "MyBookie.ag",
+      "decimal_odds": "1.91",
+      "model_cover_probability": "64.3%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "14.3%",
+      "modeled_ev": "+22.9%",
+      "ev_numeric": 0.2290470998691669,
+      "model_projection": "Phoenix Suns by 9.0",
+      "minutes_before_tip": 78.4,
+      "game_time": "9:40 PM ET",
+      "snapshot_time": "2026-11-21T01:21:37.307973+00:00"
+    },
+    {
       "event_id": "10e9b9aca502ce158d6a3a91bf00bfd2",
       "away_team": "Indiana Pacers",
       "home_team": "Cleveland Cavaliers",
@@ -100,6 +118,42 @@
       "minutes_before_tip": 78.5,
       "game_time": "7:40 PM ET",
       "snapshot_time": "2026-11-20T23:21:31.734001+00:00"
+    },
+    {
+      "event_id": "55c3096b11f501ffb6d8bccbb2cd319d",
+      "away_team": "Sacramento Kings",
+      "home_team": "Los Angeles Lakers",
+      "pick_team": "Sacramento Kings",
+      "line": "+14",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "54.6%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "5.8%",
+      "modeled_ev": "+8.7%",
+      "ev_numeric": 0.0869930222416049,
+      "model_projection": "Los Angeles Lakers by 12.7",
+      "minutes_before_tip": 108.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-21T01:21:37.307973+00:00"
+    },
+    {
+      "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
+      "away_team": "Houston Rockets",
+      "home_team": "Denver Nuggets",
+      "pick_team": "Houston Rockets",
+      "line": "+1.5",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.99",
+      "model_cover_probability": "53.9%",
+      "sportsbook_fair_probability": "48.8%",
+      "model_edge": "5.1%",
+      "modeled_ev": "+7.3%",
+      "ev_numeric": 0.0731072830353248,
+      "model_projection": "Denver Nuggets by 0.5",
+      "minutes_before_tip": 108.4,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-21T01:21:37.307973+00:00"
     },
     {
       "event_id": "6e1faf38d3fed9e0396d6613891770e1",
@@ -176,6 +230,42 @@
       "snapshot_time": "2026-11-20T23:21:35.926943+00:00"
     },
     {
+      "event_id": "ee204ae35d677450476eab6ad6a146a7",
+      "away_team": "Phoenix Suns",
+      "home_team": "Utah Jazz",
+      "side": "OVER",
+      "line": "225.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.91",
+      "model_probability": "62.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "12.8%",
+      "modeled_ev": "+20.0%",
+      "ev_numeric": 0.1996919624643003,
+      "model_projection": "231.9 points",
+      "minutes_before_tip": 78.3,
+      "game_time": "9:40 PM ET",
+      "snapshot_time": "2026-11-21T01:21:43.657558+00:00"
+    },
+    {
+      "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
+      "away_team": "Houston Rockets",
+      "home_team": "Denver Nuggets",
+      "side": "OVER",
+      "line": "227.5",
+      "book": "FanDuel",
+      "decimal_odds": "1.93",
+      "model_probability": "59.6%",
+      "sportsbook_fair_probability": "49.5%",
+      "model_edge": "10.2%",
+      "modeled_ev": "+15.1%",
+      "ev_numeric": 0.1508343533251734,
+      "model_projection": "232.4 points",
+      "minutes_before_tip": 108.3,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-21T01:21:43.657558+00:00"
+    },
+    {
       "event_id": "10e9b9aca502ce158d6a3a91bf00bfd2",
       "away_team": "Indiana Pacers",
       "home_team": "Cleveland Cavaliers",
@@ -228,6 +318,24 @@
       "minutes_before_tip": 78.4,
       "game_time": "8:10 PM ET",
       "snapshot_time": "2026-11-20T23:51:36.077638+00:00"
+    },
+    {
+      "event_id": "55c3096b11f501ffb6d8bccbb2cd319d",
+      "away_team": "Sacramento Kings",
+      "home_team": "Los Angeles Lakers",
+      "side": "UNDER",
+      "line": "229.5",
+      "book": "BetRivers",
+      "decimal_odds": "1.93",
+      "model_probability": "55.6%",
+      "sportsbook_fair_probability": "49.3%",
+      "model_edge": "6.2%",
+      "modeled_ev": "+7.3%",
+      "ev_numeric": 0.0728784169726642,
+      "model_projection": "227.5 points",
+      "minutes_before_tip": 108.3,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-21T01:21:43.657558+00:00"
     }
   ],
   "history": [
