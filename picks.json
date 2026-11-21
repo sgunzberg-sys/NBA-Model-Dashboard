@@ -1,6 +1,6 @@
 {
-  "last_updated": "Nov 20, 2026 | 8:30 PM ET",
-  "last_updated_iso": "2026-11-20T20:30:14.630370-05:00",
+  "last_updated": "Nov 20, 2026 | 8:51 PM ET",
+  "last_updated_iso": "2026-11-20T20:51:53.507550-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-20",
@@ -133,27 +133,9 @@
       "modeled_ev": "+8.7%",
       "ev_numeric": 0.0869930222416049,
       "model_projection": "Los Angeles Lakers by 12.7",
-      "minutes_before_tip": 108.4,
+      "minutes_before_tip": 78.3,
       "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-21T01:21:37.307973+00:00"
-    },
-    {
-      "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
-      "away_team": "Houston Rockets",
-      "home_team": "Denver Nuggets",
-      "pick_team": "Houston Rockets",
-      "line": "+1.5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.99",
-      "model_cover_probability": "53.9%",
-      "sportsbook_fair_probability": "48.8%",
-      "model_edge": "5.1%",
-      "modeled_ev": "+7.3%",
-      "ev_numeric": 0.0731072830353248,
-      "model_projection": "Denver Nuggets by 0.5",
-      "minutes_before_tip": 108.4,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-21T01:21:37.307973+00:00"
+      "snapshot_time": "2026-11-21T01:51:39.214072+00:00"
     },
     {
       "event_id": "6e1faf38d3fed9e0396d6613891770e1",
@@ -172,6 +154,24 @@
       "minutes_before_tip": 78.5,
       "game_time": "7:40 PM ET",
       "snapshot_time": "2026-11-20T23:21:31.734001+00:00"
+    },
+    {
+      "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
+      "away_team": "Houston Rockets",
+      "home_team": "Denver Nuggets",
+      "pick_team": "Denver Nuggets",
+      "line": "+1.5",
+      "book": "DraftKings",
+      "decimal_odds": "1.91",
+      "model_cover_probability": "55.6%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "5.6%",
+      "modeled_ev": "+6.2%",
+      "ev_numeric": 0.0624531181857828,
+      "model_projection": "Denver Nuggets by 0.5",
+      "minutes_before_tip": 78.3,
+      "game_time": "10:10 PM ET",
+      "snapshot_time": "2026-11-21T01:51:39.214072+00:00"
     }
   ],
   "totals": [
@@ -252,18 +252,18 @@
       "away_team": "Houston Rockets",
       "home_team": "Denver Nuggets",
       "side": "OVER",
-      "line": "227.5",
-      "book": "FanDuel",
+      "line": "227",
+      "book": "LowVig.ag",
       "decimal_odds": "1.93",
-      "model_probability": "59.6%",
-      "sportsbook_fair_probability": "49.5%",
-      "model_edge": "10.2%",
-      "modeled_ev": "+15.1%",
-      "ev_numeric": 0.1508343533251734,
+      "model_probability": "60.8%",
+      "sportsbook_fair_probability": "50.0%",
+      "model_edge": "10.8%",
+      "modeled_ev": "+17.3%",
+      "ev_numeric": 0.1728824969400244,
       "model_projection": "232.4 points",
-      "minutes_before_tip": 108.3,
+      "minutes_before_tip": 78.2,
       "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-21T01:21:43.657558+00:00"
+      "snapshot_time": "2026-11-21T01:51:47.506279+00:00"
     },
     {
       "event_id": "10e9b9aca502ce158d6a3a91bf00bfd2",
@@ -333,9 +333,9 @@
       "modeled_ev": "+7.3%",
       "ev_numeric": 0.0728784169726642,
       "model_projection": "227.5 points",
-      "minutes_before_tip": 108.3,
+      "minutes_before_tip": 78.2,
       "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-21T01:21:43.657558+00:00"
+      "snapshot_time": "2026-11-21T01:51:47.506279+00:00"
     }
   ],
   "history": [
