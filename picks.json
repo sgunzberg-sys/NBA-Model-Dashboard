@@ -1,56 +1,36 @@
 {
-  "last_updated": "Nov 21, 2026 | 12:30 AM ET",
-  "last_updated_iso": "2026-11-21T00:30:08.579890-05:00",
+  "last_updated": "Nov 21, 2026 | 1:00 AM ET",
+  "last_updated_iso": "2026-11-21T01:00:07.811652-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
     "slate_date": "2026-11-20",
     "game_count": 9,
-    "spread_signal_count": 1,
-    "total_signal_count": 1,
+    "spread_signal_count": 0,
+    "total_signal_count": 0,
     "next_snapshot": "Target times passed",
     "next_snapshot_iso": null
   },
-  "spreads": [
+  "spreads": [],
+  "totals": [],
+  "history": [
     {
+      "market": "Spread",
       "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
+      "game_date": "2026-11-20",
+      "commence_time": "2026-11-21 03:10:00+00:00",
+      "game_time": "10:10 PM ET",
       "away_team": "Houston Rockets",
       "home_team": "Denver Nuggets",
-      "pick_team": "Denver Nuggets",
+      "selection": "Denver Nuggets",
       "line": "+1.5",
       "book": "DraftKings",
       "decimal_odds": "1.91",
-      "model_cover_probability": "55.6%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "5.6%",
-      "modeled_ev": "+6.2%",
-      "ev_numeric": 0.0624531181857828,
-      "model_projection": "Denver Nuggets by 0.5",
-      "minutes_before_tip": 78.3,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-21T01:51:39.214072+00:00"
-    }
-  ],
-  "totals": [
-    {
-      "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
-      "away_team": "Houston Rockets",
-      "home_team": "Denver Nuggets",
-      "side": "OVER",
-      "line": "227",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.93",
-      "model_probability": "60.8%",
-      "sportsbook_fair_probability": "50.0%",
-      "model_edge": "10.8%",
-      "modeled_ev": "+17.3%",
-      "ev_numeric": 0.1728824969400244,
-      "model_projection": "232.4 points",
-      "minutes_before_tip": 78.2,
-      "game_time": "10:10 PM ET",
-      "snapshot_time": "2026-11-21T01:51:47.506279+00:00"
-    }
-  ],
-  "history": [
+      "result": "WIN",
+      "pnl": "+0.91",
+      "home_pts": 133,
+      "away_pts": 124,
+      "minutes_before_tip": 78.3
+    },
     {
       "market": "Spread",
       "event_id": "55c3096b11f501ffb6d8bccbb2cd319d",
@@ -68,6 +48,24 @@
       "home_pts": 106,
       "away_pts": 104,
       "minutes_before_tip": 78.3
+    },
+    {
+      "market": "Total",
+      "event_id": "086d2fe80483ffcc280994fe2e12d4f4",
+      "game_date": "2026-11-20",
+      "commence_time": "2026-11-21 03:10:00+00:00",
+      "game_time": "10:10 PM ET",
+      "away_team": "Houston Rockets",
+      "home_team": "Denver Nuggets",
+      "selection": "OVER",
+      "line": "227",
+      "book": "LowVig.ag",
+      "decimal_odds": "1.93",
+      "result": "WIN",
+      "pnl": "+0.93",
+      "home_pts": 133,
+      "away_pts": 124,
+      "minutes_before_tip": 78.2
     },
     {
       "market": "Total",
@@ -1814,92 +1812,56 @@
       "home_pts": 118,
       "away_pts": 123,
       "minutes_before_tip": 78.2
-    },
-    {
-      "market": "Total",
-      "event_id": "c04e54e9e028676cd8b23259bb4364ff",
-      "game_date": "2026-11-11",
-      "commence_time": "2026-11-12 01:10:00+00:00",
-      "game_time": "8:10 PM ET",
-      "away_team": "Los Angeles Lakers",
-      "home_team": "Milwaukee Bucks",
-      "selection": "UNDER",
-      "line": "229.5",
-      "book": "FanDuel",
-      "decimal_odds": "1.87",
-      "result": "LOSS",
-      "pnl": "-1.00",
-      "home_pts": 112,
-      "away_pts": 123,
-      "minutes_before_tip": 78.2
-    },
-    {
-      "market": "Spread",
-      "event_id": "37f4c00ff7ec01d5aa7c33dd1ac84bbc",
-      "game_date": "2026-11-11",
-      "commence_time": "2026-11-12 00:10:00+00:00",
-      "game_time": "7:10 PM ET",
-      "away_team": "Boston Celtics",
-      "home_team": "Toronto Raptors",
-      "selection": "Toronto Raptors",
-      "line": "+5",
-      "book": "LowVig.ag",
-      "decimal_odds": "1.99",
-      "result": "PUSH",
-      "pnl": "+0.00",
-      "home_pts": 93,
-      "away_pts": 98,
-      "minutes_before_tip": 78.3
     }
   ],
   "performance": {
-    "spread_record": "78-80-1",
-    "spread_roi": "-3.7%",
-    "totals_record": "73-80-0",
-    "totals_roi": "-7.8%",
+    "spread_record": "79-80-1",
+    "spread_roi": "-3.1%",
+    "totals_record": "74-80-0",
+    "totals_roi": "-7.2%",
     "periods": {
       "7": {
-        "spread_record": "14-13-0",
-        "spread_roi": "0.7%",
-        "totals_record": "9-18-0",
-        "totals_roi": "-35.6%"
+        "spread_record": "15-13-0",
+        "spread_roi": "3.9%",
+        "totals_record": "10-18-0",
+        "totals_roi": "-31.0%"
       },
       "30": {
-        "spread_record": "73-77-1",
-        "spread_roi": "-5.0%",
-        "totals_record": "67-77-0",
-        "totals_roi": "-10.2%"
+        "spread_record": "74-77-1",
+        "spread_roi": "-4.3%",
+        "totals_record": "68-77-0",
+        "totals_roi": "-9.4%"
       },
       "All": {
-        "spread_record": "78-80-1",
-        "spread_roi": "-3.7%",
-        "totals_record": "73-80-0",
-        "totals_roi": "-7.8%"
+        "spread_record": "79-80-1",
+        "spread_roi": "-3.1%",
+        "totals_record": "74-80-0",
+        "totals_roi": "-7.2%"
       }
     }
   },
   "edge_performance": [
     {
       "edge_range": "0-10%",
-      "spread_record": "26-36-0",
+      "spread_record": "27-36-0",
       "total_record": "23-26-0",
-      "combined_record": "49-62-0",
-      "combined_win_rate": "44.1%",
-      "combined_roi": "-14.7%",
-      "spread_n": 62,
+      "combined_record": "50-62-0",
+      "combined_win_rate": "44.6%",
+      "combined_roi": "-13.8%",
+      "spread_n": 63,
       "total_n": 49,
-      "combined_n": 111
+      "combined_n": 112
     },
     {
       "edge_range": "10-15%",
       "spread_record": "22-10-1",
-      "total_record": "26-25-0",
-      "combined_record": "48-35-1",
-      "combined_win_rate": "57.8%",
-      "combined_roi": "+12.4%",
+      "total_record": "27-25-0",
+      "combined_record": "49-35-1",
+      "combined_win_rate": "58.3%",
+      "combined_roi": "+13.4%",
       "spread_n": 33,
-      "total_n": 51,
-      "combined_n": 84
+      "total_n": 52,
+      "combined_n": 85
     },
     {
       "edge_range": "15-20%",
