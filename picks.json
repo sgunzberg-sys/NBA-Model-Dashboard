@@ -1,9 +1,9 @@
 {
-  "last_updated": "Nov 24, 2026 | 9:01 AM ET",
-  "last_updated_iso": "2026-11-24T09:01:47.472967-05:00",
+  "last_updated": "Nov 25, 2026 | 9:01 AM ET",
+  "last_updated_iso": "2026-11-25T09:01:31.037196-05:00",
   "snapshot_rule": "45-120 minutes before tip; target 75 minutes",
   "slate": {
-    "slate_date": "2026-11-24",
+    "slate_date": "2026-11-25",
     "game_count": 0,
     "spread_signal_count": 0,
     "total_signal_count": 0,
@@ -1821,16 +1821,16 @@
     "totals_roi": "-7.2%",
     "periods": {
       "7": {
-        "spread_record": "12-11-0",
-        "spread_roi": "0.9%",
-        "totals_record": "8-15-0",
-        "totals_roi": "-32.6%"
+        "spread_record": "7-6-0",
+        "spread_roi": "3.9%",
+        "totals_record": "6-7-0",
+        "totals_roi": "-10.5%"
       },
       "30": {
-        "spread_record": "68-72-1",
-        "spread_roi": "-5.2%",
-        "totals_record": "66-71-0",
-        "totals_roi": "-7.0%"
+        "spread_record": "66-70-1",
+        "spread_roi": "-5.3%",
+        "totals_record": "64-70-0",
+        "totals_roi": "-7.8%"
       },
       "All": {
         "spread_record": "79-80-1",
